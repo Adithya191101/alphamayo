@@ -1,0 +1,18 @@
+controller:
+  endpoints:
+    - address: controller-0:6003
+      managed: true
+driver:
+  endpoints:
+    - address: driver-0:6000
+      managed: true
+physics:
+  endpoints:
+    - address: physics-0:6002
+      managed: true
+sensorsim:
+  endpoints:
+    - address: sensorsim-0:6001
+      managed: true
+trafficsim:
+  endpoints: []

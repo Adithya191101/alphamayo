@@ -1,0 +1,27 @@
+# Local environment file (HF token etc.) — keep private
+local.env
+
+# Simulation outputs: only the giant rollout.asl binary trace files are excluded
+# (each is ~350 MB, exceeds GitHub's 100 MB per-file hard limit).
+# Everything else under documents/outputs/ (mp4s, parquets, configs, logs, metrics)
+# is committed so visitors can inspect a real run.
+documents/outputs/**/rollout.asl
+
+# NuRec dataset metadata (NVIDIA's data — do not redistribute)
+documents/notebooks/_reference/
+
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Jupyter
+**/.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Editor temp files
+*.swp
+*.swo

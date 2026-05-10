@@ -1,0 +1,1618 @@
+19:49:01.406 [W0] INFO:	Worker 0 starting (num_workers=1, num_consumers=4)
+19:49:01.417 [W0] INFO:	GPU monitoring initialized: 1 GPU(s) detected
+19:49:01.417 [W0] INFO:	Worker 0 ready with num_consumers=4
+19:49:01.418 [W0] INFO:	Event loop idle profiler installed
+19:49:01.663 [W0] INFO:	gc.freeze(): 376859 objects frozen to permanent generation (376484 tracked before, 0 tracked after)
+19:49:01.663 [W0] INFO:	GC pressure profiler installed (thresholds=(700, 10, 10), stall_threshold=0.100s, census=False)
+19:49:01.838 [W0] WARNING:	Max error in cubic spline approximation: 1.856355 m for track_id='200'
+19:49:01.842 [W0] WARNING:	Max error in cubic spline approximation: 1.283331 m for track_id='137'
+19:49:01.847 [W0] INFO:	Filtering traffic objects with min duration 3000000 us
+19:49:01.847 [W0] INFO:	Number of traffic objects before filtering: 99
+19:49:01.847 [W0] INFO:	Number of traffic objects after filtering: 30
+19:49:01.850 [W0] INFO:	Loading USDZ map data into memory. This will take a few seconds...
+19:49:01.908 [W0] INFO:	Applied XODR ENU to Simulation coordinate transform for trajectory alignment
+19:49:03.188 [W0] INFO:	Successfully loaded map from XODR
+19:49:03.286 [W0] INFO:	Requesting available cameras for scene_id='clipgt-7b186d92-d6f5-4e27-a324-d705d1fad7e1'
+19:49:09.325 [W0] INFO:	Session STARTING: uuid=20b1e81c-4be0-11f1-b13b-cf3a78ce2561 scene=clipgt-7b186d92-d6f5-4e27-a324-d705d1fad7e1 steps=200
+19:49:09.326 [W0] INFO:	Warming up sensorsim with initial render request...
+19:49:09.327 [W0] INFO:	Available ego masks: ego_mask_metadata {
+  ego_mask_id {
+    camera_logical_id: "camera_front_wide_120fov"
+    rig_config_id: "hyperion_8"
+  }
+}
+ego_mask_metadata {
+  ego_mask_id {
+    camera_logical_id: "camera_front_wide_120fov"
+    rig_config_id: "hyperion_8_1"
+  }
+}
+ (session=20b1e81c-4be0-11f1-b13b-cf3a78ce2561, service_addr=sensorsim-0:6001)
+19:50:00.398 [W0] INFO:	Sensorsim warmup complete in 51.073s
+19:50:00.398 [W0] INFO:	Event-based simulation loop timer started
+19:50:00.399 [W0] INFO:	sim_time 1_569_810_076_764us: StepEvent @ 1_569_810_076_764us
+19:50:00.400 [W0] INFO:	sim_time 1_569_810_176_764us: GroupedRenderEvent(now=1_569_810_176_764us)
+19:50:17.020 [W0] INFO:	sim_time 1_569_810_176_764us: PolicyEvent @ 1_569_810_176_764us
+19:50:17.021 [W0] INFO:	Draining 6 outstanding tasks
+19:50:17.091 [W0] INFO:	sim_time 1_569_810_176_764us: ControllerEvent @ 1_569_810_176_764us
+19:50:17.112 [W0] INFO:	sim_time 1_569_810_176_764us: PhysicsEvent @ 1_569_810_176_764us
+19:50:17.112 [W0] INFO:	sim_time 1_569_810_176_764us: TrafficEvent @ 1_569_810_176_764us
+19:50:17.112 [W0] INFO:	sim_time 1_569_810_176_764us: PhysicsEvent @ 1_569_810_176_764us
+19:50:17.112 [W0] INFO:	sim_time 1_569_810_176_764us: StepEvent @ 1_569_810_176_764us
+19:50:17.114 [W0] INFO:	sim_time 1_569_810_276_764us: GroupedRenderEvent(now=1_569_810_276_764us)
+19:50:17.249 [W0] INFO:	sim_time 1_569_810_276_764us: PolicyEvent @ 1_569_810_276_764us
+19:50:17.250 [W0] INFO:	Draining 6 outstanding tasks
+19:50:17.298 [W0] INFO:	sim_time 1_569_810_276_764us: ControllerEvent @ 1_569_810_276_764us
+19:50:17.303 [W0] INFO:	sim_time 1_569_810_276_764us: PhysicsEvent @ 1_569_810_276_764us
+19:50:17.304 [W0] INFO:	sim_time 1_569_810_276_764us: TrafficEvent @ 1_569_810_276_764us
+19:50:17.304 [W0] INFO:	sim_time 1_569_810_276_764us: PhysicsEvent @ 1_569_810_276_764us
+19:50:17.304 [W0] INFO:	sim_time 1_569_810_276_764us: StepEvent @ 1_569_810_276_764us
+19:50:17.305 [W0] INFO:	sim_time 1_569_810_376_764us: GroupedRenderEvent(now=1_569_810_376_764us)
+19:50:17.434 [W0] INFO:	sim_time 1_569_810_376_764us: PolicyEvent @ 1_569_810_376_764us
+19:50:17.434 [W0] INFO:	Draining 6 outstanding tasks
+19:50:17.482 [W0] INFO:	sim_time 1_569_810_376_764us: ControllerEvent @ 1_569_810_376_764us
+19:50:17.487 [W0] INFO:	sim_time 1_569_810_376_764us: PhysicsEvent @ 1_569_810_376_764us
+19:50:17.488 [W0] INFO:	sim_time 1_569_810_376_764us: TrafficEvent @ 1_569_810_376_764us
+19:50:17.488 [W0] INFO:	sim_time 1_569_810_376_764us: PhysicsEvent @ 1_569_810_376_764us
+19:50:17.488 [W0] INFO:	sim_time 1_569_810_376_764us: StepEvent @ 1_569_810_376_764us
+19:50:17.489 [W0] INFO:	sim_time 1_569_810_476_764us: GroupedRenderEvent(now=1_569_810_476_764us)
+19:50:17.620 [W0] INFO:	sim_time 1_569_810_476_764us: PolicyEvent @ 1_569_810_476_764us
+19:50:17.621 [W0] INFO:	Draining 6 outstanding tasks
+19:50:17.673 [W0] INFO:	sim_time 1_569_810_476_764us: ControllerEvent @ 1_569_810_476_764us
+19:50:17.678 [W0] INFO:	sim_time 1_569_810_476_764us: PhysicsEvent @ 1_569_810_476_764us
+19:50:17.678 [W0] INFO:	sim_time 1_569_810_476_764us: TrafficEvent @ 1_569_810_476_764us
+19:50:17.679 [W0] INFO:	sim_time 1_569_810_476_764us: PhysicsEvent @ 1_569_810_476_764us
+19:50:17.679 [W0] INFO:	sim_time 1_569_810_476_764us: StepEvent @ 1_569_810_476_764us
+19:50:17.679 [W0] INFO:	sim_time 1_569_810_576_764us: GroupedRenderEvent(now=1_569_810_576_764us)
+19:50:17.807 [W0] INFO:	sim_time 1_569_810_576_764us: PolicyEvent @ 1_569_810_576_764us
+19:50:17.807 [W0] INFO:	Draining 6 outstanding tasks
+19:50:17.856 [W0] INFO:	sim_time 1_569_810_576_764us: ControllerEvent @ 1_569_810_576_764us
+19:50:17.861 [W0] INFO:	sim_time 1_569_810_576_764us: PhysicsEvent @ 1_569_810_576_764us
+19:50:17.861 [W0] INFO:	sim_time 1_569_810_576_764us: TrafficEvent @ 1_569_810_576_764us
+19:50:17.862 [W0] INFO:	sim_time 1_569_810_576_764us: PhysicsEvent @ 1_569_810_576_764us
+19:50:17.862 [W0] INFO:	sim_time 1_569_810_576_764us: StepEvent @ 1_569_810_576_764us
+19:50:17.863 [W0] INFO:	sim_time 1_569_810_676_764us: GroupedRenderEvent(now=1_569_810_676_764us)
+19:50:18.008 [W0] INFO:	sim_time 1_569_810_676_764us: PolicyEvent @ 1_569_810_676_764us
+19:50:18.008 [W0] INFO:	Draining 6 outstanding tasks
+19:50:18.055 [W0] INFO:	sim_time 1_569_810_676_764us: ControllerEvent @ 1_569_810_676_764us
+19:50:18.060 [W0] INFO:	sim_time 1_569_810_676_764us: PhysicsEvent @ 1_569_810_676_764us
+19:50:18.060 [W0] INFO:	sim_time 1_569_810_676_764us: TrafficEvent @ 1_569_810_676_764us
+19:50:18.060 [W0] INFO:	sim_time 1_569_810_676_764us: PhysicsEvent @ 1_569_810_676_764us
+19:50:18.060 [W0] INFO:	sim_time 1_569_810_676_764us: StepEvent @ 1_569_810_676_764us
+19:50:18.061 [W0] INFO:	sim_time 1_569_810_776_764us: GroupedRenderEvent(now=1_569_810_776_764us)
+19:50:18.192 [W0] INFO:	sim_time 1_569_810_776_764us: PolicyEvent @ 1_569_810_776_764us
+19:50:18.192 [W0] INFO:	Draining 6 outstanding tasks
+19:50:18.241 [W0] INFO:	sim_time 1_569_810_776_764us: ControllerEvent @ 1_569_810_776_764us
+19:50:18.246 [W0] INFO:	sim_time 1_569_810_776_764us: PhysicsEvent @ 1_569_810_776_764us
+19:50:18.247 [W0] INFO:	sim_time 1_569_810_776_764us: TrafficEvent @ 1_569_810_776_764us
+19:50:18.247 [W0] INFO:	sim_time 1_569_810_776_764us: PhysicsEvent @ 1_569_810_776_764us
+19:50:18.247 [W0] INFO:	sim_time 1_569_810_776_764us: StepEvent @ 1_569_810_776_764us
+19:50:18.248 [W0] INFO:	sim_time 1_569_810_876_764us: GroupedRenderEvent(now=1_569_810_876_764us)
+19:50:18.376 [W0] INFO:	sim_time 1_569_810_876_764us: PolicyEvent @ 1_569_810_876_764us
+19:50:18.376 [W0] INFO:	Draining 6 outstanding tasks
+19:50:18.423 [W0] INFO:	sim_time 1_569_810_876_764us: ControllerEvent @ 1_569_810_876_764us
+19:50:18.428 [W0] INFO:	sim_time 1_569_810_876_764us: PhysicsEvent @ 1_569_810_876_764us
+19:50:18.428 [W0] INFO:	sim_time 1_569_810_876_764us: TrafficEvent @ 1_569_810_876_764us
+19:50:18.428 [W0] INFO:	sim_time 1_569_810_876_764us: PhysicsEvent @ 1_569_810_876_764us
+19:50:18.428 [W0] INFO:	sim_time 1_569_810_876_764us: StepEvent @ 1_569_810_876_764us
+19:50:18.429 [W0] INFO:	sim_time 1_569_810_976_764us: GroupedRenderEvent(now=1_569_810_976_764us)
+19:50:18.555 [W0] INFO:	sim_time 1_569_810_976_764us: PolicyEvent @ 1_569_810_976_764us
+19:50:18.556 [W0] INFO:	Draining 6 outstanding tasks
+19:50:18.602 [W0] INFO:	sim_time 1_569_810_976_764us: ControllerEvent @ 1_569_810_976_764us
+19:50:18.607 [W0] INFO:	sim_time 1_569_810_976_764us: PhysicsEvent @ 1_569_810_976_764us
+19:50:18.607 [W0] INFO:	sim_time 1_569_810_976_764us: TrafficEvent @ 1_569_810_976_764us
+19:50:18.608 [W0] INFO:	sim_time 1_569_810_976_764us: PhysicsEvent @ 1_569_810_976_764us
+19:50:18.608 [W0] INFO:	sim_time 1_569_810_976_764us: StepEvent @ 1_569_810_976_764us
+19:50:18.609 [W0] INFO:	sim_time 1_569_811_076_764us: GroupedRenderEvent(now=1_569_811_076_764us)
+19:50:18.739 [W0] INFO:	sim_time 1_569_811_076_764us: PolicyEvent @ 1_569_811_076_764us
+19:50:18.739 [W0] INFO:	Draining 6 outstanding tasks
+19:50:18.787 [W0] INFO:	sim_time 1_569_811_076_764us: ControllerEvent @ 1_569_811_076_764us
+19:50:18.792 [W0] INFO:	sim_time 1_569_811_076_764us: PhysicsEvent @ 1_569_811_076_764us
+19:50:18.792 [W0] INFO:	sim_time 1_569_811_076_764us: TrafficEvent @ 1_569_811_076_764us
+19:50:18.792 [W0] INFO:	sim_time 1_569_811_076_764us: PhysicsEvent @ 1_569_811_076_764us
+19:50:18.792 [W0] INFO:	sim_time 1_569_811_076_764us: StepEvent @ 1_569_811_076_764us
+19:50:18.793 [W0] INFO:	sim_time 1_569_811_176_764us: GroupedRenderEvent(now=1_569_811_176_764us)
+19:50:18.925 [W0] INFO:	sim_time 1_569_811_176_764us: PolicyEvent @ 1_569_811_176_764us
+19:50:18.925 [W0] INFO:	Draining 6 outstanding tasks
+19:50:18.973 [W0] INFO:	sim_time 1_569_811_176_764us: ControllerEvent @ 1_569_811_176_764us
+19:50:18.978 [W0] INFO:	sim_time 1_569_811_176_764us: PhysicsEvent @ 1_569_811_176_764us
+19:50:18.978 [W0] INFO:	sim_time 1_569_811_176_764us: TrafficEvent @ 1_569_811_176_764us
+19:50:18.978 [W0] INFO:	sim_time 1_569_811_176_764us: PhysicsEvent @ 1_569_811_176_764us
+19:50:18.978 [W0] INFO:	sim_time 1_569_811_176_764us: StepEvent @ 1_569_811_176_764us
+19:50:18.979 [W0] INFO:	sim_time 1_569_811_276_764us: GroupedRenderEvent(now=1_569_811_276_764us)
+19:50:19.115 [W0] INFO:	sim_time 1_569_811_276_764us: PolicyEvent @ 1_569_811_276_764us
+19:50:19.115 [W0] INFO:	Draining 6 outstanding tasks
+19:50:19.163 [W0] INFO:	sim_time 1_569_811_276_764us: ControllerEvent @ 1_569_811_276_764us
+19:50:19.167 [W0] INFO:	sim_time 1_569_811_276_764us: PhysicsEvent @ 1_569_811_276_764us
+19:50:19.167 [W0] INFO:	sim_time 1_569_811_276_764us: TrafficEvent @ 1_569_811_276_764us
+19:50:19.168 [W0] INFO:	sim_time 1_569_811_276_764us: PhysicsEvent @ 1_569_811_276_764us
+19:50:19.168 [W0] INFO:	sim_time 1_569_811_276_764us: StepEvent @ 1_569_811_276_764us
+19:50:19.169 [W0] INFO:	sim_time 1_569_811_376_764us: GroupedRenderEvent(now=1_569_811_376_764us)
+19:50:19.304 [W0] INFO:	sim_time 1_569_811_376_764us: PolicyEvent @ 1_569_811_376_764us
+19:50:19.305 [W0] INFO:	Draining 6 outstanding tasks
+19:50:19.357 [W0] INFO:	sim_time 1_569_811_376_764us: ControllerEvent @ 1_569_811_376_764us
+19:50:19.362 [W0] INFO:	sim_time 1_569_811_376_764us: PhysicsEvent @ 1_569_811_376_764us
+19:50:19.362 [W0] INFO:	sim_time 1_569_811_376_764us: TrafficEvent @ 1_569_811_376_764us
+19:50:19.363 [W0] INFO:	sim_time 1_569_811_376_764us: PhysicsEvent @ 1_569_811_376_764us
+19:50:19.363 [W0] INFO:	sim_time 1_569_811_376_764us: StepEvent @ 1_569_811_376_764us
+19:50:19.364 [W0] INFO:	sim_time 1_569_811_476_764us: GroupedRenderEvent(now=1_569_811_476_764us)
+19:50:19.493 [W0] INFO:	sim_time 1_569_811_476_764us: PolicyEvent @ 1_569_811_476_764us
+19:50:19.494 [W0] INFO:	Draining 6 outstanding tasks
+19:50:19.541 [W0] INFO:	sim_time 1_569_811_476_764us: ControllerEvent @ 1_569_811_476_764us
+19:50:19.546 [W0] INFO:	sim_time 1_569_811_476_764us: PhysicsEvent @ 1_569_811_476_764us
+19:50:19.546 [W0] INFO:	sim_time 1_569_811_476_764us: TrafficEvent @ 1_569_811_476_764us
+19:50:19.546 [W0] INFO:	sim_time 1_569_811_476_764us: PhysicsEvent @ 1_569_811_476_764us
+19:50:19.546 [W0] INFO:	sim_time 1_569_811_476_764us: StepEvent @ 1_569_811_476_764us
+19:50:19.547 [W0] INFO:	sim_time 1_569_811_576_764us: GroupedRenderEvent(now=1_569_811_576_764us)
+19:50:19.677 [W0] INFO:	sim_time 1_569_811_576_764us: PolicyEvent @ 1_569_811_576_764us
+19:50:19.680 [W0] INFO:	Draining 6 outstanding tasks
+19:50:21.941 [W0] INFO:	sim_time 1_569_811_576_764us: ControllerEvent @ 1_569_811_576_764us
+19:50:21.946 [W0] INFO:	sim_time 1_569_811_576_764us: PhysicsEvent @ 1_569_811_576_764us
+19:50:21.947 [W0] INFO:	sim_time 1_569_811_576_764us: TrafficEvent @ 1_569_811_576_764us
+19:50:21.947 [W0] INFO:	sim_time 1_569_811_576_764us: PhysicsEvent @ 1_569_811_576_764us
+19:50:21.947 [W0] INFO:	sim_time 1_569_811_576_764us: StepEvent @ 1_569_811_576_764us
+19:50:21.948 [W0] INFO:	sim_time 1_569_811_676_764us: GroupedRenderEvent(now=1_569_811_676_764us)
+19:50:22.078 [W0] INFO:	sim_time 1_569_811_676_764us: PolicyEvent @ 1_569_811_676_764us
+19:50:22.078 [W0] INFO:	Draining 6 outstanding tasks
+19:50:23.188 [W0] INFO:	sim_time 1_569_811_676_764us: ControllerEvent @ 1_569_811_676_764us
+19:50:23.193 [W0] INFO:	sim_time 1_569_811_676_764us: PhysicsEvent @ 1_569_811_676_764us
+19:50:23.193 [W0] INFO:	sim_time 1_569_811_676_764us: TrafficEvent @ 1_569_811_676_764us
+19:50:23.194 [W0] INFO:	sim_time 1_569_811_676_764us: PhysicsEvent @ 1_569_811_676_764us
+19:50:23.194 [W0] INFO:	sim_time 1_569_811_676_764us: StepEvent @ 1_569_811_676_764us
+19:50:23.195 [W0] INFO:	sim_time 1_569_811_776_764us: GroupedRenderEvent(now=1_569_811_776_764us)
+19:50:23.324 [W0] INFO:	sim_time 1_569_811_776_764us: PolicyEvent @ 1_569_811_776_764us
+19:50:23.325 [W0] INFO:	Draining 6 outstanding tasks
+19:50:24.440 [W0] INFO:	sim_time 1_569_811_776_764us: ControllerEvent @ 1_569_811_776_764us
+19:50:24.446 [W0] INFO:	sim_time 1_569_811_776_764us: PhysicsEvent @ 1_569_811_776_764us
+19:50:24.449 [W0] INFO:	sim_time 1_569_811_776_764us: TrafficEvent @ 1_569_811_776_764us
+19:50:24.449 [W0] INFO:	sim_time 1_569_811_776_764us: PhysicsEvent @ 1_569_811_776_764us
+19:50:24.449 [W0] INFO:	sim_time 1_569_811_776_764us: StepEvent @ 1_569_811_776_764us
+19:50:24.450 [W0] INFO:	sim_time 1_569_811_876_764us: GroupedRenderEvent(now=1_569_811_876_764us)
+19:50:24.579 [W0] INFO:	sim_time 1_569_811_876_764us: PolicyEvent @ 1_569_811_876_764us
+19:50:24.579 [W0] INFO:	Draining 6 outstanding tasks
+19:50:25.714 [W0] INFO:	sim_time 1_569_811_876_764us: ControllerEvent @ 1_569_811_876_764us
+19:50:25.719 [W0] INFO:	sim_time 1_569_811_876_764us: PhysicsEvent @ 1_569_811_876_764us
+19:50:25.723 [W0] INFO:	sim_time 1_569_811_876_764us: TrafficEvent @ 1_569_811_876_764us
+19:50:25.723 [W0] INFO:	sim_time 1_569_811_876_764us: PhysicsEvent @ 1_569_811_876_764us
+19:50:25.723 [W0] INFO:	sim_time 1_569_811_876_764us: StepEvent @ 1_569_811_876_764us
+19:50:25.726 [W0] INFO:	sim_time 1_569_811_976_764us: GroupedRenderEvent(now=1_569_811_976_764us)
+19:50:25.862 [W0] INFO:	sim_time 1_569_811_976_764us: PolicyEvent @ 1_569_811_976_764us
+19:50:25.862 [W0] INFO:	Draining 6 outstanding tasks
+19:50:26.868 [W0] INFO:	sim_time 1_569_811_976_764us: ControllerEvent @ 1_569_811_976_764us
+19:50:26.874 [W0] INFO:	sim_time 1_569_811_976_764us: PhysicsEvent @ 1_569_811_976_764us
+19:50:26.877 [W0] INFO:	sim_time 1_569_811_976_764us: TrafficEvent @ 1_569_811_976_764us
+19:50:26.877 [W0] INFO:	sim_time 1_569_811_976_764us: PhysicsEvent @ 1_569_811_976_764us
+19:50:26.878 [W0] INFO:	sim_time 1_569_811_976_764us: StepEvent @ 1_569_811_976_764us
+19:50:26.878 [W0] INFO:	sim_time 1_569_812_076_764us: GroupedRenderEvent(now=1_569_812_076_764us)
+19:50:27.010 [W0] INFO:	sim_time 1_569_812_076_764us: PolicyEvent @ 1_569_812_076_764us
+19:50:27.011 [W0] INFO:	Draining 6 outstanding tasks
+19:50:28.188 [W0] INFO:	sim_time 1_569_812_076_764us: ControllerEvent @ 1_569_812_076_764us
+19:50:28.194 [W0] INFO:	sim_time 1_569_812_076_764us: PhysicsEvent @ 1_569_812_076_764us
+19:50:28.197 [W0] INFO:	sim_time 1_569_812_076_764us: TrafficEvent @ 1_569_812_076_764us
+19:50:28.197 [W0] INFO:	sim_time 1_569_812_076_764us: PhysicsEvent @ 1_569_812_076_764us
+19:50:28.197 [W0] INFO:	sim_time 1_569_812_076_764us: StepEvent @ 1_569_812_076_764us
+19:50:28.198 [W0] INFO:	sim_time 1_569_812_176_764us: GroupedRenderEvent(now=1_569_812_176_764us)
+19:50:28.327 [W0] INFO:	sim_time 1_569_812_176_764us: PolicyEvent @ 1_569_812_176_764us
+19:50:28.327 [W0] INFO:	Draining 6 outstanding tasks
+19:50:29.287 [W0] INFO:	sim_time 1_569_812_176_764us: ControllerEvent @ 1_569_812_176_764us
+19:50:29.292 [W0] INFO:	sim_time 1_569_812_176_764us: PhysicsEvent @ 1_569_812_176_764us
+19:50:29.296 [W0] INFO:	sim_time 1_569_812_176_764us: TrafficEvent @ 1_569_812_176_764us
+19:50:29.296 [W0] INFO:	sim_time 1_569_812_176_764us: PhysicsEvent @ 1_569_812_176_764us
+19:50:29.296 [W0] INFO:	sim_time 1_569_812_176_764us: StepEvent @ 1_569_812_176_764us
+19:50:29.297 [W0] INFO:	sim_time 1_569_812_276_764us: GroupedRenderEvent(now=1_569_812_276_764us)
+19:50:29.424 [W0] INFO:	sim_time 1_569_812_276_764us: PolicyEvent @ 1_569_812_276_764us
+19:50:29.425 [W0] INFO:	Draining 6 outstanding tasks
+19:50:30.540 [W0] INFO:	sim_time 1_569_812_276_764us: ControllerEvent @ 1_569_812_276_764us
+19:50:30.546 [W0] INFO:	sim_time 1_569_812_276_764us: PhysicsEvent @ 1_569_812_276_764us
+19:50:30.549 [W0] INFO:	sim_time 1_569_812_276_764us: TrafficEvent @ 1_569_812_276_764us
+19:50:30.549 [W0] INFO:	sim_time 1_569_812_276_764us: PhysicsEvent @ 1_569_812_276_764us
+19:50:30.550 [W0] INFO:	sim_time 1_569_812_276_764us: StepEvent @ 1_569_812_276_764us
+19:50:30.550 [W0] INFO:	sim_time 1_569_812_376_764us: GroupedRenderEvent(now=1_569_812_376_764us)
+19:50:30.680 [W0] INFO:	sim_time 1_569_812_376_764us: PolicyEvent @ 1_569_812_376_764us
+19:50:30.681 [W0] INFO:	Draining 6 outstanding tasks
+19:50:31.836 [W0] INFO:	sim_time 1_569_812_376_764us: ControllerEvent @ 1_569_812_376_764us
+19:50:31.841 [W0] INFO:	sim_time 1_569_812_376_764us: PhysicsEvent @ 1_569_812_376_764us
+19:50:31.845 [W0] INFO:	sim_time 1_569_812_376_764us: TrafficEvent @ 1_569_812_376_764us
+19:50:31.845 [W0] INFO:	sim_time 1_569_812_376_764us: PhysicsEvent @ 1_569_812_376_764us
+19:50:31.846 [W0] INFO:	sim_time 1_569_812_376_764us: StepEvent @ 1_569_812_376_764us
+19:50:31.846 [W0] INFO:	sim_time 1_569_812_476_764us: GroupedRenderEvent(now=1_569_812_476_764us)
+19:50:31.974 [W0] INFO:	sim_time 1_569_812_476_764us: PolicyEvent @ 1_569_812_476_764us
+19:50:31.975 [W0] INFO:	Draining 6 outstanding tasks
+19:50:33.105 [W0] INFO:	sim_time 1_569_812_476_764us: ControllerEvent @ 1_569_812_476_764us
+19:50:33.110 [W0] INFO:	sim_time 1_569_812_476_764us: PhysicsEvent @ 1_569_812_476_764us
+19:50:33.113 [W0] INFO:	sim_time 1_569_812_476_764us: TrafficEvent @ 1_569_812_476_764us
+19:50:33.114 [W0] INFO:	sim_time 1_569_812_476_764us: PhysicsEvent @ 1_569_812_476_764us
+19:50:33.114 [W0] INFO:	sim_time 1_569_812_476_764us: StepEvent @ 1_569_812_476_764us
+19:50:33.115 [W0] INFO:	sim_time 1_569_812_576_764us: GroupedRenderEvent(now=1_569_812_576_764us)
+19:50:33.243 [W0] INFO:	sim_time 1_569_812_576_764us: PolicyEvent @ 1_569_812_576_764us
+19:50:33.243 [W0] INFO:	Draining 6 outstanding tasks
+19:50:34.213 [W0] INFO:	sim_time 1_569_812_576_764us: ControllerEvent @ 1_569_812_576_764us
+19:50:34.219 [W0] INFO:	sim_time 1_569_812_576_764us: PhysicsEvent @ 1_569_812_576_764us
+19:50:34.222 [W0] INFO:	sim_time 1_569_812_576_764us: TrafficEvent @ 1_569_812_576_764us
+19:50:34.223 [W0] INFO:	sim_time 1_569_812_576_764us: PhysicsEvent @ 1_569_812_576_764us
+19:50:34.223 [W0] INFO:	sim_time 1_569_812_576_764us: StepEvent @ 1_569_812_576_764us
+19:50:34.224 [W0] INFO:	sim_time 1_569_812_676_764us: GroupedRenderEvent(now=1_569_812_676_764us)
+19:50:34.347 [W0] INFO:	sim_time 1_569_812_676_764us: PolicyEvent @ 1_569_812_676_764us
+19:50:34.348 [W0] INFO:	Draining 6 outstanding tasks
+19:50:35.491 [W0] INFO:	sim_time 1_569_812_676_764us: ControllerEvent @ 1_569_812_676_764us
+19:50:35.496 [W0] INFO:	sim_time 1_569_812_676_764us: PhysicsEvent @ 1_569_812_676_764us
+19:50:35.500 [W0] INFO:	sim_time 1_569_812_676_764us: TrafficEvent @ 1_569_812_676_764us
+19:50:35.500 [W0] INFO:	sim_time 1_569_812_676_764us: PhysicsEvent @ 1_569_812_676_764us
+19:50:35.500 [W0] INFO:	sim_time 1_569_812_676_764us: StepEvent @ 1_569_812_676_764us
+19:50:35.501 [W0] INFO:	sim_time 1_569_812_776_764us: GroupedRenderEvent(now=1_569_812_776_764us)
+19:50:35.628 [W0] INFO:	sim_time 1_569_812_776_764us: PolicyEvent @ 1_569_812_776_764us
+19:50:35.628 [W0] INFO:	Draining 6 outstanding tasks
+19:50:36.773 [W0] INFO:	sim_time 1_569_812_776_764us: ControllerEvent @ 1_569_812_776_764us
+19:50:36.778 [W0] INFO:	sim_time 1_569_812_776_764us: PhysicsEvent @ 1_569_812_776_764us
+19:50:36.782 [W0] INFO:	sim_time 1_569_812_776_764us: TrafficEvent @ 1_569_812_776_764us
+19:50:36.783 [W0] INFO:	sim_time 1_569_812_776_764us: PhysicsEvent @ 1_569_812_776_764us
+19:50:36.783 [W0] INFO:	sim_time 1_569_812_776_764us: StepEvent @ 1_569_812_776_764us
+19:50:36.784 [W0] INFO:	sim_time 1_569_812_876_764us: GroupedRenderEvent(now=1_569_812_876_764us)
+19:50:36.910 [W0] INFO:	sim_time 1_569_812_876_764us: PolicyEvent @ 1_569_812_876_764us
+19:50:36.911 [W0] INFO:	Draining 6 outstanding tasks
+19:50:38.037 [W0] INFO:	sim_time 1_569_812_876_764us: ControllerEvent @ 1_569_812_876_764us
+19:50:38.043 [W0] INFO:	sim_time 1_569_812_876_764us: PhysicsEvent @ 1_569_812_876_764us
+19:50:38.046 [W0] INFO:	sim_time 1_569_812_876_764us: TrafficEvent @ 1_569_812_876_764us
+19:50:38.047 [W0] INFO:	sim_time 1_569_812_876_764us: PhysicsEvent @ 1_569_812_876_764us
+19:50:38.047 [W0] INFO:	sim_time 1_569_812_876_764us: StepEvent @ 1_569_812_876_764us
+19:50:38.048 [W0] INFO:	sim_time 1_569_812_976_764us: GroupedRenderEvent(now=1_569_812_976_764us)
+19:50:38.174 [W0] INFO:	sim_time 1_569_812_976_764us: PolicyEvent @ 1_569_812_976_764us
+19:50:38.177 [W0] INFO:	Draining 6 outstanding tasks
+19:50:39.285 [W0] INFO:	sim_time 1_569_812_976_764us: ControllerEvent @ 1_569_812_976_764us
+19:50:39.290 [W0] INFO:	sim_time 1_569_812_976_764us: PhysicsEvent @ 1_569_812_976_764us
+19:50:39.293 [W0] INFO:	sim_time 1_569_812_976_764us: TrafficEvent @ 1_569_812_976_764us
+19:50:39.294 [W0] INFO:	sim_time 1_569_812_976_764us: PhysicsEvent @ 1_569_812_976_764us
+19:50:39.294 [W0] INFO:	sim_time 1_569_812_976_764us: StepEvent @ 1_569_812_976_764us
+19:50:39.295 [W0] INFO:	sim_time 1_569_813_076_764us: GroupedRenderEvent(now=1_569_813_076_764us)
+19:50:39.423 [W0] INFO:	sim_time 1_569_813_076_764us: PolicyEvent @ 1_569_813_076_764us
+19:50:39.423 [W0] INFO:	Draining 6 outstanding tasks
+19:50:40.599 [W0] INFO:	sim_time 1_569_813_076_764us: ControllerEvent @ 1_569_813_076_764us
+19:50:40.605 [W0] INFO:	sim_time 1_569_813_076_764us: PhysicsEvent @ 1_569_813_076_764us
+19:50:40.608 [W0] INFO:	sim_time 1_569_813_076_764us: TrafficEvent @ 1_569_813_076_764us
+19:50:40.609 [W0] INFO:	sim_time 1_569_813_076_764us: PhysicsEvent @ 1_569_813_076_764us
+19:50:40.609 [W0] INFO:	sim_time 1_569_813_076_764us: StepEvent @ 1_569_813_076_764us
+19:50:40.609 [W0] INFO:	sim_time 1_569_813_176_764us: GroupedRenderEvent(now=1_569_813_176_764us)
+19:50:40.736 [W0] INFO:	sim_time 1_569_813_176_764us: PolicyEvent @ 1_569_813_176_764us
+19:50:40.737 [W0] INFO:	Draining 6 outstanding tasks
+19:50:41.715 [W0] INFO:	sim_time 1_569_813_176_764us: ControllerEvent @ 1_569_813_176_764us
+19:50:41.720 [W0] INFO:	sim_time 1_569_813_176_764us: PhysicsEvent @ 1_569_813_176_764us
+19:50:41.724 [W0] INFO:	sim_time 1_569_813_176_764us: TrafficEvent @ 1_569_813_176_764us
+19:50:41.725 [W0] INFO:	sim_time 1_569_813_176_764us: PhysicsEvent @ 1_569_813_176_764us
+19:50:41.725 [W0] INFO:	sim_time 1_569_813_176_764us: StepEvent @ 1_569_813_176_764us
+19:50:41.726 [W0] INFO:	sim_time 1_569_813_276_764us: GroupedRenderEvent(now=1_569_813_276_764us)
+19:50:41.853 [W0] INFO:	sim_time 1_569_813_276_764us: PolicyEvent @ 1_569_813_276_764us
+19:50:41.853 [W0] INFO:	Draining 6 outstanding tasks
+19:50:42.840 [W0] INFO:	sim_time 1_569_813_276_764us: ControllerEvent @ 1_569_813_276_764us
+19:50:42.846 [W0] INFO:	sim_time 1_569_813_276_764us: PhysicsEvent @ 1_569_813_276_764us
+19:50:42.849 [W0] INFO:	sim_time 1_569_813_276_764us: TrafficEvent @ 1_569_813_276_764us
+19:50:42.850 [W0] INFO:	sim_time 1_569_813_276_764us: PhysicsEvent @ 1_569_813_276_764us
+19:50:42.850 [W0] INFO:	sim_time 1_569_813_276_764us: StepEvent @ 1_569_813_276_764us
+19:50:42.851 [W0] INFO:	sim_time 1_569_813_376_764us: GroupedRenderEvent(now=1_569_813_376_764us)
+19:50:42.979 [W0] INFO:	sim_time 1_569_813_376_764us: PolicyEvent @ 1_569_813_376_764us
+19:50:42.979 [W0] INFO:	Draining 6 outstanding tasks
+19:50:43.984 [W0] INFO:	sim_time 1_569_813_376_764us: ControllerEvent @ 1_569_813_376_764us
+19:50:43.989 [W0] INFO:	sim_time 1_569_813_376_764us: PhysicsEvent @ 1_569_813_376_764us
+19:50:43.993 [W0] INFO:	sim_time 1_569_813_376_764us: TrafficEvent @ 1_569_813_376_764us
+19:50:43.993 [W0] INFO:	sim_time 1_569_813_376_764us: PhysicsEvent @ 1_569_813_376_764us
+19:50:43.993 [W0] INFO:	sim_time 1_569_813_376_764us: StepEvent @ 1_569_813_376_764us
+19:50:43.994 [W0] INFO:	sim_time 1_569_813_476_764us: GroupedRenderEvent(now=1_569_813_476_764us)
+19:50:44.122 [W0] INFO:	sim_time 1_569_813_476_764us: PolicyEvent @ 1_569_813_476_764us
+19:50:44.122 [W0] INFO:	Draining 6 outstanding tasks
+19:50:45.122 [W0] INFO:	sim_time 1_569_813_476_764us: ControllerEvent @ 1_569_813_476_764us
+19:50:45.127 [W0] INFO:	sim_time 1_569_813_476_764us: PhysicsEvent @ 1_569_813_476_764us
+19:50:45.131 [W0] INFO:	sim_time 1_569_813_476_764us: TrafficEvent @ 1_569_813_476_764us
+19:50:45.132 [W0] INFO:	sim_time 1_569_813_476_764us: PhysicsEvent @ 1_569_813_476_764us
+19:50:45.132 [W0] INFO:	sim_time 1_569_813_476_764us: StepEvent @ 1_569_813_476_764us
+19:50:45.133 [W0] INFO:	sim_time 1_569_813_576_764us: GroupedRenderEvent(now=1_569_813_576_764us)
+19:50:45.261 [W0] INFO:	sim_time 1_569_813_576_764us: PolicyEvent @ 1_569_813_576_764us
+19:50:45.261 [W0] INFO:	Draining 6 outstanding tasks
+19:50:46.462 [W0] INFO:	sim_time 1_569_813_576_764us: ControllerEvent @ 1_569_813_576_764us
+19:50:46.467 [W0] INFO:	sim_time 1_569_813_576_764us: PhysicsEvent @ 1_569_813_576_764us
+19:50:46.470 [W0] INFO:	sim_time 1_569_813_576_764us: TrafficEvent @ 1_569_813_576_764us
+19:50:46.471 [W0] INFO:	sim_time 1_569_813_576_764us: PhysicsEvent @ 1_569_813_576_764us
+19:50:46.471 [W0] INFO:	sim_time 1_569_813_576_764us: StepEvent @ 1_569_813_576_764us
+19:50:46.472 [W0] INFO:	sim_time 1_569_813_676_764us: GroupedRenderEvent(now=1_569_813_676_764us)
+19:50:46.599 [W0] INFO:	sim_time 1_569_813_676_764us: PolicyEvent @ 1_569_813_676_764us
+19:50:46.599 [W0] INFO:	Draining 6 outstanding tasks
+19:50:47.819 [W0] INFO:	sim_time 1_569_813_676_764us: ControllerEvent @ 1_569_813_676_764us
+19:50:47.826 [W0] INFO:	sim_time 1_569_813_676_764us: PhysicsEvent @ 1_569_813_676_764us
+19:50:47.829 [W0] INFO:	sim_time 1_569_813_676_764us: TrafficEvent @ 1_569_813_676_764us
+19:50:47.830 [W0] INFO:	sim_time 1_569_813_676_764us: PhysicsEvent @ 1_569_813_676_764us
+19:50:47.830 [W0] INFO:	sim_time 1_569_813_676_764us: StepEvent @ 1_569_813_676_764us
+19:50:47.831 [W0] INFO:	sim_time 1_569_813_776_764us: GroupedRenderEvent(now=1_569_813_776_764us)
+19:50:47.958 [W0] INFO:	sim_time 1_569_813_776_764us: PolicyEvent @ 1_569_813_776_764us
+19:50:47.959 [W0] INFO:	Draining 6 outstanding tasks
+19:50:48.997 [W0] INFO:	sim_time 1_569_813_776_764us: ControllerEvent @ 1_569_813_776_764us
+19:50:49.003 [W0] INFO:	sim_time 1_569_813_776_764us: PhysicsEvent @ 1_569_813_776_764us
+19:50:49.009 [W0] INFO:	sim_time 1_569_813_776_764us: TrafficEvent @ 1_569_813_776_764us
+19:50:49.009 [W0] INFO:	sim_time 1_569_813_776_764us: PhysicsEvent @ 1_569_813_776_764us
+19:50:49.009 [W0] INFO:	sim_time 1_569_813_776_764us: StepEvent @ 1_569_813_776_764us
+19:50:49.010 [W0] INFO:	sim_time 1_569_813_876_764us: GroupedRenderEvent(now=1_569_813_876_764us)
+19:50:49.137 [W0] INFO:	sim_time 1_569_813_876_764us: PolicyEvent @ 1_569_813_876_764us
+19:50:49.138 [W0] INFO:	Draining 6 outstanding tasks
+19:50:50.234 [W0] INFO:	sim_time 1_569_813_876_764us: ControllerEvent @ 1_569_813_876_764us
+19:50:50.240 [W0] INFO:	sim_time 1_569_813_876_764us: PhysicsEvent @ 1_569_813_876_764us
+19:50:50.243 [W0] INFO:	sim_time 1_569_813_876_764us: TrafficEvent @ 1_569_813_876_764us
+19:50:50.244 [W0] INFO:	sim_time 1_569_813_876_764us: PhysicsEvent @ 1_569_813_876_764us
+19:50:50.244 [W0] INFO:	sim_time 1_569_813_876_764us: StepEvent @ 1_569_813_876_764us
+19:50:50.245 [W0] INFO:	sim_time 1_569_813_976_764us: GroupedRenderEvent(now=1_569_813_976_764us)
+19:50:50.370 [W0] INFO:	sim_time 1_569_813_976_764us: PolicyEvent @ 1_569_813_976_764us
+19:50:50.371 [W0] INFO:	Draining 6 outstanding tasks
+19:50:51.355 [W0] INFO:	sim_time 1_569_813_976_764us: ControllerEvent @ 1_569_813_976_764us
+19:50:51.360 [W0] INFO:	sim_time 1_569_813_976_764us: PhysicsEvent @ 1_569_813_976_764us
+19:50:51.364 [W0] INFO:	sim_time 1_569_813_976_764us: TrafficEvent @ 1_569_813_976_764us
+19:50:51.365 [W0] INFO:	sim_time 1_569_813_976_764us: PhysicsEvent @ 1_569_813_976_764us
+19:50:51.365 [W0] INFO:	sim_time 1_569_813_976_764us: StepEvent @ 1_569_813_976_764us
+19:50:51.366 [W0] INFO:	sim_time 1_569_814_076_764us: GroupedRenderEvent(now=1_569_814_076_764us)
+19:50:51.493 [W0] INFO:	sim_time 1_569_814_076_764us: PolicyEvent @ 1_569_814_076_764us
+19:50:51.494 [W0] INFO:	Draining 6 outstanding tasks
+19:50:52.479 [W0] INFO:	sim_time 1_569_814_076_764us: ControllerEvent @ 1_569_814_076_764us
+19:50:52.484 [W0] INFO:	sim_time 1_569_814_076_764us: PhysicsEvent @ 1_569_814_076_764us
+19:50:52.488 [W0] INFO:	sim_time 1_569_814_076_764us: TrafficEvent @ 1_569_814_076_764us
+19:50:52.488 [W0] INFO:	sim_time 1_569_814_076_764us: PhysicsEvent @ 1_569_814_076_764us
+19:50:52.488 [W0] INFO:	sim_time 1_569_814_076_764us: StepEvent @ 1_569_814_076_764us
+19:50:52.489 [W0] INFO:	sim_time 1_569_814_176_764us: GroupedRenderEvent(now=1_569_814_176_764us)
+19:50:52.610 [W0] INFO:	sim_time 1_569_814_176_764us: PolicyEvent @ 1_569_814_176_764us
+19:50:52.611 [W0] INFO:	Draining 6 outstanding tasks
+19:50:53.738 [W0] INFO:	sim_time 1_569_814_176_764us: ControllerEvent @ 1_569_814_176_764us
+19:50:53.743 [W0] INFO:	sim_time 1_569_814_176_764us: PhysicsEvent @ 1_569_814_176_764us
+19:50:53.747 [W0] INFO:	sim_time 1_569_814_176_764us: TrafficEvent @ 1_569_814_176_764us
+19:50:53.747 [W0] INFO:	sim_time 1_569_814_176_764us: PhysicsEvent @ 1_569_814_176_764us
+19:50:53.748 [W0] INFO:	sim_time 1_569_814_176_764us: StepEvent @ 1_569_814_176_764us
+19:50:53.748 [W0] INFO:	sim_time 1_569_814_276_764us: GroupedRenderEvent(now=1_569_814_276_764us)
+19:50:53.871 [W0] INFO:	sim_time 1_569_814_276_764us: PolicyEvent @ 1_569_814_276_764us
+19:50:53.872 [W0] INFO:	Draining 6 outstanding tasks
+19:50:54.985 [W0] INFO:	sim_time 1_569_814_276_764us: ControllerEvent @ 1_569_814_276_764us
+19:50:54.991 [W0] INFO:	sim_time 1_569_814_276_764us: PhysicsEvent @ 1_569_814_276_764us
+19:50:54.994 [W0] INFO:	sim_time 1_569_814_276_764us: TrafficEvent @ 1_569_814_276_764us
+19:50:54.994 [W0] INFO:	sim_time 1_569_814_276_764us: PhysicsEvent @ 1_569_814_276_764us
+19:50:54.994 [W0] INFO:	sim_time 1_569_814_276_764us: StepEvent @ 1_569_814_276_764us
+19:50:54.995 [W0] INFO:	sim_time 1_569_814_376_764us: GroupedRenderEvent(now=1_569_814_376_764us)
+19:50:55.115 [W0] INFO:	sim_time 1_569_814_376_764us: PolicyEvent @ 1_569_814_376_764us
+19:50:55.116 [W0] INFO:	Draining 6 outstanding tasks
+19:50:56.314 [W0] INFO:	sim_time 1_569_814_376_764us: ControllerEvent @ 1_569_814_376_764us
+19:50:56.320 [W0] INFO:	sim_time 1_569_814_376_764us: PhysicsEvent @ 1_569_814_376_764us
+19:50:56.324 [W0] INFO:	sim_time 1_569_814_376_764us: TrafficEvent @ 1_569_814_376_764us
+19:50:56.324 [W0] INFO:	sim_time 1_569_814_376_764us: PhysicsEvent @ 1_569_814_376_764us
+19:50:56.324 [W0] INFO:	sim_time 1_569_814_376_764us: StepEvent @ 1_569_814_376_764us
+19:50:56.325 [W0] INFO:	sim_time 1_569_814_476_764us: GroupedRenderEvent(now=1_569_814_476_764us)
+19:50:56.451 [W0] INFO:	sim_time 1_569_814_476_764us: PolicyEvent @ 1_569_814_476_764us
+19:50:56.451 [W0] INFO:	Draining 6 outstanding tasks
+19:50:57.451 [W0] INFO:	sim_time 1_569_814_476_764us: ControllerEvent @ 1_569_814_476_764us
+19:50:57.457 [W0] INFO:	sim_time 1_569_814_476_764us: PhysicsEvent @ 1_569_814_476_764us
+19:50:57.460 [W0] INFO:	sim_time 1_569_814_476_764us: TrafficEvent @ 1_569_814_476_764us
+19:50:57.460 [W0] INFO:	sim_time 1_569_814_476_764us: PhysicsEvent @ 1_569_814_476_764us
+19:50:57.460 [W0] INFO:	sim_time 1_569_814_476_764us: StepEvent @ 1_569_814_476_764us
+19:50:57.461 [W0] INFO:	sim_time 1_569_814_576_764us: GroupedRenderEvent(now=1_569_814_576_764us)
+19:50:57.580 [W0] INFO:	sim_time 1_569_814_576_764us: PolicyEvent @ 1_569_814_576_764us
+19:50:57.581 [W0] INFO:	Draining 6 outstanding tasks
+19:50:58.574 [W0] INFO:	sim_time 1_569_814_576_764us: ControllerEvent @ 1_569_814_576_764us
+19:50:58.579 [W0] INFO:	sim_time 1_569_814_576_764us: PhysicsEvent @ 1_569_814_576_764us
+19:50:58.582 [W0] INFO:	sim_time 1_569_814_576_764us: TrafficEvent @ 1_569_814_576_764us
+19:50:58.582 [W0] INFO:	sim_time 1_569_814_576_764us: PhysicsEvent @ 1_569_814_576_764us
+19:50:58.583 [W0] INFO:	sim_time 1_569_814_576_764us: StepEvent @ 1_569_814_576_764us
+19:50:58.583 [W0] INFO:	sim_time 1_569_814_676_764us: GroupedRenderEvent(now=1_569_814_676_764us)
+19:50:58.716 [W0] INFO:	sim_time 1_569_814_676_764us: PolicyEvent @ 1_569_814_676_764us
+19:50:58.717 [W0] INFO:	Draining 6 outstanding tasks
+19:50:59.694 [W0] INFO:	sim_time 1_569_814_676_764us: ControllerEvent @ 1_569_814_676_764us
+19:50:59.699 [W0] INFO:	sim_time 1_569_814_676_764us: PhysicsEvent @ 1_569_814_676_764us
+19:50:59.702 [W0] INFO:	sim_time 1_569_814_676_764us: TrafficEvent @ 1_569_814_676_764us
+19:50:59.702 [W0] INFO:	sim_time 1_569_814_676_764us: PhysicsEvent @ 1_569_814_676_764us
+19:50:59.703 [W0] INFO:	sim_time 1_569_814_676_764us: StepEvent @ 1_569_814_676_764us
+19:50:59.703 [W0] INFO:	sim_time 1_569_814_776_764us: GroupedRenderEvent(now=1_569_814_776_764us)
+19:50:59.824 [W0] INFO:	sim_time 1_569_814_776_764us: PolicyEvent @ 1_569_814_776_764us
+19:50:59.824 [W0] INFO:	Draining 6 outstanding tasks
+19:51:00.922 [W0] INFO:	sim_time 1_569_814_776_764us: ControllerEvent @ 1_569_814_776_764us
+19:51:00.928 [W0] INFO:	sim_time 1_569_814_776_764us: PhysicsEvent @ 1_569_814_776_764us
+19:51:00.931 [W0] INFO:	sim_time 1_569_814_776_764us: TrafficEvent @ 1_569_814_776_764us
+19:51:00.932 [W0] INFO:	sim_time 1_569_814_776_764us: PhysicsEvent @ 1_569_814_776_764us
+19:51:00.932 [W0] INFO:	sim_time 1_569_814_776_764us: StepEvent @ 1_569_814_776_764us
+19:51:00.933 [W0] INFO:	sim_time 1_569_814_876_764us: GroupedRenderEvent(now=1_569_814_876_764us)
+19:51:01.052 [W0] INFO:	sim_time 1_569_814_876_764us: PolicyEvent @ 1_569_814_876_764us
+19:51:01.053 [W0] INFO:	Draining 6 outstanding tasks
+19:51:02.027 [W0] INFO:	sim_time 1_569_814_876_764us: ControllerEvent @ 1_569_814_876_764us
+19:51:02.032 [W0] INFO:	sim_time 1_569_814_876_764us: PhysicsEvent @ 1_569_814_876_764us
+19:51:02.036 [W0] INFO:	sim_time 1_569_814_876_764us: TrafficEvent @ 1_569_814_876_764us
+19:51:02.036 [W0] INFO:	sim_time 1_569_814_876_764us: PhysicsEvent @ 1_569_814_876_764us
+19:51:02.037 [W0] INFO:	sim_time 1_569_814_876_764us: StepEvent @ 1_569_814_876_764us
+19:51:02.037 [W0] INFO:	sim_time 1_569_814_976_764us: GroupedRenderEvent(now=1_569_814_976_764us)
+19:51:02.160 [W0] INFO:	sim_time 1_569_814_976_764us: PolicyEvent @ 1_569_814_976_764us
+19:51:02.160 [W0] INFO:	Draining 6 outstanding tasks
+19:51:03.142 [W0] INFO:	sim_time 1_569_814_976_764us: ControllerEvent @ 1_569_814_976_764us
+19:51:03.147 [W0] INFO:	sim_time 1_569_814_976_764us: PhysicsEvent @ 1_569_814_976_764us
+19:51:03.150 [W0] INFO:	sim_time 1_569_814_976_764us: TrafficEvent @ 1_569_814_976_764us
+19:51:03.151 [W0] INFO:	sim_time 1_569_814_976_764us: PhysicsEvent @ 1_569_814_976_764us
+19:51:03.151 [W0] INFO:	sim_time 1_569_814_976_764us: StepEvent @ 1_569_814_976_764us
+19:51:03.152 [W0] INFO:	sim_time 1_569_815_076_764us: GroupedRenderEvent(now=1_569_815_076_764us)
+19:51:03.269 [W0] INFO:	sim_time 1_569_815_076_764us: PolicyEvent @ 1_569_815_076_764us
+19:51:03.270 [W0] INFO:	Draining 6 outstanding tasks
+19:51:04.251 [W0] INFO:	sim_time 1_569_815_076_764us: ControllerEvent @ 1_569_815_076_764us
+19:51:04.257 [W0] INFO:	sim_time 1_569_815_076_764us: PhysicsEvent @ 1_569_815_076_764us
+19:51:04.260 [W0] INFO:	sim_time 1_569_815_076_764us: TrafficEvent @ 1_569_815_076_764us
+19:51:04.260 [W0] INFO:	sim_time 1_569_815_076_764us: PhysicsEvent @ 1_569_815_076_764us
+19:51:04.261 [W0] INFO:	sim_time 1_569_815_076_764us: StepEvent @ 1_569_815_076_764us
+19:51:04.261 [W0] INFO:	sim_time 1_569_815_176_764us: GroupedRenderEvent(now=1_569_815_176_764us)
+19:51:04.382 [W0] INFO:	sim_time 1_569_815_176_764us: PolicyEvent @ 1_569_815_176_764us
+19:51:04.382 [W0] INFO:	Draining 6 outstanding tasks
+19:51:05.417 [W0] INFO:	sim_time 1_569_815_176_764us: ControllerEvent @ 1_569_815_176_764us
+19:51:05.422 [W0] INFO:	sim_time 1_569_815_176_764us: PhysicsEvent @ 1_569_815_176_764us
+19:51:05.425 [W0] INFO:	sim_time 1_569_815_176_764us: TrafficEvent @ 1_569_815_176_764us
+19:51:05.426 [W0] INFO:	sim_time 1_569_815_176_764us: PhysicsEvent @ 1_569_815_176_764us
+19:51:05.426 [W0] INFO:	sim_time 1_569_815_176_764us: StepEvent @ 1_569_815_176_764us
+19:51:05.427 [W0] INFO:	sim_time 1_569_815_276_764us: GroupedRenderEvent(now=1_569_815_276_764us)
+19:51:05.547 [W0] INFO:	sim_time 1_569_815_276_764us: PolicyEvent @ 1_569_815_276_764us
+19:51:05.547 [W0] INFO:	Draining 6 outstanding tasks
+19:51:06.574 [W0] INFO:	sim_time 1_569_815_276_764us: ControllerEvent @ 1_569_815_276_764us
+19:51:06.580 [W0] INFO:	sim_time 1_569_815_276_764us: PhysicsEvent @ 1_569_815_276_764us
+19:51:06.583 [W0] INFO:	sim_time 1_569_815_276_764us: TrafficEvent @ 1_569_815_276_764us
+19:51:06.584 [W0] INFO:	sim_time 1_569_815_276_764us: PhysicsEvent @ 1_569_815_276_764us
+19:51:06.584 [W0] INFO:	sim_time 1_569_815_276_764us: StepEvent @ 1_569_815_276_764us
+19:51:06.585 [W0] INFO:	sim_time 1_569_815_376_764us: GroupedRenderEvent(now=1_569_815_376_764us)
+19:51:06.703 [W0] INFO:	sim_time 1_569_815_376_764us: PolicyEvent @ 1_569_815_376_764us
+19:51:06.704 [W0] INFO:	Draining 6 outstanding tasks
+19:51:07.800 [W0] INFO:	sim_time 1_569_815_376_764us: ControllerEvent @ 1_569_815_376_764us
+19:51:07.805 [W0] INFO:	sim_time 1_569_815_376_764us: PhysicsEvent @ 1_569_815_376_764us
+19:51:07.809 [W0] INFO:	sim_time 1_569_815_376_764us: TrafficEvent @ 1_569_815_376_764us
+19:51:07.809 [W0] INFO:	sim_time 1_569_815_376_764us: PhysicsEvent @ 1_569_815_376_764us
+19:51:07.809 [W0] INFO:	sim_time 1_569_815_376_764us: StepEvent @ 1_569_815_376_764us
+19:51:07.810 [W0] INFO:	sim_time 1_569_815_476_764us: GroupedRenderEvent(now=1_569_815_476_764us)
+19:51:07.928 [W0] INFO:	sim_time 1_569_815_476_764us: PolicyEvent @ 1_569_815_476_764us
+19:51:07.929 [W0] INFO:	Draining 6 outstanding tasks
+19:51:09.106 [W0] INFO:	sim_time 1_569_815_476_764us: ControllerEvent @ 1_569_815_476_764us
+19:51:09.115 [W0] INFO:	sim_time 1_569_815_476_764us: PhysicsEvent @ 1_569_815_476_764us
+19:51:09.118 [W0] INFO:	sim_time 1_569_815_476_764us: TrafficEvent @ 1_569_815_476_764us
+19:51:09.119 [W0] INFO:	sim_time 1_569_815_476_764us: PhysicsEvent @ 1_569_815_476_764us
+19:51:09.119 [W0] INFO:	sim_time 1_569_815_476_764us: StepEvent @ 1_569_815_476_764us
+19:51:09.120 [W0] INFO:	sim_time 1_569_815_576_764us: GroupedRenderEvent(now=1_569_815_576_764us)
+19:51:09.239 [W0] INFO:	sim_time 1_569_815_576_764us: PolicyEvent @ 1_569_815_576_764us
+19:51:09.240 [W0] INFO:	Draining 6 outstanding tasks
+19:51:10.364 [W0] INFO:	sim_time 1_569_815_576_764us: ControllerEvent @ 1_569_815_576_764us
+19:51:10.370 [W0] INFO:	sim_time 1_569_815_576_764us: PhysicsEvent @ 1_569_815_576_764us
+19:51:10.373 [W0] INFO:	sim_time 1_569_815_576_764us: TrafficEvent @ 1_569_815_576_764us
+19:51:10.374 [W0] INFO:	sim_time 1_569_815_576_764us: PhysicsEvent @ 1_569_815_576_764us
+19:51:10.374 [W0] INFO:	sim_time 1_569_815_576_764us: StepEvent @ 1_569_815_576_764us
+19:51:10.375 [W0] INFO:	sim_time 1_569_815_676_764us: GroupedRenderEvent(now=1_569_815_676_764us)
+19:51:10.495 [W0] INFO:	sim_time 1_569_815_676_764us: PolicyEvent @ 1_569_815_676_764us
+19:51:10.498 [W0] INFO:	Draining 6 outstanding tasks
+19:51:11.464 [W0] INFO:	sim_time 1_569_815_676_764us: ControllerEvent @ 1_569_815_676_764us
+19:51:11.469 [W0] INFO:	sim_time 1_569_815_676_764us: PhysicsEvent @ 1_569_815_676_764us
+19:51:11.473 [W0] INFO:	sim_time 1_569_815_676_764us: TrafficEvent @ 1_569_815_676_764us
+19:51:11.473 [W0] INFO:	sim_time 1_569_815_676_764us: PhysicsEvent @ 1_569_815_676_764us
+19:51:11.474 [W0] INFO:	sim_time 1_569_815_676_764us: StepEvent @ 1_569_815_676_764us
+19:51:11.475 [W0] INFO:	sim_time 1_569_815_776_764us: GroupedRenderEvent(now=1_569_815_776_764us)
+19:51:11.592 [W0] INFO:	sim_time 1_569_815_776_764us: PolicyEvent @ 1_569_815_776_764us
+19:51:11.592 [W0] INFO:	Draining 6 outstanding tasks
+19:51:12.674 [W0] INFO:	sim_time 1_569_815_776_764us: ControllerEvent @ 1_569_815_776_764us
+19:51:12.680 [W0] INFO:	sim_time 1_569_815_776_764us: PhysicsEvent @ 1_569_815_776_764us
+19:51:12.683 [W0] INFO:	sim_time 1_569_815_776_764us: TrafficEvent @ 1_569_815_776_764us
+19:51:12.684 [W0] INFO:	sim_time 1_569_815_776_764us: PhysicsEvent @ 1_569_815_776_764us
+19:51:12.684 [W0] INFO:	sim_time 1_569_815_776_764us: StepEvent @ 1_569_815_776_764us
+19:51:12.685 [W0] INFO:	sim_time 1_569_815_876_764us: GroupedRenderEvent(now=1_569_815_876_764us)
+19:51:12.806 [W0] INFO:	sim_time 1_569_815_876_764us: PolicyEvent @ 1_569_815_876_764us
+19:51:12.806 [W0] INFO:	Draining 6 outstanding tasks
+19:51:13.787 [W0] INFO:	sim_time 1_569_815_876_764us: ControllerEvent @ 1_569_815_876_764us
+19:51:13.792 [W0] INFO:	sim_time 1_569_815_876_764us: PhysicsEvent @ 1_569_815_876_764us
+19:51:13.796 [W0] INFO:	sim_time 1_569_815_876_764us: TrafficEvent @ 1_569_815_876_764us
+19:51:13.797 [W0] INFO:	sim_time 1_569_815_876_764us: PhysicsEvent @ 1_569_815_876_764us
+19:51:13.797 [W0] INFO:	sim_time 1_569_815_876_764us: StepEvent @ 1_569_815_876_764us
+19:51:13.798 [W0] INFO:	sim_time 1_569_815_976_764us: GroupedRenderEvent(now=1_569_815_976_764us)
+19:51:13.914 [W0] INFO:	sim_time 1_569_815_976_764us: PolicyEvent @ 1_569_815_976_764us
+19:51:13.915 [W0] INFO:	Draining 6 outstanding tasks
+19:51:14.914 [W0] INFO:	sim_time 1_569_815_976_764us: ControllerEvent @ 1_569_815_976_764us
+19:51:14.923 [W0] INFO:	sim_time 1_569_815_976_764us: PhysicsEvent @ 1_569_815_976_764us
+19:51:14.926 [W0] INFO:	sim_time 1_569_815_976_764us: TrafficEvent @ 1_569_815_976_764us
+19:51:14.926 [W0] INFO:	sim_time 1_569_815_976_764us: PhysicsEvent @ 1_569_815_976_764us
+19:51:14.927 [W0] INFO:	sim_time 1_569_815_976_764us: StepEvent @ 1_569_815_976_764us
+19:51:14.927 [W0] INFO:	sim_time 1_569_816_076_764us: GroupedRenderEvent(now=1_569_816_076_764us)
+19:51:15.049 [W0] INFO:	sim_time 1_569_816_076_764us: PolicyEvent @ 1_569_816_076_764us
+19:51:15.050 [W0] INFO:	Draining 6 outstanding tasks
+19:51:16.222 [W0] INFO:	sim_time 1_569_816_076_764us: ControllerEvent @ 1_569_816_076_764us
+19:51:16.228 [W0] INFO:	sim_time 1_569_816_076_764us: PhysicsEvent @ 1_569_816_076_764us
+19:51:16.231 [W0] INFO:	sim_time 1_569_816_076_764us: TrafficEvent @ 1_569_816_076_764us
+19:51:16.232 [W0] INFO:	sim_time 1_569_816_076_764us: PhysicsEvent @ 1_569_816_076_764us
+19:51:16.232 [W0] INFO:	sim_time 1_569_816_076_764us: StepEvent @ 1_569_816_076_764us
+19:51:16.233 [W0] INFO:	sim_time 1_569_816_176_764us: GroupedRenderEvent(now=1_569_816_176_764us)
+19:51:16.356 [W0] INFO:	sim_time 1_569_816_176_764us: PolicyEvent @ 1_569_816_176_764us
+19:51:16.356 [W0] INFO:	Draining 6 outstanding tasks
+19:51:17.374 [W0] INFO:	sim_time 1_569_816_176_764us: ControllerEvent @ 1_569_816_176_764us
+19:51:17.380 [W0] INFO:	sim_time 1_569_816_176_764us: PhysicsEvent @ 1_569_816_176_764us
+19:51:17.384 [W0] INFO:	sim_time 1_569_816_176_764us: TrafficEvent @ 1_569_816_176_764us
+19:51:17.384 [W0] INFO:	sim_time 1_569_816_176_764us: PhysicsEvent @ 1_569_816_176_764us
+19:51:17.384 [W0] INFO:	sim_time 1_569_816_176_764us: StepEvent @ 1_569_816_176_764us
+19:51:17.385 [W0] INFO:	sim_time 1_569_816_276_764us: GroupedRenderEvent(now=1_569_816_276_764us)
+19:51:17.511 [W0] INFO:	sim_time 1_569_816_276_764us: PolicyEvent @ 1_569_816_276_764us
+19:51:17.511 [W0] INFO:	Draining 6 outstanding tasks
+19:51:18.525 [W0] INFO:	sim_time 1_569_816_276_764us: ControllerEvent @ 1_569_816_276_764us
+19:51:18.531 [W0] INFO:	sim_time 1_569_816_276_764us: PhysicsEvent @ 1_569_816_276_764us
+19:51:18.534 [W0] INFO:	sim_time 1_569_816_276_764us: TrafficEvent @ 1_569_816_276_764us
+19:51:18.535 [W0] INFO:	sim_time 1_569_816_276_764us: PhysicsEvent @ 1_569_816_276_764us
+19:51:18.535 [W0] INFO:	sim_time 1_569_816_276_764us: StepEvent @ 1_569_816_276_764us
+19:51:18.536 [W0] INFO:	sim_time 1_569_816_376_764us: GroupedRenderEvent(now=1_569_816_376_764us)
+19:51:18.658 [W0] INFO:	sim_time 1_569_816_376_764us: PolicyEvent @ 1_569_816_376_764us
+19:51:18.658 [W0] INFO:	Draining 6 outstanding tasks
+19:51:20.137 [W0] INFO:	sim_time 1_569_816_376_764us: ControllerEvent @ 1_569_816_376_764us
+19:51:20.143 [W0] INFO:	sim_time 1_569_816_376_764us: PhysicsEvent @ 1_569_816_376_764us
+19:51:20.146 [W0] INFO:	sim_time 1_569_816_376_764us: TrafficEvent @ 1_569_816_376_764us
+19:51:20.147 [W0] INFO:	sim_time 1_569_816_376_764us: PhysicsEvent @ 1_569_816_376_764us
+19:51:20.147 [W0] INFO:	sim_time 1_569_816_376_764us: StepEvent @ 1_569_816_376_764us
+19:51:20.148 [W0] INFO:	sim_time 1_569_816_476_764us: GroupedRenderEvent(now=1_569_816_476_764us)
+19:51:20.275 [W0] INFO:	sim_time 1_569_816_476_764us: PolicyEvent @ 1_569_816_476_764us
+19:51:20.275 [W0] INFO:	Draining 6 outstanding tasks
+19:51:21.497 [W0] INFO:	sim_time 1_569_816_476_764us: ControllerEvent @ 1_569_816_476_764us
+19:51:21.503 [W0] INFO:	sim_time 1_569_816_476_764us: PhysicsEvent @ 1_569_816_476_764us
+19:51:21.506 [W0] INFO:	sim_time 1_569_816_476_764us: TrafficEvent @ 1_569_816_476_764us
+19:51:21.506 [W0] INFO:	sim_time 1_569_816_476_764us: PhysicsEvent @ 1_569_816_476_764us
+19:51:21.507 [W0] INFO:	sim_time 1_569_816_476_764us: StepEvent @ 1_569_816_476_764us
+19:51:21.507 [W0] INFO:	sim_time 1_569_816_576_764us: GroupedRenderEvent(now=1_569_816_576_764us)
+19:51:21.630 [W0] INFO:	sim_time 1_569_816_576_764us: PolicyEvent @ 1_569_816_576_764us
+19:51:21.630 [W0] INFO:	Draining 6 outstanding tasks
+19:51:22.670 [W0] INFO:	sim_time 1_569_816_576_764us: ControllerEvent @ 1_569_816_576_764us
+19:51:22.676 [W0] INFO:	sim_time 1_569_816_576_764us: PhysicsEvent @ 1_569_816_576_764us
+19:51:22.680 [W0] INFO:	sim_time 1_569_816_576_764us: TrafficEvent @ 1_569_816_576_764us
+19:51:22.680 [W0] INFO:	sim_time 1_569_816_576_764us: PhysicsEvent @ 1_569_816_576_764us
+19:51:22.680 [W0] INFO:	sim_time 1_569_816_576_764us: StepEvent @ 1_569_816_576_764us
+19:51:22.681 [W0] INFO:	sim_time 1_569_816_676_764us: GroupedRenderEvent(now=1_569_816_676_764us)
+19:51:22.804 [W0] INFO:	sim_time 1_569_816_676_764us: PolicyEvent @ 1_569_816_676_764us
+19:51:22.804 [W0] INFO:	Draining 6 outstanding tasks
+19:51:23.798 [W0] INFO:	sim_time 1_569_816_676_764us: ControllerEvent @ 1_569_816_676_764us
+19:51:23.804 [W0] INFO:	sim_time 1_569_816_676_764us: PhysicsEvent @ 1_569_816_676_764us
+19:51:23.808 [W0] INFO:	sim_time 1_569_816_676_764us: TrafficEvent @ 1_569_816_676_764us
+19:51:23.808 [W0] INFO:	sim_time 1_569_816_676_764us: PhysicsEvent @ 1_569_816_676_764us
+19:51:23.808 [W0] INFO:	sim_time 1_569_816_676_764us: StepEvent @ 1_569_816_676_764us
+19:51:23.809 [W0] INFO:	sim_time 1_569_816_776_764us: GroupedRenderEvent(now=1_569_816_776_764us)
+19:51:23.934 [W0] INFO:	sim_time 1_569_816_776_764us: PolicyEvent @ 1_569_816_776_764us
+19:51:23.934 [W0] INFO:	Draining 6 outstanding tasks
+19:51:25.119 [W0] INFO:	sim_time 1_569_816_776_764us: ControllerEvent @ 1_569_816_776_764us
+19:51:25.125 [W0] INFO:	sim_time 1_569_816_776_764us: PhysicsEvent @ 1_569_816_776_764us
+19:51:25.128 [W0] INFO:	sim_time 1_569_816_776_764us: TrafficEvent @ 1_569_816_776_764us
+19:51:25.128 [W0] INFO:	sim_time 1_569_816_776_764us: PhysicsEvent @ 1_569_816_776_764us
+19:51:25.128 [W0] INFO:	sim_time 1_569_816_776_764us: StepEvent @ 1_569_816_776_764us
+19:51:25.129 [W0] INFO:	sim_time 1_569_816_876_764us: GroupedRenderEvent(now=1_569_816_876_764us)
+19:51:25.253 [W0] INFO:	sim_time 1_569_816_876_764us: PolicyEvent @ 1_569_816_876_764us
+19:51:25.253 [W0] INFO:	Draining 6 outstanding tasks
+19:51:26.277 [W0] INFO:	sim_time 1_569_816_876_764us: ControllerEvent @ 1_569_816_876_764us
+19:51:26.283 [W0] INFO:	sim_time 1_569_816_876_764us: PhysicsEvent @ 1_569_816_876_764us
+19:51:26.287 [W0] INFO:	sim_time 1_569_816_876_764us: TrafficEvent @ 1_569_816_876_764us
+19:51:26.287 [W0] INFO:	sim_time 1_569_816_876_764us: PhysicsEvent @ 1_569_816_876_764us
+19:51:26.287 [W0] INFO:	sim_time 1_569_816_876_764us: StepEvent @ 1_569_816_876_764us
+19:51:26.288 [W0] INFO:	sim_time 1_569_816_976_764us: GroupedRenderEvent(now=1_569_816_976_764us)
+19:51:26.423 [W0] INFO:	sim_time 1_569_816_976_764us: PolicyEvent @ 1_569_816_976_764us
+19:51:26.423 [W0] INFO:	Draining 6 outstanding tasks
+19:51:27.455 [W0] INFO:	sim_time 1_569_816_976_764us: ControllerEvent @ 1_569_816_976_764us
+19:51:27.461 [W0] INFO:	sim_time 1_569_816_976_764us: PhysicsEvent @ 1_569_816_976_764us
+19:51:27.465 [W0] INFO:	sim_time 1_569_816_976_764us: TrafficEvent @ 1_569_816_976_764us
+19:51:27.466 [W0] INFO:	sim_time 1_569_816_976_764us: PhysicsEvent @ 1_569_816_976_764us
+19:51:27.466 [W0] INFO:	sim_time 1_569_816_976_764us: StepEvent @ 1_569_816_976_764us
+19:51:27.467 [W0] INFO:	sim_time 1_569_817_076_764us: GroupedRenderEvent(now=1_569_817_076_764us)
+19:51:27.593 [W0] INFO:	sim_time 1_569_817_076_764us: PolicyEvent @ 1_569_817_076_764us
+19:51:27.594 [W0] INFO:	Draining 6 outstanding tasks
+19:51:28.685 [W0] INFO:	sim_time 1_569_817_076_764us: ControllerEvent @ 1_569_817_076_764us
+19:51:28.691 [W0] INFO:	sim_time 1_569_817_076_764us: PhysicsEvent @ 1_569_817_076_764us
+19:51:28.695 [W0] INFO:	sim_time 1_569_817_076_764us: TrafficEvent @ 1_569_817_076_764us
+19:51:28.695 [W0] INFO:	sim_time 1_569_817_076_764us: PhysicsEvent @ 1_569_817_076_764us
+19:51:28.695 [W0] INFO:	sim_time 1_569_817_076_764us: StepEvent @ 1_569_817_076_764us
+19:51:28.696 [W0] INFO:	sim_time 1_569_817_176_764us: GroupedRenderEvent(now=1_569_817_176_764us)
+19:51:28.822 [W0] INFO:	sim_time 1_569_817_176_764us: PolicyEvent @ 1_569_817_176_764us
+19:51:28.822 [W0] INFO:	Draining 6 outstanding tasks
+19:51:30.128 [W0] INFO:	sim_time 1_569_817_176_764us: ControllerEvent @ 1_569_817_176_764us
+19:51:30.134 [W0] INFO:	sim_time 1_569_817_176_764us: PhysicsEvent @ 1_569_817_176_764us
+19:51:30.137 [W0] INFO:	sim_time 1_569_817_176_764us: TrafficEvent @ 1_569_817_176_764us
+19:51:30.138 [W0] INFO:	sim_time 1_569_817_176_764us: PhysicsEvent @ 1_569_817_176_764us
+19:51:30.138 [W0] INFO:	sim_time 1_569_817_176_764us: StepEvent @ 1_569_817_176_764us
+19:51:30.139 [W0] INFO:	sim_time 1_569_817_276_764us: GroupedRenderEvent(now=1_569_817_276_764us)
+19:51:30.260 [W0] INFO:	sim_time 1_569_817_276_764us: PolicyEvent @ 1_569_817_276_764us
+19:51:30.260 [W0] INFO:	Draining 6 outstanding tasks
+19:51:31.498 [W0] INFO:	sim_time 1_569_817_276_764us: ControllerEvent @ 1_569_817_276_764us
+19:51:31.505 [W0] INFO:	sim_time 1_569_817_276_764us: PhysicsEvent @ 1_569_817_276_764us
+19:51:31.508 [W0] INFO:	sim_time 1_569_817_276_764us: TrafficEvent @ 1_569_817_276_764us
+19:51:31.508 [W0] INFO:	sim_time 1_569_817_276_764us: PhysicsEvent @ 1_569_817_276_764us
+19:51:31.508 [W0] INFO:	sim_time 1_569_817_276_764us: StepEvent @ 1_569_817_276_764us
+19:51:31.509 [W0] INFO:	sim_time 1_569_817_376_764us: GroupedRenderEvent(now=1_569_817_376_764us)
+19:51:31.632 [W0] INFO:	sim_time 1_569_817_376_764us: PolicyEvent @ 1_569_817_376_764us
+19:51:31.633 [W0] INFO:	Draining 6 outstanding tasks
+19:51:32.789 [W0] INFO:	sim_time 1_569_817_376_764us: ControllerEvent @ 1_569_817_376_764us
+19:51:32.796 [W0] INFO:	sim_time 1_569_817_376_764us: PhysicsEvent @ 1_569_817_376_764us
+19:51:32.799 [W0] INFO:	sim_time 1_569_817_376_764us: TrafficEvent @ 1_569_817_376_764us
+19:51:32.805 [W0] INFO:	sim_time 1_569_817_376_764us: PhysicsEvent @ 1_569_817_376_764us
+19:51:32.805 [W0] INFO:	sim_time 1_569_817_376_764us: StepEvent @ 1_569_817_376_764us
+19:51:32.806 [W0] INFO:	sim_time 1_569_817_476_764us: GroupedRenderEvent(now=1_569_817_476_764us)
+19:51:32.928 [W0] INFO:	sim_time 1_569_817_476_764us: PolicyEvent @ 1_569_817_476_764us
+19:51:32.928 [W0] INFO:	Draining 6 outstanding tasks
+19:51:34.007 [W0] INFO:	sim_time 1_569_817_476_764us: ControllerEvent @ 1_569_817_476_764us
+19:51:34.015 [W0] INFO:	sim_time 1_569_817_476_764us: PhysicsEvent @ 1_569_817_476_764us
+19:51:34.019 [W0] INFO:	sim_time 1_569_817_476_764us: TrafficEvent @ 1_569_817_476_764us
+19:51:34.019 [W0] INFO:	sim_time 1_569_817_476_764us: PhysicsEvent @ 1_569_817_476_764us
+19:51:34.020 [W0] INFO:	sim_time 1_569_817_476_764us: StepEvent @ 1_569_817_476_764us
+19:51:34.020 [W0] INFO:	sim_time 1_569_817_576_764us: GroupedRenderEvent(now=1_569_817_576_764us)
+19:51:34.142 [W0] INFO:	sim_time 1_569_817_576_764us: PolicyEvent @ 1_569_817_576_764us
+19:51:34.143 [W0] INFO:	Draining 6 outstanding tasks
+19:51:35.267 [W0] INFO:	sim_time 1_569_817_576_764us: ControllerEvent @ 1_569_817_576_764us
+19:51:35.273 [W0] INFO:	sim_time 1_569_817_576_764us: PhysicsEvent @ 1_569_817_576_764us
+19:51:35.277 [W0] INFO:	sim_time 1_569_817_576_764us: TrafficEvent @ 1_569_817_576_764us
+19:51:35.277 [W0] INFO:	sim_time 1_569_817_576_764us: PhysicsEvent @ 1_569_817_576_764us
+19:51:35.278 [W0] INFO:	sim_time 1_569_817_576_764us: StepEvent @ 1_569_817_576_764us
+19:51:35.278 [W0] INFO:	sim_time 1_569_817_676_764us: GroupedRenderEvent(now=1_569_817_676_764us)
+19:51:35.400 [W0] INFO:	sim_time 1_569_817_676_764us: PolicyEvent @ 1_569_817_676_764us
+19:51:35.400 [W0] INFO:	Draining 6 outstanding tasks
+19:51:36.496 [W0] INFO:	sim_time 1_569_817_676_764us: ControllerEvent @ 1_569_817_676_764us
+19:51:36.503 [W0] INFO:	sim_time 1_569_817_676_764us: PhysicsEvent @ 1_569_817_676_764us
+19:51:36.506 [W0] INFO:	sim_time 1_569_817_676_764us: TrafficEvent @ 1_569_817_676_764us
+19:51:36.507 [W0] INFO:	sim_time 1_569_817_676_764us: PhysicsEvent @ 1_569_817_676_764us
+19:51:36.507 [W0] INFO:	sim_time 1_569_817_676_764us: StepEvent @ 1_569_817_676_764us
+19:51:36.508 [W0] INFO:	sim_time 1_569_817_776_764us: GroupedRenderEvent(now=1_569_817_776_764us)
+19:51:36.631 [W0] INFO:	sim_time 1_569_817_776_764us: PolicyEvent @ 1_569_817_776_764us
+19:51:36.631 [W0] INFO:	Draining 6 outstanding tasks
+19:51:37.725 [W0] INFO:	sim_time 1_569_817_776_764us: ControllerEvent @ 1_569_817_776_764us
+19:51:37.732 [W0] INFO:	sim_time 1_569_817_776_764us: PhysicsEvent @ 1_569_817_776_764us
+19:51:37.736 [W0] INFO:	sim_time 1_569_817_776_764us: TrafficEvent @ 1_569_817_776_764us
+19:51:37.736 [W0] INFO:	sim_time 1_569_817_776_764us: PhysicsEvent @ 1_569_817_776_764us
+19:51:37.737 [W0] INFO:	sim_time 1_569_817_776_764us: StepEvent @ 1_569_817_776_764us
+19:51:37.737 [W0] INFO:	sim_time 1_569_817_876_764us: GroupedRenderEvent(now=1_569_817_876_764us)
+19:51:37.858 [W0] INFO:	sim_time 1_569_817_876_764us: PolicyEvent @ 1_569_817_876_764us
+19:51:37.859 [W0] INFO:	Draining 6 outstanding tasks
+19:51:38.958 [W0] INFO:	sim_time 1_569_817_876_764us: ControllerEvent @ 1_569_817_876_764us
+19:51:38.964 [W0] INFO:	sim_time 1_569_817_876_764us: PhysicsEvent @ 1_569_817_876_764us
+19:51:38.968 [W0] INFO:	sim_time 1_569_817_876_764us: TrafficEvent @ 1_569_817_876_764us
+19:51:38.969 [W0] INFO:	sim_time 1_569_817_876_764us: PhysicsEvent @ 1_569_817_876_764us
+19:51:38.969 [W0] INFO:	sim_time 1_569_817_876_764us: StepEvent @ 1_569_817_876_764us
+19:51:38.970 [W0] INFO:	sim_time 1_569_817_976_764us: GroupedRenderEvent(now=1_569_817_976_764us)
+19:51:39.095 [W0] INFO:	sim_time 1_569_817_976_764us: PolicyEvent @ 1_569_817_976_764us
+19:51:39.096 [W0] INFO:	Draining 6 outstanding tasks
+19:51:40.193 [W0] INFO:	sim_time 1_569_817_976_764us: ControllerEvent @ 1_569_817_976_764us
+19:51:40.200 [W0] INFO:	sim_time 1_569_817_976_764us: PhysicsEvent @ 1_569_817_976_764us
+19:51:40.204 [W0] INFO:	sim_time 1_569_817_976_764us: TrafficEvent @ 1_569_817_976_764us
+19:51:40.204 [W0] INFO:	sim_time 1_569_817_976_764us: PhysicsEvent @ 1_569_817_976_764us
+19:51:40.204 [W0] INFO:	sim_time 1_569_817_976_764us: StepEvent @ 1_569_817_976_764us
+19:51:40.205 [W0] INFO:	sim_time 1_569_818_076_764us: GroupedRenderEvent(now=1_569_818_076_764us)
+19:51:40.326 [W0] INFO:	sim_time 1_569_818_076_764us: PolicyEvent @ 1_569_818_076_764us
+19:51:40.326 [W0] INFO:	Draining 6 outstanding tasks
+19:51:41.358 [W0] INFO:	sim_time 1_569_818_076_764us: ControllerEvent @ 1_569_818_076_764us
+19:51:41.364 [W0] INFO:	sim_time 1_569_818_076_764us: PhysicsEvent @ 1_569_818_076_764us
+19:51:41.367 [W0] INFO:	sim_time 1_569_818_076_764us: TrafficEvent @ 1_569_818_076_764us
+19:51:41.368 [W0] INFO:	sim_time 1_569_818_076_764us: PhysicsEvent @ 1_569_818_076_764us
+19:51:41.368 [W0] INFO:	sim_time 1_569_818_076_764us: StepEvent @ 1_569_818_076_764us
+19:51:41.369 [W0] INFO:	sim_time 1_569_818_176_764us: GroupedRenderEvent(now=1_569_818_176_764us)
+19:51:41.491 [W0] INFO:	sim_time 1_569_818_176_764us: PolicyEvent @ 1_569_818_176_764us
+19:51:41.492 [W0] INFO:	Draining 6 outstanding tasks
+19:51:42.599 [W0] INFO:	sim_time 1_569_818_176_764us: ControllerEvent @ 1_569_818_176_764us
+19:51:42.606 [W0] INFO:	sim_time 1_569_818_176_764us: PhysicsEvent @ 1_569_818_176_764us
+19:51:42.609 [W0] INFO:	sim_time 1_569_818_176_764us: TrafficEvent @ 1_569_818_176_764us
+19:51:42.610 [W0] INFO:	sim_time 1_569_818_176_764us: PhysicsEvent @ 1_569_818_176_764us
+19:51:42.610 [W0] INFO:	sim_time 1_569_818_176_764us: StepEvent @ 1_569_818_176_764us
+19:51:42.611 [W0] INFO:	sim_time 1_569_818_276_764us: GroupedRenderEvent(now=1_569_818_276_764us)
+19:51:42.731 [W0] INFO:	sim_time 1_569_818_276_764us: PolicyEvent @ 1_569_818_276_764us
+19:51:42.731 [W0] INFO:	Draining 6 outstanding tasks
+19:51:43.880 [W0] INFO:	sim_time 1_569_818_276_764us: ControllerEvent @ 1_569_818_276_764us
+19:51:43.886 [W0] INFO:	sim_time 1_569_818_276_764us: PhysicsEvent @ 1_569_818_276_764us
+19:51:43.890 [W0] INFO:	sim_time 1_569_818_276_764us: TrafficEvent @ 1_569_818_276_764us
+19:51:43.890 [W0] INFO:	sim_time 1_569_818_276_764us: PhysicsEvent @ 1_569_818_276_764us
+19:51:43.890 [W0] INFO:	sim_time 1_569_818_276_764us: StepEvent @ 1_569_818_276_764us
+19:51:43.891 [W0] INFO:	sim_time 1_569_818_376_764us: GroupedRenderEvent(now=1_569_818_376_764us)
+19:51:44.012 [W0] INFO:	sim_time 1_569_818_376_764us: PolicyEvent @ 1_569_818_376_764us
+19:51:44.013 [W0] INFO:	Draining 6 outstanding tasks
+19:51:45.082 [W0] INFO:	sim_time 1_569_818_376_764us: ControllerEvent @ 1_569_818_376_764us
+19:51:45.088 [W0] INFO:	sim_time 1_569_818_376_764us: PhysicsEvent @ 1_569_818_376_764us
+19:51:45.091 [W0] INFO:	sim_time 1_569_818_376_764us: TrafficEvent @ 1_569_818_376_764us
+19:51:45.092 [W0] INFO:	sim_time 1_569_818_376_764us: PhysicsEvent @ 1_569_818_376_764us
+19:51:45.092 [W0] INFO:	sim_time 1_569_818_376_764us: StepEvent @ 1_569_818_376_764us
+19:51:45.093 [W0] INFO:	sim_time 1_569_818_476_764us: GroupedRenderEvent(now=1_569_818_476_764us)
+19:51:45.217 [W0] INFO:	sim_time 1_569_818_476_764us: PolicyEvent @ 1_569_818_476_764us
+19:51:45.218 [W0] INFO:	Draining 6 outstanding tasks
+19:51:46.274 [W0] INFO:	sim_time 1_569_818_476_764us: ControllerEvent @ 1_569_818_476_764us
+19:51:46.280 [W0] INFO:	sim_time 1_569_818_476_764us: PhysicsEvent @ 1_569_818_476_764us
+19:51:46.284 [W0] INFO:	sim_time 1_569_818_476_764us: TrafficEvent @ 1_569_818_476_764us
+19:51:46.284 [W0] INFO:	sim_time 1_569_818_476_764us: PhysicsEvent @ 1_569_818_476_764us
+19:51:46.284 [W0] INFO:	sim_time 1_569_818_476_764us: StepEvent @ 1_569_818_476_764us
+19:51:46.285 [W0] INFO:	sim_time 1_569_818_576_764us: GroupedRenderEvent(now=1_569_818_576_764us)
+19:51:46.403 [W0] INFO:	sim_time 1_569_818_576_764us: PolicyEvent @ 1_569_818_576_764us
+19:51:46.403 [W0] INFO:	Draining 6 outstanding tasks
+19:51:47.507 [W0] INFO:	sim_time 1_569_818_576_764us: ControllerEvent @ 1_569_818_576_764us
+19:51:47.513 [W0] INFO:	sim_time 1_569_818_576_764us: PhysicsEvent @ 1_569_818_576_764us
+19:51:47.517 [W0] INFO:	sim_time 1_569_818_576_764us: TrafficEvent @ 1_569_818_576_764us
+19:51:47.518 [W0] INFO:	sim_time 1_569_818_576_764us: PhysicsEvent @ 1_569_818_576_764us
+19:51:47.518 [W0] INFO:	sim_time 1_569_818_576_764us: StepEvent @ 1_569_818_576_764us
+19:51:47.519 [W0] INFO:	sim_time 1_569_818_676_764us: GroupedRenderEvent(now=1_569_818_676_764us)
+19:51:47.633 [W0] INFO:	sim_time 1_569_818_676_764us: PolicyEvent @ 1_569_818_676_764us
+19:51:47.633 [W0] INFO:	Draining 6 outstanding tasks
+19:51:48.731 [W0] INFO:	sim_time 1_569_818_676_764us: ControllerEvent @ 1_569_818_676_764us
+19:51:48.737 [W0] INFO:	sim_time 1_569_818_676_764us: PhysicsEvent @ 1_569_818_676_764us
+19:51:48.740 [W0] INFO:	sim_time 1_569_818_676_764us: TrafficEvent @ 1_569_818_676_764us
+19:51:48.741 [W0] INFO:	sim_time 1_569_818_676_764us: PhysicsEvent @ 1_569_818_676_764us
+19:51:48.741 [W0] INFO:	sim_time 1_569_818_676_764us: StepEvent @ 1_569_818_676_764us
+19:51:48.742 [W0] INFO:	sim_time 1_569_818_776_764us: GroupedRenderEvent(now=1_569_818_776_764us)
+19:51:48.859 [W0] INFO:	sim_time 1_569_818_776_764us: PolicyEvent @ 1_569_818_776_764us
+19:51:48.859 [W0] INFO:	Draining 6 outstanding tasks
+19:51:49.993 [W0] INFO:	sim_time 1_569_818_776_764us: ControllerEvent @ 1_569_818_776_764us
+19:51:49.999 [W0] INFO:	sim_time 1_569_818_776_764us: PhysicsEvent @ 1_569_818_776_764us
+19:51:50.003 [W0] INFO:	sim_time 1_569_818_776_764us: TrafficEvent @ 1_569_818_776_764us
+19:51:50.004 [W0] INFO:	sim_time 1_569_818_776_764us: PhysicsEvent @ 1_569_818_776_764us
+19:51:50.004 [W0] INFO:	sim_time 1_569_818_776_764us: StepEvent @ 1_569_818_776_764us
+19:51:50.005 [W0] INFO:	sim_time 1_569_818_876_764us: GroupedRenderEvent(now=1_569_818_876_764us)
+19:51:50.122 [W0] INFO:	sim_time 1_569_818_876_764us: PolicyEvent @ 1_569_818_876_764us
+19:51:50.122 [W0] INFO:	Draining 6 outstanding tasks
+19:51:51.267 [W0] INFO:	sim_time 1_569_818_876_764us: ControllerEvent @ 1_569_818_876_764us
+19:51:51.274 [W0] INFO:	sim_time 1_569_818_876_764us: PhysicsEvent @ 1_569_818_876_764us
+19:51:51.277 [W0] INFO:	sim_time 1_569_818_876_764us: TrafficEvent @ 1_569_818_876_764us
+19:51:51.278 [W0] INFO:	sim_time 1_569_818_876_764us: PhysicsEvent @ 1_569_818_876_764us
+19:51:51.278 [W0] INFO:	sim_time 1_569_818_876_764us: StepEvent @ 1_569_818_876_764us
+19:51:51.279 [W0] INFO:	sim_time 1_569_818_976_764us: GroupedRenderEvent(now=1_569_818_976_764us)
+19:51:51.396 [W0] INFO:	sim_time 1_569_818_976_764us: PolicyEvent @ 1_569_818_976_764us
+19:51:51.400 [W0] INFO:	Draining 6 outstanding tasks
+19:51:52.614 [W0] INFO:	sim_time 1_569_818_976_764us: ControllerEvent @ 1_569_818_976_764us
+19:51:52.621 [W0] INFO:	sim_time 1_569_818_976_764us: PhysicsEvent @ 1_569_818_976_764us
+19:51:52.624 [W0] INFO:	sim_time 1_569_818_976_764us: TrafficEvent @ 1_569_818_976_764us
+19:51:52.629 [W0] INFO:	sim_time 1_569_818_976_764us: PhysicsEvent @ 1_569_818_976_764us
+19:51:52.629 [W0] INFO:	sim_time 1_569_818_976_764us: StepEvent @ 1_569_818_976_764us
+19:51:52.648 [W0] INFO:	sim_time 1_569_819_076_764us: GroupedRenderEvent(now=1_569_819_076_764us)
+19:51:52.763 [W0] INFO:	sim_time 1_569_819_076_764us: PolicyEvent @ 1_569_819_076_764us
+19:51:52.764 [W0] INFO:	Draining 6 outstanding tasks
+19:51:53.880 [W0] INFO:	sim_time 1_569_819_076_764us: ControllerEvent @ 1_569_819_076_764us
+19:51:53.886 [W0] INFO:	sim_time 1_569_819_076_764us: PhysicsEvent @ 1_569_819_076_764us
+19:51:53.889 [W0] INFO:	sim_time 1_569_819_076_764us: TrafficEvent @ 1_569_819_076_764us
+19:51:53.890 [W0] INFO:	sim_time 1_569_819_076_764us: PhysicsEvent @ 1_569_819_076_764us
+19:51:53.890 [W0] INFO:	sim_time 1_569_819_076_764us: StepEvent @ 1_569_819_076_764us
+19:51:53.891 [W0] INFO:	sim_time 1_569_819_176_764us: GroupedRenderEvent(now=1_569_819_176_764us)
+19:51:54.006 [W0] INFO:	sim_time 1_569_819_176_764us: PolicyEvent @ 1_569_819_176_764us
+19:51:54.006 [W0] INFO:	Draining 6 outstanding tasks
+19:51:55.079 [W0] INFO:	sim_time 1_569_819_176_764us: ControllerEvent @ 1_569_819_176_764us
+19:51:55.085 [W0] INFO:	sim_time 1_569_819_176_764us: PhysicsEvent @ 1_569_819_176_764us
+19:51:55.088 [W0] INFO:	sim_time 1_569_819_176_764us: TrafficEvent @ 1_569_819_176_764us
+19:51:55.089 [W0] INFO:	sim_time 1_569_819_176_764us: PhysicsEvent @ 1_569_819_176_764us
+19:51:55.089 [W0] INFO:	sim_time 1_569_819_176_764us: StepEvent @ 1_569_819_176_764us
+19:51:55.090 [W0] INFO:	sim_time 1_569_819_276_764us: GroupedRenderEvent(now=1_569_819_276_764us)
+19:51:55.206 [W0] INFO:	sim_time 1_569_819_276_764us: PolicyEvent @ 1_569_819_276_764us
+19:51:55.206 [W0] INFO:	Draining 6 outstanding tasks
+19:51:56.356 [W0] INFO:	sim_time 1_569_819_276_764us: ControllerEvent @ 1_569_819_276_764us
+19:51:56.362 [W0] INFO:	sim_time 1_569_819_276_764us: PhysicsEvent @ 1_569_819_276_764us
+19:51:56.365 [W0] INFO:	sim_time 1_569_819_276_764us: TrafficEvent @ 1_569_819_276_764us
+19:51:56.366 [W0] INFO:	sim_time 1_569_819_276_764us: PhysicsEvent @ 1_569_819_276_764us
+19:51:56.366 [W0] INFO:	sim_time 1_569_819_276_764us: StepEvent @ 1_569_819_276_764us
+19:51:56.367 [W0] INFO:	sim_time 1_569_819_376_764us: GroupedRenderEvent(now=1_569_819_376_764us)
+19:51:56.481 [W0] INFO:	sim_time 1_569_819_376_764us: PolicyEvent @ 1_569_819_376_764us
+19:51:56.482 [W0] INFO:	Draining 6 outstanding tasks
+19:51:57.626 [W0] INFO:	sim_time 1_569_819_376_764us: ControllerEvent @ 1_569_819_376_764us
+19:51:57.632 [W0] INFO:	sim_time 1_569_819_376_764us: PhysicsEvent @ 1_569_819_376_764us
+19:51:57.635 [W0] INFO:	sim_time 1_569_819_376_764us: TrafficEvent @ 1_569_819_376_764us
+19:51:57.636 [W0] INFO:	sim_time 1_569_819_376_764us: PhysicsEvent @ 1_569_819_376_764us
+19:51:57.636 [W0] INFO:	sim_time 1_569_819_376_764us: StepEvent @ 1_569_819_376_764us
+19:51:57.637 [W0] INFO:	sim_time 1_569_819_476_764us: GroupedRenderEvent(now=1_569_819_476_764us)
+19:51:57.753 [W0] INFO:	sim_time 1_569_819_476_764us: PolicyEvent @ 1_569_819_476_764us
+19:51:57.754 [W0] INFO:	Draining 6 outstanding tasks
+19:51:58.771 [W0] INFO:	sim_time 1_569_819_476_764us: ControllerEvent @ 1_569_819_476_764us
+19:51:58.777 [W0] INFO:	sim_time 1_569_819_476_764us: PhysicsEvent @ 1_569_819_476_764us
+19:51:58.781 [W0] INFO:	sim_time 1_569_819_476_764us: TrafficEvent @ 1_569_819_476_764us
+19:51:58.782 [W0] INFO:	sim_time 1_569_819_476_764us: PhysicsEvent @ 1_569_819_476_764us
+19:51:58.782 [W0] INFO:	sim_time 1_569_819_476_764us: StepEvent @ 1_569_819_476_764us
+19:51:58.783 [W0] INFO:	sim_time 1_569_819_576_764us: GroupedRenderEvent(now=1_569_819_576_764us)
+19:51:58.904 [W0] INFO:	sim_time 1_569_819_576_764us: PolicyEvent @ 1_569_819_576_764us
+19:51:58.904 [W0] INFO:	Draining 6 outstanding tasks
+19:52:00.053 [W0] INFO:	sim_time 1_569_819_576_764us: ControllerEvent @ 1_569_819_576_764us
+19:52:00.059 [W0] INFO:	sim_time 1_569_819_576_764us: PhysicsEvent @ 1_569_819_576_764us
+19:52:00.063 [W0] INFO:	sim_time 1_569_819_576_764us: TrafficEvent @ 1_569_819_576_764us
+19:52:00.063 [W0] INFO:	sim_time 1_569_819_576_764us: PhysicsEvent @ 1_569_819_576_764us
+19:52:00.063 [W0] INFO:	sim_time 1_569_819_576_764us: StepEvent @ 1_569_819_576_764us
+19:52:00.064 [W0] INFO:	sim_time 1_569_819_676_764us: GroupedRenderEvent(now=1_569_819_676_764us)
+19:52:00.181 [W0] INFO:	sim_time 1_569_819_676_764us: PolicyEvent @ 1_569_819_676_764us
+19:52:00.182 [W0] INFO:	Draining 6 outstanding tasks
+19:52:01.277 [W0] INFO:	sim_time 1_569_819_676_764us: ControllerEvent @ 1_569_819_676_764us
+19:52:01.284 [W0] INFO:	sim_time 1_569_819_676_764us: PhysicsEvent @ 1_569_819_676_764us
+19:52:01.287 [W0] INFO:	sim_time 1_569_819_676_764us: TrafficEvent @ 1_569_819_676_764us
+19:52:01.288 [W0] INFO:	sim_time 1_569_819_676_764us: PhysicsEvent @ 1_569_819_676_764us
+19:52:01.288 [W0] INFO:	sim_time 1_569_819_676_764us: StepEvent @ 1_569_819_676_764us
+19:52:01.289 [W0] INFO:	sim_time 1_569_819_776_764us: GroupedRenderEvent(now=1_569_819_776_764us)
+19:52:01.406 [W0] INFO:	sim_time 1_569_819_776_764us: PolicyEvent @ 1_569_819_776_764us
+19:52:01.407 [W0] INFO:	Draining 6 outstanding tasks
+19:52:02.529 [W0] INFO:	sim_time 1_569_819_776_764us: ControllerEvent @ 1_569_819_776_764us
+19:52:02.536 [W0] INFO:	sim_time 1_569_819_776_764us: PhysicsEvent @ 1_569_819_776_764us
+19:52:02.539 [W0] INFO:	sim_time 1_569_819_776_764us: TrafficEvent @ 1_569_819_776_764us
+19:52:02.540 [W0] INFO:	sim_time 1_569_819_776_764us: PhysicsEvent @ 1_569_819_776_764us
+19:52:02.540 [W0] INFO:	sim_time 1_569_819_776_764us: StepEvent @ 1_569_819_776_764us
+19:52:02.541 [W0] INFO:	sim_time 1_569_819_876_764us: GroupedRenderEvent(now=1_569_819_876_764us)
+19:52:02.656 [W0] INFO:	sim_time 1_569_819_876_764us: PolicyEvent @ 1_569_819_876_764us
+19:52:02.656 [W0] INFO:	Draining 6 outstanding tasks
+19:52:03.873 [W0] INFO:	sim_time 1_569_819_876_764us: ControllerEvent @ 1_569_819_876_764us
+19:52:03.879 [W0] INFO:	sim_time 1_569_819_876_764us: PhysicsEvent @ 1_569_819_876_764us
+19:52:03.882 [W0] INFO:	sim_time 1_569_819_876_764us: TrafficEvent @ 1_569_819_876_764us
+19:52:03.883 [W0] INFO:	sim_time 1_569_819_876_764us: PhysicsEvent @ 1_569_819_876_764us
+19:52:03.883 [W0] INFO:	sim_time 1_569_819_876_764us: StepEvent @ 1_569_819_876_764us
+19:52:03.884 [W0] INFO:	sim_time 1_569_819_976_764us: GroupedRenderEvent(now=1_569_819_976_764us)
+19:52:03.998 [W0] INFO:	sim_time 1_569_819_976_764us: PolicyEvent @ 1_569_819_976_764us
+19:52:03.999 [W0] INFO:	Draining 6 outstanding tasks
+19:52:05.049 [W0] INFO:	sim_time 1_569_819_976_764us: ControllerEvent @ 1_569_819_976_764us
+19:52:05.056 [W0] INFO:	sim_time 1_569_819_976_764us: PhysicsEvent @ 1_569_819_976_764us
+19:52:05.059 [W0] INFO:	sim_time 1_569_819_976_764us: TrafficEvent @ 1_569_819_976_764us
+19:52:05.060 [W0] INFO:	sim_time 1_569_819_976_764us: PhysicsEvent @ 1_569_819_976_764us
+19:52:05.060 [W0] INFO:	sim_time 1_569_819_976_764us: StepEvent @ 1_569_819_976_764us
+19:52:05.061 [W0] INFO:	sim_time 1_569_820_076_764us: GroupedRenderEvent(now=1_569_820_076_764us)
+19:52:05.175 [W0] INFO:	sim_time 1_569_820_076_764us: PolicyEvent @ 1_569_820_076_764us
+19:52:05.175 [W0] INFO:	Draining 6 outstanding tasks
+19:52:06.249 [W0] INFO:	sim_time 1_569_820_076_764us: ControllerEvent @ 1_569_820_076_764us
+19:52:06.255 [W0] INFO:	sim_time 1_569_820_076_764us: PhysicsEvent @ 1_569_820_076_764us
+19:52:06.259 [W0] INFO:	sim_time 1_569_820_076_764us: TrafficEvent @ 1_569_820_076_764us
+19:52:06.260 [W0] INFO:	sim_time 1_569_820_076_764us: PhysicsEvent @ 1_569_820_076_764us
+19:52:06.260 [W0] INFO:	sim_time 1_569_820_076_764us: StepEvent @ 1_569_820_076_764us
+19:52:06.265 [W0] INFO:	sim_time 1_569_820_176_764us: GroupedRenderEvent(now=1_569_820_176_764us)
+19:52:06.380 [W0] INFO:	sim_time 1_569_820_176_764us: PolicyEvent @ 1_569_820_176_764us
+19:52:06.381 [W0] INFO:	Draining 6 outstanding tasks
+19:52:07.483 [W0] INFO:	sim_time 1_569_820_176_764us: ControllerEvent @ 1_569_820_176_764us
+19:52:07.490 [W0] INFO:	sim_time 1_569_820_176_764us: PhysicsEvent @ 1_569_820_176_764us
+19:52:07.494 [W0] INFO:	sim_time 1_569_820_176_764us: TrafficEvent @ 1_569_820_176_764us
+19:52:07.494 [W0] INFO:	sim_time 1_569_820_176_764us: PhysicsEvent @ 1_569_820_176_764us
+19:52:07.495 [W0] INFO:	sim_time 1_569_820_176_764us: StepEvent @ 1_569_820_176_764us
+19:52:07.495 [W0] INFO:	sim_time 1_569_820_276_764us: GroupedRenderEvent(now=1_569_820_276_764us)
+19:52:07.609 [W0] INFO:	sim_time 1_569_820_276_764us: PolicyEvent @ 1_569_820_276_764us
+19:52:07.609 [W0] INFO:	Draining 6 outstanding tasks
+19:52:08.710 [W0] INFO:	sim_time 1_569_820_276_764us: ControllerEvent @ 1_569_820_276_764us
+19:52:08.716 [W0] INFO:	sim_time 1_569_820_276_764us: PhysicsEvent @ 1_569_820_276_764us
+19:52:08.720 [W0] INFO:	sim_time 1_569_820_276_764us: TrafficEvent @ 1_569_820_276_764us
+19:52:08.720 [W0] INFO:	sim_time 1_569_820_276_764us: PhysicsEvent @ 1_569_820_276_764us
+19:52:08.720 [W0] INFO:	sim_time 1_569_820_276_764us: StepEvent @ 1_569_820_276_764us
+19:52:08.721 [W0] INFO:	sim_time 1_569_820_376_764us: GroupedRenderEvent(now=1_569_820_376_764us)
+19:52:08.834 [W0] INFO:	sim_time 1_569_820_376_764us: PolicyEvent @ 1_569_820_376_764us
+19:52:08.834 [W0] INFO:	Draining 6 outstanding tasks
+19:52:09.916 [W0] INFO:	sim_time 1_569_820_376_764us: ControllerEvent @ 1_569_820_376_764us
+19:52:09.922 [W0] INFO:	sim_time 1_569_820_376_764us: PhysicsEvent @ 1_569_820_376_764us
+19:52:09.925 [W0] INFO:	sim_time 1_569_820_376_764us: TrafficEvent @ 1_569_820_376_764us
+19:52:09.926 [W0] INFO:	sim_time 1_569_820_376_764us: PhysicsEvent @ 1_569_820_376_764us
+19:52:09.926 [W0] INFO:	sim_time 1_569_820_376_764us: StepEvent @ 1_569_820_376_764us
+19:52:09.927 [W0] INFO:	sim_time 1_569_820_476_764us: GroupedRenderEvent(now=1_569_820_476_764us)
+19:52:10.041 [W0] INFO:	sim_time 1_569_820_476_764us: PolicyEvent @ 1_569_820_476_764us
+19:52:10.041 [W0] INFO:	Draining 6 outstanding tasks
+19:52:11.140 [W0] INFO:	sim_time 1_569_820_476_764us: ControllerEvent @ 1_569_820_476_764us
+19:52:11.145 [W0] INFO:	sim_time 1_569_820_476_764us: PhysicsEvent @ 1_569_820_476_764us
+19:52:11.148 [W0] INFO:	sim_time 1_569_820_476_764us: TrafficEvent @ 1_569_820_476_764us
+19:52:11.149 [W0] INFO:	sim_time 1_569_820_476_764us: PhysicsEvent @ 1_569_820_476_764us
+19:52:11.149 [W0] INFO:	sim_time 1_569_820_476_764us: StepEvent @ 1_569_820_476_764us
+19:52:11.150 [W0] INFO:	sim_time 1_569_820_576_764us: GroupedRenderEvent(now=1_569_820_576_764us)
+19:52:11.265 [W0] INFO:	sim_time 1_569_820_576_764us: PolicyEvent @ 1_569_820_576_764us
+19:52:11.265 [W0] INFO:	Draining 6 outstanding tasks
+19:52:12.539 [W0] INFO:	sim_time 1_569_820_576_764us: ControllerEvent @ 1_569_820_576_764us
+19:52:12.545 [W0] INFO:	sim_time 1_569_820_576_764us: PhysicsEvent @ 1_569_820_576_764us
+19:52:12.548 [W0] INFO:	sim_time 1_569_820_576_764us: TrafficEvent @ 1_569_820_576_764us
+19:52:12.548 [W0] INFO:	sim_time 1_569_820_576_764us: PhysicsEvent @ 1_569_820_576_764us
+19:52:12.548 [W0] INFO:	sim_time 1_569_820_576_764us: StepEvent @ 1_569_820_576_764us
+19:52:12.549 [W0] INFO:	sim_time 1_569_820_676_764us: GroupedRenderEvent(now=1_569_820_676_764us)
+19:52:12.663 [W0] INFO:	sim_time 1_569_820_676_764us: PolicyEvent @ 1_569_820_676_764us
+19:52:12.663 [W0] INFO:	Draining 6 outstanding tasks
+19:52:13.767 [W0] INFO:	sim_time 1_569_820_676_764us: ControllerEvent @ 1_569_820_676_764us
+19:52:13.777 [W0] INFO:	sim_time 1_569_820_676_764us: PhysicsEvent @ 1_569_820_676_764us
+19:52:13.780 [W0] INFO:	sim_time 1_569_820_676_764us: TrafficEvent @ 1_569_820_676_764us
+19:52:13.781 [W0] INFO:	sim_time 1_569_820_676_764us: PhysicsEvent @ 1_569_820_676_764us
+19:52:13.781 [W0] INFO:	sim_time 1_569_820_676_764us: StepEvent @ 1_569_820_676_764us
+19:52:13.782 [W0] INFO:	sim_time 1_569_820_776_764us: GroupedRenderEvent(now=1_569_820_776_764us)
+19:52:13.898 [W0] INFO:	sim_time 1_569_820_776_764us: PolicyEvent @ 1_569_820_776_764us
+19:52:13.899 [W0] INFO:	Draining 6 outstanding tasks
+19:52:14.955 [W0] INFO:	sim_time 1_569_820_776_764us: ControllerEvent @ 1_569_820_776_764us
+19:52:14.961 [W0] INFO:	sim_time 1_569_820_776_764us: PhysicsEvent @ 1_569_820_776_764us
+19:52:14.964 [W0] INFO:	sim_time 1_569_820_776_764us: TrafficEvent @ 1_569_820_776_764us
+19:52:14.964 [W0] INFO:	sim_time 1_569_820_776_764us: PhysicsEvent @ 1_569_820_776_764us
+19:52:14.965 [W0] INFO:	sim_time 1_569_820_776_764us: StepEvent @ 1_569_820_776_764us
+19:52:14.965 [W0] INFO:	sim_time 1_569_820_876_764us: GroupedRenderEvent(now=1_569_820_876_764us)
+19:52:15.078 [W0] INFO:	sim_time 1_569_820_876_764us: PolicyEvent @ 1_569_820_876_764us
+19:52:15.079 [W0] INFO:	Draining 6 outstanding tasks
+19:52:16.269 [W0] INFO:	sim_time 1_569_820_876_764us: ControllerEvent @ 1_569_820_876_764us
+19:52:16.275 [W0] INFO:	sim_time 1_569_820_876_764us: PhysicsEvent @ 1_569_820_876_764us
+19:52:16.279 [W0] INFO:	sim_time 1_569_820_876_764us: TrafficEvent @ 1_569_820_876_764us
+19:52:16.279 [W0] INFO:	sim_time 1_569_820_876_764us: PhysicsEvent @ 1_569_820_876_764us
+19:52:16.279 [W0] INFO:	sim_time 1_569_820_876_764us: StepEvent @ 1_569_820_876_764us
+19:52:16.280 [W0] INFO:	sim_time 1_569_820_976_764us: GroupedRenderEvent(now=1_569_820_976_764us)
+19:52:16.394 [W0] INFO:	sim_time 1_569_820_976_764us: PolicyEvent @ 1_569_820_976_764us
+19:52:16.395 [W0] INFO:	Draining 6 outstanding tasks
+19:52:17.471 [W0] INFO:	sim_time 1_569_820_976_764us: ControllerEvent @ 1_569_820_976_764us
+19:52:17.477 [W0] INFO:	sim_time 1_569_820_976_764us: PhysicsEvent @ 1_569_820_976_764us
+19:52:17.480 [W0] INFO:	sim_time 1_569_820_976_764us: TrafficEvent @ 1_569_820_976_764us
+19:52:17.480 [W0] INFO:	sim_time 1_569_820_976_764us: PhysicsEvent @ 1_569_820_976_764us
+19:52:17.480 [W0] INFO:	sim_time 1_569_820_976_764us: StepEvent @ 1_569_820_976_764us
+19:52:17.481 [W0] INFO:	sim_time 1_569_821_076_764us: GroupedRenderEvent(now=1_569_821_076_764us)
+19:52:17.596 [W0] INFO:	sim_time 1_569_821_076_764us: PolicyEvent @ 1_569_821_076_764us
+19:52:17.596 [W0] INFO:	Draining 6 outstanding tasks
+19:52:18.690 [W0] INFO:	sim_time 1_569_821_076_764us: ControllerEvent @ 1_569_821_076_764us
+19:52:18.696 [W0] INFO:	sim_time 1_569_821_076_764us: PhysicsEvent @ 1_569_821_076_764us
+19:52:18.699 [W0] INFO:	sim_time 1_569_821_076_764us: TrafficEvent @ 1_569_821_076_764us
+19:52:18.699 [W0] INFO:	sim_time 1_569_821_076_764us: PhysicsEvent @ 1_569_821_076_764us
+19:52:18.700 [W0] INFO:	sim_time 1_569_821_076_764us: StepEvent @ 1_569_821_076_764us
+19:52:18.700 [W0] INFO:	sim_time 1_569_821_176_764us: GroupedRenderEvent(now=1_569_821_176_764us)
+19:52:18.814 [W0] INFO:	sim_time 1_569_821_176_764us: PolicyEvent @ 1_569_821_176_764us
+19:52:18.815 [W0] INFO:	Draining 6 outstanding tasks
+19:52:19.907 [W0] INFO:	sim_time 1_569_821_176_764us: ControllerEvent @ 1_569_821_176_764us
+19:52:19.913 [W0] INFO:	sim_time 1_569_821_176_764us: PhysicsEvent @ 1_569_821_176_764us
+19:52:19.916 [W0] INFO:	sim_time 1_569_821_176_764us: TrafficEvent @ 1_569_821_176_764us
+19:52:19.917 [W0] INFO:	sim_time 1_569_821_176_764us: PhysicsEvent @ 1_569_821_176_764us
+19:52:19.917 [W0] INFO:	sim_time 1_569_821_176_764us: StepEvent @ 1_569_821_176_764us
+19:52:19.918 [W0] INFO:	sim_time 1_569_821_276_764us: GroupedRenderEvent(now=1_569_821_276_764us)
+19:52:20.031 [W0] INFO:	sim_time 1_569_821_276_764us: PolicyEvent @ 1_569_821_276_764us
+19:52:20.032 [W0] INFO:	Draining 6 outstanding tasks
+19:52:21.149 [W0] INFO:	sim_time 1_569_821_276_764us: ControllerEvent @ 1_569_821_276_764us
+19:52:21.159 [W0] INFO:	sim_time 1_569_821_276_764us: PhysicsEvent @ 1_569_821_276_764us
+19:52:21.162 [W0] INFO:	sim_time 1_569_821_276_764us: TrafficEvent @ 1_569_821_276_764us
+19:52:21.162 [W0] INFO:	sim_time 1_569_821_276_764us: PhysicsEvent @ 1_569_821_276_764us
+19:52:21.163 [W0] INFO:	sim_time 1_569_821_276_764us: StepEvent @ 1_569_821_276_764us
+19:52:21.163 [W0] INFO:	sim_time 1_569_821_376_764us: GroupedRenderEvent(now=1_569_821_376_764us)
+19:52:21.278 [W0] INFO:	sim_time 1_569_821_376_764us: PolicyEvent @ 1_569_821_376_764us
+19:52:21.279 [W0] INFO:	Draining 6 outstanding tasks
+19:52:22.352 [W0] INFO:	sim_time 1_569_821_376_764us: ControllerEvent @ 1_569_821_376_764us
+19:52:22.359 [W0] INFO:	sim_time 1_569_821_376_764us: PhysicsEvent @ 1_569_821_376_764us
+19:52:22.362 [W0] INFO:	sim_time 1_569_821_376_764us: TrafficEvent @ 1_569_821_376_764us
+19:52:22.362 [W0] INFO:	sim_time 1_569_821_376_764us: PhysicsEvent @ 1_569_821_376_764us
+19:52:22.362 [W0] INFO:	sim_time 1_569_821_376_764us: StepEvent @ 1_569_821_376_764us
+19:52:22.363 [W0] INFO:	sim_time 1_569_821_476_764us: GroupedRenderEvent(now=1_569_821_476_764us)
+19:52:22.475 [W0] INFO:	sim_time 1_569_821_476_764us: PolicyEvent @ 1_569_821_476_764us
+19:52:22.475 [W0] INFO:	Draining 6 outstanding tasks
+19:52:23.575 [W0] INFO:	sim_time 1_569_821_476_764us: ControllerEvent @ 1_569_821_476_764us
+19:52:23.580 [W0] INFO:	sim_time 1_569_821_476_764us: PhysicsEvent @ 1_569_821_476_764us
+19:52:23.583 [W0] INFO:	sim_time 1_569_821_476_764us: TrafficEvent @ 1_569_821_476_764us
+19:52:23.584 [W0] INFO:	sim_time 1_569_821_476_764us: PhysicsEvent @ 1_569_821_476_764us
+19:52:23.584 [W0] INFO:	sim_time 1_569_821_476_764us: StepEvent @ 1_569_821_476_764us
+19:52:23.585 [W0] INFO:	sim_time 1_569_821_576_764us: GroupedRenderEvent(now=1_569_821_576_764us)
+19:52:23.697 [W0] INFO:	sim_time 1_569_821_576_764us: PolicyEvent @ 1_569_821_576_764us
+19:52:23.698 [W0] INFO:	Draining 6 outstanding tasks
+19:52:24.794 [W0] INFO:	sim_time 1_569_821_576_764us: ControllerEvent @ 1_569_821_576_764us
+19:52:24.801 [W0] INFO:	sim_time 1_569_821_576_764us: PhysicsEvent @ 1_569_821_576_764us
+19:52:24.804 [W0] INFO:	sim_time 1_569_821_576_764us: TrafficEvent @ 1_569_821_576_764us
+19:52:24.804 [W0] INFO:	sim_time 1_569_821_576_764us: PhysicsEvent @ 1_569_821_576_764us
+19:52:24.804 [W0] INFO:	sim_time 1_569_821_576_764us: StepEvent @ 1_569_821_576_764us
+19:52:24.805 [W0] INFO:	sim_time 1_569_821_676_764us: GroupedRenderEvent(now=1_569_821_676_764us)
+19:52:24.917 [W0] INFO:	sim_time 1_569_821_676_764us: PolicyEvent @ 1_569_821_676_764us
+19:52:24.917 [W0] INFO:	Draining 6 outstanding tasks
+19:52:26.013 [W0] INFO:	sim_time 1_569_821_676_764us: ControllerEvent @ 1_569_821_676_764us
+19:52:26.019 [W0] INFO:	sim_time 1_569_821_676_764us: PhysicsEvent @ 1_569_821_676_764us
+19:52:26.022 [W0] INFO:	sim_time 1_569_821_676_764us: TrafficEvent @ 1_569_821_676_764us
+19:52:26.022 [W0] INFO:	sim_time 1_569_821_676_764us: PhysicsEvent @ 1_569_821_676_764us
+19:52:26.023 [W0] INFO:	sim_time 1_569_821_676_764us: StepEvent @ 1_569_821_676_764us
+19:52:26.023 [W0] INFO:	sim_time 1_569_821_776_764us: GroupedRenderEvent(now=1_569_821_776_764us)
+19:52:26.136 [W0] INFO:	sim_time 1_569_821_776_764us: PolicyEvent @ 1_569_821_776_764us
+19:52:26.137 [W0] INFO:	Draining 6 outstanding tasks
+19:52:27.250 [W0] INFO:	sim_time 1_569_821_776_764us: ControllerEvent @ 1_569_821_776_764us
+19:52:27.255 [W0] INFO:	sim_time 1_569_821_776_764us: PhysicsEvent @ 1_569_821_776_764us
+19:52:27.258 [W0] INFO:	sim_time 1_569_821_776_764us: TrafficEvent @ 1_569_821_776_764us
+19:52:27.259 [W0] INFO:	sim_time 1_569_821_776_764us: PhysicsEvent @ 1_569_821_776_764us
+19:52:27.259 [W0] INFO:	sim_time 1_569_821_776_764us: StepEvent @ 1_569_821_776_764us
+19:52:27.260 [W0] INFO:	sim_time 1_569_821_876_764us: GroupedRenderEvent(now=1_569_821_876_764us)
+19:52:27.373 [W0] INFO:	sim_time 1_569_821_876_764us: PolicyEvent @ 1_569_821_876_764us
+19:52:27.373 [W0] INFO:	Draining 6 outstanding tasks
+19:52:28.449 [W0] INFO:	sim_time 1_569_821_876_764us: ControllerEvent @ 1_569_821_876_764us
+19:52:28.459 [W0] INFO:	sim_time 1_569_821_876_764us: PhysicsEvent @ 1_569_821_876_764us
+19:52:28.462 [W0] INFO:	sim_time 1_569_821_876_764us: TrafficEvent @ 1_569_821_876_764us
+19:52:28.462 [W0] INFO:	sim_time 1_569_821_876_764us: PhysicsEvent @ 1_569_821_876_764us
+19:52:28.462 [W0] INFO:	sim_time 1_569_821_876_764us: StepEvent @ 1_569_821_876_764us
+19:52:28.463 [W0] INFO:	sim_time 1_569_821_976_764us: GroupedRenderEvent(now=1_569_821_976_764us)
+19:52:28.577 [W0] INFO:	sim_time 1_569_821_976_764us: PolicyEvent @ 1_569_821_976_764us
+19:52:28.578 [W0] INFO:	Draining 6 outstanding tasks
+19:52:29.725 [W0] INFO:	sim_time 1_569_821_976_764us: ControllerEvent @ 1_569_821_976_764us
+19:52:29.732 [W0] INFO:	sim_time 1_569_821_976_764us: PhysicsEvent @ 1_569_821_976_764us
+19:52:29.735 [W0] INFO:	sim_time 1_569_821_976_764us: TrafficEvent @ 1_569_821_976_764us
+19:52:29.736 [W0] INFO:	sim_time 1_569_821_976_764us: PhysicsEvent @ 1_569_821_976_764us
+19:52:29.736 [W0] INFO:	sim_time 1_569_821_976_764us: StepEvent @ 1_569_821_976_764us
+19:52:29.737 [W0] INFO:	sim_time 1_569_822_076_764us: GroupedRenderEvent(now=1_569_822_076_764us)
+19:52:29.852 [W0] INFO:	sim_time 1_569_822_076_764us: PolicyEvent @ 1_569_822_076_764us
+19:52:29.852 [W0] INFO:	Draining 6 outstanding tasks
+19:52:30.953 [W0] INFO:	sim_time 1_569_822_076_764us: ControllerEvent @ 1_569_822_076_764us
+19:52:30.959 [W0] INFO:	sim_time 1_569_822_076_764us: PhysicsEvent @ 1_569_822_076_764us
+19:52:30.962 [W0] INFO:	sim_time 1_569_822_076_764us: TrafficEvent @ 1_569_822_076_764us
+19:52:30.962 [W0] INFO:	sim_time 1_569_822_076_764us: PhysicsEvent @ 1_569_822_076_764us
+19:52:30.962 [W0] INFO:	sim_time 1_569_822_076_764us: StepEvent @ 1_569_822_076_764us
+19:52:30.963 [W0] INFO:	sim_time 1_569_822_176_764us: GroupedRenderEvent(now=1_569_822_176_764us)
+19:52:31.077 [W0] INFO:	sim_time 1_569_822_176_764us: PolicyEvent @ 1_569_822_176_764us
+19:52:31.077 [W0] INFO:	Draining 6 outstanding tasks
+19:52:32.223 [W0] INFO:	sim_time 1_569_822_176_764us: ControllerEvent @ 1_569_822_176_764us
+19:52:32.230 [W0] INFO:	sim_time 1_569_822_176_764us: PhysicsEvent @ 1_569_822_176_764us
+19:52:32.234 [W0] INFO:	sim_time 1_569_822_176_764us: TrafficEvent @ 1_569_822_176_764us
+19:52:32.235 [W0] INFO:	sim_time 1_569_822_176_764us: PhysicsEvent @ 1_569_822_176_764us
+19:52:32.235 [W0] INFO:	sim_time 1_569_822_176_764us: StepEvent @ 1_569_822_176_764us
+19:52:32.236 [W0] INFO:	sim_time 1_569_822_276_764us: GroupedRenderEvent(now=1_569_822_276_764us)
+19:52:32.349 [W0] INFO:	sim_time 1_569_822_276_764us: PolicyEvent @ 1_569_822_276_764us
+19:52:32.349 [W0] INFO:	Draining 6 outstanding tasks
+19:52:33.446 [W0] INFO:	sim_time 1_569_822_276_764us: ControllerEvent @ 1_569_822_276_764us
+19:52:33.452 [W0] INFO:	sim_time 1_569_822_276_764us: PhysicsEvent @ 1_569_822_276_764us
+19:52:33.455 [W0] INFO:	sim_time 1_569_822_276_764us: TrafficEvent @ 1_569_822_276_764us
+19:52:33.456 [W0] INFO:	sim_time 1_569_822_276_764us: PhysicsEvent @ 1_569_822_276_764us
+19:52:33.456 [W0] INFO:	sim_time 1_569_822_276_764us: StepEvent @ 1_569_822_276_764us
+19:52:33.457 [W0] INFO:	sim_time 1_569_822_376_764us: GroupedRenderEvent(now=1_569_822_376_764us)
+19:52:33.571 [W0] INFO:	sim_time 1_569_822_376_764us: PolicyEvent @ 1_569_822_376_764us
+19:52:33.571 [W0] INFO:	Draining 6 outstanding tasks
+19:52:34.711 [W0] INFO:	sim_time 1_569_822_376_764us: ControllerEvent @ 1_569_822_376_764us
+19:52:34.717 [W0] INFO:	sim_time 1_569_822_376_764us: PhysicsEvent @ 1_569_822_376_764us
+19:52:34.720 [W0] INFO:	sim_time 1_569_822_376_764us: TrafficEvent @ 1_569_822_376_764us
+19:52:34.720 [W0] INFO:	sim_time 1_569_822_376_764us: PhysicsEvent @ 1_569_822_376_764us
+19:52:34.721 [W0] INFO:	sim_time 1_569_822_376_764us: StepEvent @ 1_569_822_376_764us
+19:52:34.721 [W0] INFO:	sim_time 1_569_822_476_764us: GroupedRenderEvent(now=1_569_822_476_764us)
+19:52:34.834 [W0] INFO:	sim_time 1_569_822_476_764us: PolicyEvent @ 1_569_822_476_764us
+19:52:34.835 [W0] INFO:	Draining 6 outstanding tasks
+19:52:35.910 [W0] INFO:	sim_time 1_569_822_476_764us: ControllerEvent @ 1_569_822_476_764us
+19:52:35.920 [W0] INFO:	sim_time 1_569_822_476_764us: PhysicsEvent @ 1_569_822_476_764us
+19:52:35.923 [W0] INFO:	sim_time 1_569_822_476_764us: TrafficEvent @ 1_569_822_476_764us
+19:52:35.924 [W0] INFO:	sim_time 1_569_822_476_764us: PhysicsEvent @ 1_569_822_476_764us
+19:52:35.924 [W0] INFO:	sim_time 1_569_822_476_764us: StepEvent @ 1_569_822_476_764us
+19:52:35.925 [W0] INFO:	sim_time 1_569_822_576_764us: GroupedRenderEvent(now=1_569_822_576_764us)
+19:52:36.042 [W0] INFO:	sim_time 1_569_822_576_764us: PolicyEvent @ 1_569_822_576_764us
+19:52:36.043 [W0] INFO:	Draining 6 outstanding tasks
+19:52:37.173 [W0] INFO:	sim_time 1_569_822_576_764us: ControllerEvent @ 1_569_822_576_764us
+19:52:37.180 [W0] INFO:	sim_time 1_569_822_576_764us: PhysicsEvent @ 1_569_822_576_764us
+19:52:37.183 [W0] INFO:	sim_time 1_569_822_576_764us: TrafficEvent @ 1_569_822_576_764us
+19:52:37.183 [W0] INFO:	sim_time 1_569_822_576_764us: PhysicsEvent @ 1_569_822_576_764us
+19:52:37.184 [W0] INFO:	sim_time 1_569_822_576_764us: StepEvent @ 1_569_822_576_764us
+19:52:37.184 [W0] INFO:	sim_time 1_569_822_676_764us: GroupedRenderEvent(now=1_569_822_676_764us)
+19:52:37.298 [W0] INFO:	sim_time 1_569_822_676_764us: PolicyEvent @ 1_569_822_676_764us
+19:52:37.298 [W0] INFO:	Draining 6 outstanding tasks
+19:52:38.433 [W0] INFO:	sim_time 1_569_822_676_764us: ControllerEvent @ 1_569_822_676_764us
+19:52:38.439 [W0] INFO:	sim_time 1_569_822_676_764us: PhysicsEvent @ 1_569_822_676_764us
+19:52:38.442 [W0] INFO:	sim_time 1_569_822_676_764us: TrafficEvent @ 1_569_822_676_764us
+19:52:38.443 [W0] INFO:	sim_time 1_569_822_676_764us: PhysicsEvent @ 1_569_822_676_764us
+19:52:38.443 [W0] INFO:	sim_time 1_569_822_676_764us: StepEvent @ 1_569_822_676_764us
+19:52:38.445 [W0] INFO:	sim_time 1_569_822_776_764us: GroupedRenderEvent(now=1_569_822_776_764us)
+19:52:38.560 [W0] INFO:	sim_time 1_569_822_776_764us: PolicyEvent @ 1_569_822_776_764us
+19:52:38.560 [W0] INFO:	Draining 6 outstanding tasks
+19:52:39.656 [W0] INFO:	sim_time 1_569_822_776_764us: ControllerEvent @ 1_569_822_776_764us
+19:52:39.662 [W0] INFO:	sim_time 1_569_822_776_764us: PhysicsEvent @ 1_569_822_776_764us
+19:52:39.666 [W0] INFO:	sim_time 1_569_822_776_764us: TrafficEvent @ 1_569_822_776_764us
+19:52:39.666 [W0] INFO:	sim_time 1_569_822_776_764us: PhysicsEvent @ 1_569_822_776_764us
+19:52:39.666 [W0] INFO:	sim_time 1_569_822_776_764us: StepEvent @ 1_569_822_776_764us
+19:52:39.667 [W0] INFO:	sim_time 1_569_822_876_764us: GroupedRenderEvent(now=1_569_822_876_764us)
+19:52:39.780 [W0] INFO:	sim_time 1_569_822_876_764us: PolicyEvent @ 1_569_822_876_764us
+19:52:39.781 [W0] INFO:	Draining 6 outstanding tasks
+19:52:40.923 [W0] INFO:	sim_time 1_569_822_876_764us: ControllerEvent @ 1_569_822_876_764us
+19:52:40.929 [W0] INFO:	sim_time 1_569_822_876_764us: PhysicsEvent @ 1_569_822_876_764us
+19:52:40.932 [W0] INFO:	sim_time 1_569_822_876_764us: TrafficEvent @ 1_569_822_876_764us
+19:52:40.933 [W0] INFO:	sim_time 1_569_822_876_764us: PhysicsEvent @ 1_569_822_876_764us
+19:52:40.933 [W0] INFO:	sim_time 1_569_822_876_764us: StepEvent @ 1_569_822_876_764us
+19:52:40.933 [W0] INFO:	sim_time 1_569_822_976_764us: GroupedRenderEvent(now=1_569_822_976_764us)
+19:52:41.046 [W0] INFO:	sim_time 1_569_822_976_764us: PolicyEvent @ 1_569_822_976_764us
+19:52:41.046 [W0] INFO:	Draining 6 outstanding tasks
+19:52:42.143 [W0] INFO:	sim_time 1_569_822_976_764us: ControllerEvent @ 1_569_822_976_764us
+19:52:42.148 [W0] INFO:	sim_time 1_569_822_976_764us: PhysicsEvent @ 1_569_822_976_764us
+19:52:42.152 [W0] INFO:	sim_time 1_569_822_976_764us: TrafficEvent @ 1_569_822_976_764us
+19:52:42.152 [W0] INFO:	sim_time 1_569_822_976_764us: PhysicsEvent @ 1_569_822_976_764us
+19:52:42.152 [W0] INFO:	sim_time 1_569_822_976_764us: StepEvent @ 1_569_822_976_764us
+19:52:42.153 [W0] INFO:	sim_time 1_569_823_076_764us: GroupedRenderEvent(now=1_569_823_076_764us)
+19:52:42.269 [W0] INFO:	sim_time 1_569_823_076_764us: PolicyEvent @ 1_569_823_076_764us
+19:52:42.270 [W0] INFO:	Draining 6 outstanding tasks
+19:52:43.343 [W0] INFO:	sim_time 1_569_823_076_764us: ControllerEvent @ 1_569_823_076_764us
+19:52:43.349 [W0] INFO:	sim_time 1_569_823_076_764us: PhysicsEvent @ 1_569_823_076_764us
+19:52:43.353 [W0] INFO:	sim_time 1_569_823_076_764us: TrafficEvent @ 1_569_823_076_764us
+19:52:43.353 [W0] INFO:	sim_time 1_569_823_076_764us: PhysicsEvent @ 1_569_823_076_764us
+19:52:43.353 [W0] INFO:	sim_time 1_569_823_076_764us: StepEvent @ 1_569_823_076_764us
+19:52:43.354 [W0] INFO:	sim_time 1_569_823_176_764us: GroupedRenderEvent(now=1_569_823_176_764us)
+19:52:43.466 [W0] INFO:	sim_time 1_569_823_176_764us: PolicyEvent @ 1_569_823_176_764us
+19:52:43.466 [W0] INFO:	Draining 6 outstanding tasks
+19:52:44.564 [W0] INFO:	sim_time 1_569_823_176_764us: ControllerEvent @ 1_569_823_176_764us
+19:52:44.570 [W0] INFO:	sim_time 1_569_823_176_764us: PhysicsEvent @ 1_569_823_176_764us
+19:52:44.573 [W0] INFO:	sim_time 1_569_823_176_764us: TrafficEvent @ 1_569_823_176_764us
+19:52:44.574 [W0] INFO:	sim_time 1_569_823_176_764us: PhysicsEvent @ 1_569_823_176_764us
+19:52:44.574 [W0] INFO:	sim_time 1_569_823_176_764us: StepEvent @ 1_569_823_176_764us
+19:52:44.574 [W0] INFO:	sim_time 1_569_823_276_764us: GroupedRenderEvent(now=1_569_823_276_764us)
+19:52:44.687 [W0] INFO:	sim_time 1_569_823_276_764us: PolicyEvent @ 1_569_823_276_764us
+19:52:44.687 [W0] INFO:	Draining 6 outstanding tasks
+19:52:45.760 [W0] INFO:	sim_time 1_569_823_276_764us: ControllerEvent @ 1_569_823_276_764us
+19:52:45.766 [W0] INFO:	sim_time 1_569_823_276_764us: PhysicsEvent @ 1_569_823_276_764us
+19:52:45.770 [W0] INFO:	sim_time 1_569_823_276_764us: TrafficEvent @ 1_569_823_276_764us
+19:52:45.770 [W0] INFO:	sim_time 1_569_823_276_764us: PhysicsEvent @ 1_569_823_276_764us
+19:52:45.770 [W0] INFO:	sim_time 1_569_823_276_764us: StepEvent @ 1_569_823_276_764us
+19:52:45.771 [W0] INFO:	sim_time 1_569_823_376_764us: GroupedRenderEvent(now=1_569_823_376_764us)
+19:52:45.882 [W0] INFO:	sim_time 1_569_823_376_764us: PolicyEvent @ 1_569_823_376_764us
+19:52:45.882 [W0] INFO:	Draining 6 outstanding tasks
+19:52:46.980 [W0] INFO:	sim_time 1_569_823_376_764us: ControllerEvent @ 1_569_823_376_764us
+19:52:46.986 [W0] INFO:	sim_time 1_569_823_376_764us: PhysicsEvent @ 1_569_823_376_764us
+19:52:46.989 [W0] INFO:	sim_time 1_569_823_376_764us: TrafficEvent @ 1_569_823_376_764us
+19:52:46.990 [W0] INFO:	sim_time 1_569_823_376_764us: PhysicsEvent @ 1_569_823_376_764us
+19:52:46.990 [W0] INFO:	sim_time 1_569_823_376_764us: StepEvent @ 1_569_823_376_764us
+19:52:46.991 [W0] INFO:	sim_time 1_569_823_476_764us: GroupedRenderEvent(now=1_569_823_476_764us)
+19:52:47.100 [W0] INFO:	sim_time 1_569_823_476_764us: PolicyEvent @ 1_569_823_476_764us
+19:52:47.101 [W0] INFO:	Draining 6 outstanding tasks
+19:52:48.174 [W0] INFO:	sim_time 1_569_823_476_764us: ControllerEvent @ 1_569_823_476_764us
+19:52:48.180 [W0] INFO:	sim_time 1_569_823_476_764us: PhysicsEvent @ 1_569_823_476_764us
+19:52:48.184 [W0] INFO:	sim_time 1_569_823_476_764us: TrafficEvent @ 1_569_823_476_764us
+19:52:48.184 [W0] INFO:	sim_time 1_569_823_476_764us: PhysicsEvent @ 1_569_823_476_764us
+19:52:48.184 [W0] INFO:	sim_time 1_569_823_476_764us: StepEvent @ 1_569_823_476_764us
+19:52:48.185 [W0] INFO:	sim_time 1_569_823_576_764us: GroupedRenderEvent(now=1_569_823_576_764us)
+19:52:48.298 [W0] INFO:	sim_time 1_569_823_576_764us: PolicyEvent @ 1_569_823_576_764us
+19:52:48.299 [W0] INFO:	Draining 6 outstanding tasks
+19:52:49.369 [W0] INFO:	sim_time 1_569_823_576_764us: ControllerEvent @ 1_569_823_576_764us
+19:52:49.375 [W0] INFO:	sim_time 1_569_823_576_764us: PhysicsEvent @ 1_569_823_576_764us
+19:52:49.378 [W0] INFO:	sim_time 1_569_823_576_764us: TrafficEvent @ 1_569_823_576_764us
+19:52:49.379 [W0] INFO:	sim_time 1_569_823_576_764us: PhysicsEvent @ 1_569_823_576_764us
+19:52:49.379 [W0] INFO:	sim_time 1_569_823_576_764us: StepEvent @ 1_569_823_576_764us
+19:52:49.379 [W0] INFO:	sim_time 1_569_823_676_764us: GroupedRenderEvent(now=1_569_823_676_764us)
+19:52:49.498 [W0] INFO:	sim_time 1_569_823_676_764us: PolicyEvent @ 1_569_823_676_764us
+19:52:49.498 [W0] INFO:	Draining 6 outstanding tasks
+19:52:50.581 [W0] INFO:	sim_time 1_569_823_676_764us: ControllerEvent @ 1_569_823_676_764us
+19:52:50.587 [W0] INFO:	sim_time 1_569_823_676_764us: PhysicsEvent @ 1_569_823_676_764us
+19:52:50.591 [W0] INFO:	sim_time 1_569_823_676_764us: TrafficEvent @ 1_569_823_676_764us
+19:52:50.591 [W0] INFO:	sim_time 1_569_823_676_764us: PhysicsEvent @ 1_569_823_676_764us
+19:52:50.591 [W0] INFO:	sim_time 1_569_823_676_764us: StepEvent @ 1_569_823_676_764us
+19:52:50.592 [W0] INFO:	sim_time 1_569_823_776_764us: GroupedRenderEvent(now=1_569_823_776_764us)
+19:52:50.704 [W0] INFO:	sim_time 1_569_823_776_764us: PolicyEvent @ 1_569_823_776_764us
+19:52:50.704 [W0] INFO:	Draining 6 outstanding tasks
+19:52:51.775 [W0] INFO:	sim_time 1_569_823_776_764us: ControllerEvent @ 1_569_823_776_764us
+19:52:51.781 [W0] INFO:	sim_time 1_569_823_776_764us: PhysicsEvent @ 1_569_823_776_764us
+19:52:51.784 [W0] INFO:	sim_time 1_569_823_776_764us: TrafficEvent @ 1_569_823_776_764us
+19:52:51.785 [W0] INFO:	sim_time 1_569_823_776_764us: PhysicsEvent @ 1_569_823_776_764us
+19:52:51.785 [W0] INFO:	sim_time 1_569_823_776_764us: StepEvent @ 1_569_823_776_764us
+19:52:51.786 [W0] INFO:	sim_time 1_569_823_876_764us: GroupedRenderEvent(now=1_569_823_876_764us)
+19:52:51.897 [W0] INFO:	sim_time 1_569_823_876_764us: PolicyEvent @ 1_569_823_876_764us
+19:52:51.897 [W0] INFO:	Draining 6 outstanding tasks
+19:52:52.964 [W0] INFO:	sim_time 1_569_823_876_764us: ControllerEvent @ 1_569_823_876_764us
+19:52:52.970 [W0] INFO:	sim_time 1_569_823_876_764us: PhysicsEvent @ 1_569_823_876_764us
+19:52:52.973 [W0] INFO:	sim_time 1_569_823_876_764us: TrafficEvent @ 1_569_823_876_764us
+19:52:52.973 [W0] INFO:	sim_time 1_569_823_876_764us: PhysicsEvent @ 1_569_823_876_764us
+19:52:52.973 [W0] INFO:	sim_time 1_569_823_876_764us: StepEvent @ 1_569_823_876_764us
+19:52:52.974 [W0] INFO:	sim_time 1_569_823_976_764us: GroupedRenderEvent(now=1_569_823_976_764us)
+19:52:53.086 [W0] INFO:	sim_time 1_569_823_976_764us: PolicyEvent @ 1_569_823_976_764us
+19:52:53.087 [W0] INFO:	Draining 6 outstanding tasks
+19:52:54.236 [W0] INFO:	sim_time 1_569_823_976_764us: ControllerEvent @ 1_569_823_976_764us
+19:52:54.242 [W0] INFO:	sim_time 1_569_823_976_764us: PhysicsEvent @ 1_569_823_976_764us
+19:52:54.245 [W0] INFO:	sim_time 1_569_823_976_764us: TrafficEvent @ 1_569_823_976_764us
+19:52:54.246 [W0] INFO:	sim_time 1_569_823_976_764us: PhysicsEvent @ 1_569_823_976_764us
+19:52:54.246 [W0] INFO:	sim_time 1_569_823_976_764us: StepEvent @ 1_569_823_976_764us
+19:52:54.247 [W0] INFO:	sim_time 1_569_824_076_764us: GroupedRenderEvent(now=1_569_824_076_764us)
+19:52:54.357 [W0] INFO:	sim_time 1_569_824_076_764us: PolicyEvent @ 1_569_824_076_764us
+19:52:54.357 [W0] INFO:	Draining 6 outstanding tasks
+19:52:55.414 [W0] INFO:	sim_time 1_569_824_076_764us: ControllerEvent @ 1_569_824_076_764us
+19:52:55.420 [W0] INFO:	sim_time 1_569_824_076_764us: PhysicsEvent @ 1_569_824_076_764us
+19:52:55.423 [W0] INFO:	sim_time 1_569_824_076_764us: TrafficEvent @ 1_569_824_076_764us
+19:52:55.424 [W0] INFO:	sim_time 1_569_824_076_764us: PhysicsEvent @ 1_569_824_076_764us
+19:52:55.424 [W0] INFO:	sim_time 1_569_824_076_764us: StepEvent @ 1_569_824_076_764us
+19:52:55.425 [W0] INFO:	sim_time 1_569_824_176_764us: GroupedRenderEvent(now=1_569_824_176_764us)
+19:52:55.537 [W0] INFO:	sim_time 1_569_824_176_764us: PolicyEvent @ 1_569_824_176_764us
+19:52:55.538 [W0] INFO:	Draining 6 outstanding tasks
+19:52:56.620 [W0] INFO:	sim_time 1_569_824_176_764us: ControllerEvent @ 1_569_824_176_764us
+19:52:56.626 [W0] INFO:	sim_time 1_569_824_176_764us: PhysicsEvent @ 1_569_824_176_764us
+19:52:56.630 [W0] INFO:	sim_time 1_569_824_176_764us: TrafficEvent @ 1_569_824_176_764us
+19:52:56.630 [W0] INFO:	sim_time 1_569_824_176_764us: PhysicsEvent @ 1_569_824_176_764us
+19:52:56.630 [W0] INFO:	sim_time 1_569_824_176_764us: StepEvent @ 1_569_824_176_764us
+19:52:56.631 [W0] INFO:	sim_time 1_569_824_276_764us: GroupedRenderEvent(now=1_569_824_276_764us)
+19:52:56.750 [W0] INFO:	sim_time 1_569_824_276_764us: PolicyEvent @ 1_569_824_276_764us
+19:52:56.751 [W0] INFO:	Draining 6 outstanding tasks
+19:52:57.802 [W0] INFO:	sim_time 1_569_824_276_764us: ControllerEvent @ 1_569_824_276_764us
+19:52:57.808 [W0] INFO:	sim_time 1_569_824_276_764us: PhysicsEvent @ 1_569_824_276_764us
+19:52:57.812 [W0] INFO:	sim_time 1_569_824_276_764us: TrafficEvent @ 1_569_824_276_764us
+19:52:57.813 [W0] INFO:	sim_time 1_569_824_276_764us: PhysicsEvent @ 1_569_824_276_764us
+19:52:57.813 [W0] INFO:	sim_time 1_569_824_276_764us: StepEvent @ 1_569_824_276_764us
+19:52:57.814 [W0] INFO:	sim_time 1_569_824_376_764us: GroupedRenderEvent(now=1_569_824_376_764us)
+19:52:57.926 [W0] INFO:	sim_time 1_569_824_376_764us: PolicyEvent @ 1_569_824_376_764us
+19:52:57.926 [W0] INFO:	Draining 6 outstanding tasks
+19:52:59.078 [W0] INFO:	sim_time 1_569_824_376_764us: ControllerEvent @ 1_569_824_376_764us
+19:52:59.084 [W0] INFO:	sim_time 1_569_824_376_764us: PhysicsEvent @ 1_569_824_376_764us
+19:52:59.088 [W0] INFO:	sim_time 1_569_824_376_764us: TrafficEvent @ 1_569_824_376_764us
+19:52:59.088 [W0] INFO:	sim_time 1_569_824_376_764us: PhysicsEvent @ 1_569_824_376_764us
+19:52:59.088 [W0] INFO:	sim_time 1_569_824_376_764us: StepEvent @ 1_569_824_376_764us
+19:52:59.089 [W0] INFO:	sim_time 1_569_824_476_764us: GroupedRenderEvent(now=1_569_824_476_764us)
+19:52:59.199 [W0] INFO:	sim_time 1_569_824_476_764us: PolicyEvent @ 1_569_824_476_764us
+19:52:59.200 [W0] INFO:	Draining 6 outstanding tasks
+19:53:00.325 [W0] INFO:	sim_time 1_569_824_476_764us: ControllerEvent @ 1_569_824_476_764us
+19:53:00.332 [W0] INFO:	sim_time 1_569_824_476_764us: PhysicsEvent @ 1_569_824_476_764us
+19:53:00.335 [W0] INFO:	sim_time 1_569_824_476_764us: TrafficEvent @ 1_569_824_476_764us
+19:53:00.336 [W0] INFO:	sim_time 1_569_824_476_764us: PhysicsEvent @ 1_569_824_476_764us
+19:53:00.336 [W0] INFO:	sim_time 1_569_824_476_764us: StepEvent @ 1_569_824_476_764us
+19:53:00.337 [W0] INFO:	sim_time 1_569_824_576_764us: GroupedRenderEvent(now=1_569_824_576_764us)
+19:53:00.448 [W0] INFO:	sim_time 1_569_824_576_764us: PolicyEvent @ 1_569_824_576_764us
+19:53:00.449 [W0] INFO:	Draining 6 outstanding tasks
+19:53:01.598 [W0] INFO:	sim_time 1_569_824_576_764us: ControllerEvent @ 1_569_824_576_764us
+19:53:01.605 [W0] INFO:	sim_time 1_569_824_576_764us: PhysicsEvent @ 1_569_824_576_764us
+19:53:01.609 [W0] INFO:	sim_time 1_569_824_576_764us: TrafficEvent @ 1_569_824_576_764us
+19:53:01.609 [W0] INFO:	sim_time 1_569_824_576_764us: PhysicsEvent @ 1_569_824_576_764us
+19:53:01.609 [W0] INFO:	sim_time 1_569_824_576_764us: StepEvent @ 1_569_824_576_764us
+19:53:01.610 [W0] INFO:	sim_time 1_569_824_676_764us: GroupedRenderEvent(now=1_569_824_676_764us)
+19:53:01.722 [W0] INFO:	sim_time 1_569_824_676_764us: PolicyEvent @ 1_569_824_676_764us
+19:53:01.722 [W0] INFO:	Draining 6 outstanding tasks
+19:53:02.861 [W0] INFO:	sim_time 1_569_824_676_764us: ControllerEvent @ 1_569_824_676_764us
+19:53:02.867 [W0] INFO:	sim_time 1_569_824_676_764us: PhysicsEvent @ 1_569_824_676_764us
+19:53:02.870 [W0] INFO:	sim_time 1_569_824_676_764us: TrafficEvent @ 1_569_824_676_764us
+19:53:02.870 [W0] INFO:	sim_time 1_569_824_676_764us: PhysicsEvent @ 1_569_824_676_764us
+19:53:02.871 [W0] INFO:	sim_time 1_569_824_676_764us: StepEvent @ 1_569_824_676_764us
+19:53:02.871 [W0] INFO:	sim_time 1_569_824_776_764us: GroupedRenderEvent(now=1_569_824_776_764us)
+19:53:02.984 [W0] INFO:	sim_time 1_569_824_776_764us: PolicyEvent @ 1_569_824_776_764us
+19:53:02.984 [W0] INFO:	Draining 6 outstanding tasks
+19:53:04.106 [W0] INFO:	sim_time 1_569_824_776_764us: ControllerEvent @ 1_569_824_776_764us
+19:53:04.112 [W0] INFO:	sim_time 1_569_824_776_764us: PhysicsEvent @ 1_569_824_776_764us
+19:53:04.115 [W0] INFO:	sim_time 1_569_824_776_764us: TrafficEvent @ 1_569_824_776_764us
+19:53:04.119 [W0] INFO:	sim_time 1_569_824_776_764us: PhysicsEvent @ 1_569_824_776_764us
+19:53:04.119 [W0] INFO:	sim_time 1_569_824_776_764us: StepEvent @ 1_569_824_776_764us
+19:53:04.120 [W0] INFO:	sim_time 1_569_824_876_764us: GroupedRenderEvent(now=1_569_824_876_764us)
+19:53:04.234 [W0] INFO:	sim_time 1_569_824_876_764us: PolicyEvent @ 1_569_824_876_764us
+19:53:04.234 [W0] INFO:	Draining 6 outstanding tasks
+19:53:05.312 [W0] INFO:	sim_time 1_569_824_876_764us: ControllerEvent @ 1_569_824_876_764us
+19:53:05.318 [W0] INFO:	sim_time 1_569_824_876_764us: PhysicsEvent @ 1_569_824_876_764us
+19:53:05.321 [W0] INFO:	sim_time 1_569_824_876_764us: TrafficEvent @ 1_569_824_876_764us
+19:53:05.322 [W0] INFO:	sim_time 1_569_824_876_764us: PhysicsEvent @ 1_569_824_876_764us
+19:53:05.322 [W0] INFO:	sim_time 1_569_824_876_764us: StepEvent @ 1_569_824_876_764us
+19:53:05.323 [W0] INFO:	sim_time 1_569_824_976_764us: GroupedRenderEvent(now=1_569_824_976_764us)
+19:53:05.431 [W0] INFO:	sim_time 1_569_824_976_764us: PolicyEvent @ 1_569_824_976_764us
+19:53:05.431 [W0] INFO:	Draining 6 outstanding tasks
+19:53:06.577 [W0] INFO:	sim_time 1_569_824_976_764us: ControllerEvent @ 1_569_824_976_764us
+19:53:06.582 [W0] INFO:	sim_time 1_569_824_976_764us: PhysicsEvent @ 1_569_824_976_764us
+19:53:06.586 [W0] INFO:	sim_time 1_569_824_976_764us: TrafficEvent @ 1_569_824_976_764us
+19:53:06.586 [W0] INFO:	sim_time 1_569_824_976_764us: PhysicsEvent @ 1_569_824_976_764us
+19:53:06.586 [W0] INFO:	sim_time 1_569_824_976_764us: StepEvent @ 1_569_824_976_764us
+19:53:06.587 [W0] INFO:	sim_time 1_569_825_076_764us: GroupedRenderEvent(now=1_569_825_076_764us)
+19:53:06.696 [W0] INFO:	sim_time 1_569_825_076_764us: PolicyEvent @ 1_569_825_076_764us
+19:53:06.696 [W0] INFO:	Draining 6 outstanding tasks
+19:53:07.843 [W0] INFO:	sim_time 1_569_825_076_764us: ControllerEvent @ 1_569_825_076_764us
+19:53:07.849 [W0] INFO:	sim_time 1_569_825_076_764us: PhysicsEvent @ 1_569_825_076_764us
+19:53:07.853 [W0] INFO:	sim_time 1_569_825_076_764us: TrafficEvent @ 1_569_825_076_764us
+19:53:07.853 [W0] INFO:	sim_time 1_569_825_076_764us: PhysicsEvent @ 1_569_825_076_764us
+19:53:07.853 [W0] INFO:	sim_time 1_569_825_076_764us: StepEvent @ 1_569_825_076_764us
+19:53:07.854 [W0] INFO:	sim_time 1_569_825_176_764us: GroupedRenderEvent(now=1_569_825_176_764us)
+19:53:07.963 [W0] INFO:	sim_time 1_569_825_176_764us: PolicyEvent @ 1_569_825_176_764us
+19:53:07.963 [W0] INFO:	Draining 6 outstanding tasks
+19:53:09.063 [W0] INFO:	sim_time 1_569_825_176_764us: ControllerEvent @ 1_569_825_176_764us
+19:53:09.069 [W0] INFO:	sim_time 1_569_825_176_764us: PhysicsEvent @ 1_569_825_176_764us
+19:53:09.072 [W0] INFO:	sim_time 1_569_825_176_764us: TrafficEvent @ 1_569_825_176_764us
+19:53:09.073 [W0] INFO:	sim_time 1_569_825_176_764us: PhysicsEvent @ 1_569_825_176_764us
+19:53:09.073 [W0] INFO:	sim_time 1_569_825_176_764us: StepEvent @ 1_569_825_176_764us
+19:53:09.074 [W0] INFO:	sim_time 1_569_825_276_764us: GroupedRenderEvent(now=1_569_825_276_764us)
+19:53:09.183 [W0] INFO:	sim_time 1_569_825_276_764us: PolicyEvent @ 1_569_825_276_764us
+19:53:09.184 [W0] INFO:	Draining 6 outstanding tasks
+19:53:10.393 [W0] INFO:	sim_time 1_569_825_276_764us: ControllerEvent @ 1_569_825_276_764us
+19:53:10.399 [W0] INFO:	sim_time 1_569_825_276_764us: PhysicsEvent @ 1_569_825_276_764us
+19:53:10.402 [W0] INFO:	sim_time 1_569_825_276_764us: TrafficEvent @ 1_569_825_276_764us
+19:53:10.403 [W0] INFO:	sim_time 1_569_825_276_764us: PhysicsEvent @ 1_569_825_276_764us
+19:53:10.403 [W0] INFO:	sim_time 1_569_825_276_764us: StepEvent @ 1_569_825_276_764us
+19:53:10.404 [W0] INFO:	sim_time 1_569_825_376_764us: GroupedRenderEvent(now=1_569_825_376_764us)
+19:53:10.513 [W0] INFO:	sim_time 1_569_825_376_764us: PolicyEvent @ 1_569_825_376_764us
+19:53:10.513 [W0] INFO:	Draining 6 outstanding tasks
+19:53:11.663 [W0] INFO:	sim_time 1_569_825_376_764us: ControllerEvent @ 1_569_825_376_764us
+19:53:11.669 [W0] INFO:	sim_time 1_569_825_376_764us: PhysicsEvent @ 1_569_825_376_764us
+19:53:11.673 [W0] INFO:	sim_time 1_569_825_376_764us: TrafficEvent @ 1_569_825_376_764us
+19:53:11.673 [W0] INFO:	sim_time 1_569_825_376_764us: PhysicsEvent @ 1_569_825_376_764us
+19:53:11.673 [W0] INFO:	sim_time 1_569_825_376_764us: StepEvent @ 1_569_825_376_764us
+19:53:11.674 [W0] INFO:	sim_time 1_569_825_476_764us: GroupedRenderEvent(now=1_569_825_476_764us)
+19:53:11.792 [W0] INFO:	sim_time 1_569_825_476_764us: PolicyEvent @ 1_569_825_476_764us
+19:53:11.792 [W0] INFO:	Draining 6 outstanding tasks
+19:53:12.910 [W0] INFO:	sim_time 1_569_825_476_764us: ControllerEvent @ 1_569_825_476_764us
+19:53:12.916 [W0] INFO:	sim_time 1_569_825_476_764us: PhysicsEvent @ 1_569_825_476_764us
+19:53:12.920 [W0] INFO:	sim_time 1_569_825_476_764us: TrafficEvent @ 1_569_825_476_764us
+19:53:12.920 [W0] INFO:	sim_time 1_569_825_476_764us: PhysicsEvent @ 1_569_825_476_764us
+19:53:12.920 [W0] INFO:	sim_time 1_569_825_476_764us: StepEvent @ 1_569_825_476_764us
+19:53:12.921 [W0] INFO:	sim_time 1_569_825_576_764us: GroupedRenderEvent(now=1_569_825_576_764us)
+19:53:13.034 [W0] INFO:	sim_time 1_569_825_576_764us: PolicyEvent @ 1_569_825_576_764us
+19:53:13.035 [W0] INFO:	Draining 6 outstanding tasks
+19:53:14.181 [W0] INFO:	sim_time 1_569_825_576_764us: ControllerEvent @ 1_569_825_576_764us
+19:53:14.186 [W0] INFO:	sim_time 1_569_825_576_764us: PhysicsEvent @ 1_569_825_576_764us
+19:53:14.190 [W0] INFO:	sim_time 1_569_825_576_764us: TrafficEvent @ 1_569_825_576_764us
+19:53:14.191 [W0] INFO:	sim_time 1_569_825_576_764us: PhysicsEvent @ 1_569_825_576_764us
+19:53:14.191 [W0] INFO:	sim_time 1_569_825_576_764us: StepEvent @ 1_569_825_576_764us
+19:53:14.192 [W0] INFO:	sim_time 1_569_825_676_764us: GroupedRenderEvent(now=1_569_825_676_764us)
+19:53:14.302 [W0] INFO:	sim_time 1_569_825_676_764us: PolicyEvent @ 1_569_825_676_764us
+19:53:14.303 [W0] INFO:	Draining 6 outstanding tasks
+19:53:15.449 [W0] INFO:	sim_time 1_569_825_676_764us: ControllerEvent @ 1_569_825_676_764us
+19:53:15.455 [W0] INFO:	sim_time 1_569_825_676_764us: PhysicsEvent @ 1_569_825_676_764us
+19:53:15.459 [W0] INFO:	sim_time 1_569_825_676_764us: TrafficEvent @ 1_569_825_676_764us
+19:53:15.459 [W0] INFO:	sim_time 1_569_825_676_764us: PhysicsEvent @ 1_569_825_676_764us
+19:53:15.459 [W0] INFO:	sim_time 1_569_825_676_764us: StepEvent @ 1_569_825_676_764us
+19:53:15.460 [W0] INFO:	sim_time 1_569_825_776_764us: GroupedRenderEvent(now=1_569_825_776_764us)
+19:53:15.572 [W0] INFO:	sim_time 1_569_825_776_764us: PolicyEvent @ 1_569_825_776_764us
+19:53:15.572 [W0] INFO:	Draining 6 outstanding tasks
+19:53:16.638 [W0] INFO:	sim_time 1_569_825_776_764us: ControllerEvent @ 1_569_825_776_764us
+19:53:16.644 [W0] INFO:	sim_time 1_569_825_776_764us: PhysicsEvent @ 1_569_825_776_764us
+19:53:16.647 [W0] INFO:	sim_time 1_569_825_776_764us: TrafficEvent @ 1_569_825_776_764us
+19:53:16.647 [W0] INFO:	sim_time 1_569_825_776_764us: PhysicsEvent @ 1_569_825_776_764us
+19:53:16.648 [W0] INFO:	sim_time 1_569_825_776_764us: StepEvent @ 1_569_825_776_764us
+19:53:16.648 [W0] INFO:	sim_time 1_569_825_876_764us: GroupedRenderEvent(now=1_569_825_876_764us)
+19:53:16.761 [W0] INFO:	sim_time 1_569_825_876_764us: PolicyEvent @ 1_569_825_876_764us
+19:53:16.761 [W0] INFO:	Draining 6 outstanding tasks
+19:53:17.763 [W0] INFO:	sim_time 1_569_825_876_764us: ControllerEvent @ 1_569_825_876_764us
+19:53:17.769 [W0] INFO:	sim_time 1_569_825_876_764us: PhysicsEvent @ 1_569_825_876_764us
+19:53:17.773 [W0] INFO:	sim_time 1_569_825_876_764us: TrafficEvent @ 1_569_825_876_764us
+19:53:17.774 [W0] INFO:	sim_time 1_569_825_876_764us: PhysicsEvent @ 1_569_825_876_764us
+19:53:17.774 [W0] INFO:	sim_time 1_569_825_876_764us: StepEvent @ 1_569_825_876_764us
+19:53:17.775 [W0] INFO:	sim_time 1_569_825_976_764us: GroupedRenderEvent(now=1_569_825_976_764us)
+19:53:17.887 [W0] INFO:	sim_time 1_569_825_976_764us: PolicyEvent @ 1_569_825_976_764us
+19:53:17.887 [W0] INFO:	Draining 6 outstanding tasks
+19:53:18.892 [W0] INFO:	sim_time 1_569_825_976_764us: ControllerEvent @ 1_569_825_976_764us
+19:53:18.901 [W0] INFO:	sim_time 1_569_825_976_764us: PhysicsEvent @ 1_569_825_976_764us
+19:53:18.905 [W0] INFO:	sim_time 1_569_825_976_764us: TrafficEvent @ 1_569_825_976_764us
+19:53:18.905 [W0] INFO:	sim_time 1_569_825_976_764us: PhysicsEvent @ 1_569_825_976_764us
+19:53:18.905 [W0] INFO:	sim_time 1_569_825_976_764us: StepEvent @ 1_569_825_976_764us
+19:53:18.906 [W0] INFO:	sim_time 1_569_826_076_764us: GroupedRenderEvent(now=1_569_826_076_764us)
+19:53:19.020 [W0] INFO:	sim_time 1_569_826_076_764us: PolicyEvent @ 1_569_826_076_764us
+19:53:19.020 [W0] INFO:	Draining 6 outstanding tasks
+19:53:20.290 [W0] INFO:	sim_time 1_569_826_076_764us: ControllerEvent @ 1_569_826_076_764us
+19:53:20.296 [W0] INFO:	sim_time 1_569_826_076_764us: PhysicsEvent @ 1_569_826_076_764us
+19:53:20.299 [W0] INFO:	sim_time 1_569_826_076_764us: TrafficEvent @ 1_569_826_076_764us
+19:53:20.300 [W0] INFO:	sim_time 1_569_826_076_764us: PhysicsEvent @ 1_569_826_076_764us
+19:53:20.300 [W0] INFO:	sim_time 1_569_826_076_764us: StepEvent @ 1_569_826_076_764us
+19:53:20.301 [W0] INFO:	sim_time 1_569_826_176_764us: GroupedRenderEvent(now=1_569_826_176_764us)
+19:53:20.412 [W0] INFO:	sim_time 1_569_826_176_764us: PolicyEvent @ 1_569_826_176_764us
+19:53:20.413 [W0] INFO:	Draining 6 outstanding tasks
+19:53:21.458 [W0] INFO:	sim_time 1_569_826_176_764us: ControllerEvent @ 1_569_826_176_764us
+19:53:21.464 [W0] INFO:	sim_time 1_569_826_176_764us: PhysicsEvent @ 1_569_826_176_764us
+19:53:21.468 [W0] INFO:	sim_time 1_569_826_176_764us: TrafficEvent @ 1_569_826_176_764us
+19:53:21.469 [W0] INFO:	sim_time 1_569_826_176_764us: PhysicsEvent @ 1_569_826_176_764us
+19:53:21.469 [W0] INFO:	sim_time 1_569_826_176_764us: StepEvent @ 1_569_826_176_764us
+19:53:21.470 [W0] INFO:	sim_time 1_569_826_276_764us: GroupedRenderEvent(now=1_569_826_276_764us)
+19:53:21.581 [W0] INFO:	sim_time 1_569_826_276_764us: PolicyEvent @ 1_569_826_276_764us
+19:53:21.581 [W0] INFO:	Draining 6 outstanding tasks
+19:53:22.598 [W0] INFO:	sim_time 1_569_826_276_764us: ControllerEvent @ 1_569_826_276_764us
+19:53:22.605 [W0] INFO:	sim_time 1_569_826_276_764us: PhysicsEvent @ 1_569_826_276_764us
+19:53:22.608 [W0] INFO:	sim_time 1_569_826_276_764us: TrafficEvent @ 1_569_826_276_764us
+19:53:22.609 [W0] INFO:	sim_time 1_569_826_276_764us: PhysicsEvent @ 1_569_826_276_764us
+19:53:22.609 [W0] INFO:	sim_time 1_569_826_276_764us: StepEvent @ 1_569_826_276_764us
+19:53:22.610 [W0] INFO:	sim_time 1_569_826_376_764us: GroupedRenderEvent(now=1_569_826_376_764us)
+19:53:22.721 [W0] INFO:	sim_time 1_569_826_376_764us: PolicyEvent @ 1_569_826_376_764us
+19:53:22.722 [W0] INFO:	Draining 6 outstanding tasks
+19:53:23.738 [W0] INFO:	sim_time 1_569_826_376_764us: ControllerEvent @ 1_569_826_376_764us
+19:53:23.744 [W0] INFO:	sim_time 1_569_826_376_764us: PhysicsEvent @ 1_569_826_376_764us
+19:53:23.747 [W0] INFO:	sim_time 1_569_826_376_764us: TrafficEvent @ 1_569_826_376_764us
+19:53:23.748 [W0] INFO:	sim_time 1_569_826_376_764us: PhysicsEvent @ 1_569_826_376_764us
+19:53:23.748 [W0] INFO:	sim_time 1_569_826_376_764us: StepEvent @ 1_569_826_376_764us
+19:53:23.749 [W0] INFO:	sim_time 1_569_826_476_764us: GroupedRenderEvent(now=1_569_826_476_764us)
+19:53:23.859 [W0] INFO:	sim_time 1_569_826_476_764us: PolicyEvent @ 1_569_826_476_764us
+19:53:23.860 [W0] INFO:	Draining 6 outstanding tasks
+19:53:24.873 [W0] INFO:	sim_time 1_569_826_476_764us: ControllerEvent @ 1_569_826_476_764us
+19:53:24.879 [W0] INFO:	sim_time 1_569_826_476_764us: PhysicsEvent @ 1_569_826_476_764us
+19:53:24.882 [W0] INFO:	sim_time 1_569_826_476_764us: TrafficEvent @ 1_569_826_476_764us
+19:53:24.883 [W0] INFO:	sim_time 1_569_826_476_764us: PhysicsEvent @ 1_569_826_476_764us
+19:53:24.883 [W0] INFO:	sim_time 1_569_826_476_764us: StepEvent @ 1_569_826_476_764us
+19:53:24.884 [W0] INFO:	sim_time 1_569_826_576_764us: GroupedRenderEvent(now=1_569_826_576_764us)
+19:53:25.001 [W0] INFO:	sim_time 1_569_826_576_764us: PolicyEvent @ 1_569_826_576_764us
+19:53:25.001 [W0] INFO:	Draining 6 outstanding tasks
+19:53:26.022 [W0] INFO:	sim_time 1_569_826_576_764us: ControllerEvent @ 1_569_826_576_764us
+19:53:26.028 [W0] INFO:	sim_time 1_569_826_576_764us: PhysicsEvent @ 1_569_826_576_764us
+19:53:26.031 [W0] INFO:	sim_time 1_569_826_576_764us: TrafficEvent @ 1_569_826_576_764us
+19:53:26.032 [W0] INFO:	sim_time 1_569_826_576_764us: PhysicsEvent @ 1_569_826_576_764us
+19:53:26.032 [W0] INFO:	sim_time 1_569_826_576_764us: StepEvent @ 1_569_826_576_764us
+19:53:26.033 [W0] INFO:	sim_time 1_569_826_676_764us: GroupedRenderEvent(now=1_569_826_676_764us)
+19:53:26.145 [W0] INFO:	sim_time 1_569_826_676_764us: PolicyEvent @ 1_569_826_676_764us
+19:53:26.146 [W0] INFO:	Draining 6 outstanding tasks
+19:53:27.678 [W0] INFO:	sim_time 1_569_826_676_764us: ControllerEvent @ 1_569_826_676_764us
+19:53:27.684 [W0] INFO:	sim_time 1_569_826_676_764us: PhysicsEvent @ 1_569_826_676_764us
+19:53:27.688 [W0] INFO:	sim_time 1_569_826_676_764us: TrafficEvent @ 1_569_826_676_764us
+19:53:27.688 [W0] INFO:	sim_time 1_569_826_676_764us: PhysicsEvent @ 1_569_826_676_764us
+19:53:27.688 [W0] INFO:	sim_time 1_569_826_676_764us: StepEvent @ 1_569_826_676_764us
+19:53:27.689 [W0] INFO:	sim_time 1_569_826_776_764us: GroupedRenderEvent(now=1_569_826_776_764us)
+19:53:27.802 [W0] INFO:	sim_time 1_569_826_776_764us: PolicyEvent @ 1_569_826_776_764us
+19:53:27.803 [W0] INFO:	Draining 6 outstanding tasks
+19:53:29.469 [W0] INFO:	sim_time 1_569_826_776_764us: ControllerEvent @ 1_569_826_776_764us
+19:53:29.475 [W0] INFO:	sim_time 1_569_826_776_764us: PhysicsEvent @ 1_569_826_776_764us
+19:53:29.478 [W0] INFO:	sim_time 1_569_826_776_764us: TrafficEvent @ 1_569_826_776_764us
+19:53:29.479 [W0] INFO:	sim_time 1_569_826_776_764us: PhysicsEvent @ 1_569_826_776_764us
+19:53:29.479 [W0] INFO:	sim_time 1_569_826_776_764us: StepEvent @ 1_569_826_776_764us
+19:53:29.480 [W0] INFO:	sim_time 1_569_826_876_764us: GroupedRenderEvent(now=1_569_826_876_764us)
+19:53:29.590 [W0] INFO:	sim_time 1_569_826_876_764us: PolicyEvent @ 1_569_826_876_764us
+19:53:29.591 [W0] INFO:	Draining 6 outstanding tasks
+19:53:30.896 [W0] INFO:	sim_time 1_569_826_876_764us: ControllerEvent @ 1_569_826_876_764us
+19:53:30.902 [W0] INFO:	sim_time 1_569_826_876_764us: PhysicsEvent @ 1_569_826_876_764us
+19:53:30.906 [W0] INFO:	sim_time 1_569_826_876_764us: TrafficEvent @ 1_569_826_876_764us
+19:53:30.906 [W0] INFO:	sim_time 1_569_826_876_764us: PhysicsEvent @ 1_569_826_876_764us
+19:53:30.907 [W0] INFO:	sim_time 1_569_826_876_764us: StepEvent @ 1_569_826_876_764us
+19:53:30.907 [W0] INFO:	sim_time 1_569_826_976_764us: GroupedRenderEvent(now=1_569_826_976_764us)
+19:53:31.019 [W0] INFO:	sim_time 1_569_826_976_764us: PolicyEvent @ 1_569_826_976_764us
+19:53:31.020 [W0] INFO:	Draining 6 outstanding tasks
+19:53:32.029 [W0] INFO:	sim_time 1_569_826_976_764us: ControllerEvent @ 1_569_826_976_764us
+19:53:32.035 [W0] INFO:	sim_time 1_569_826_976_764us: PhysicsEvent @ 1_569_826_976_764us
+19:53:32.039 [W0] INFO:	sim_time 1_569_826_976_764us: TrafficEvent @ 1_569_826_976_764us
+19:53:32.039 [W0] INFO:	sim_time 1_569_826_976_764us: PhysicsEvent @ 1_569_826_976_764us
+19:53:32.039 [W0] INFO:	sim_time 1_569_826_976_764us: StepEvent @ 1_569_826_976_764us
+19:53:32.045 [W0] INFO:	sim_time 1_569_827_076_764us: GroupedRenderEvent(now=1_569_827_076_764us)
+19:53:32.157 [W0] INFO:	sim_time 1_569_827_076_764us: PolicyEvent @ 1_569_827_076_764us
+19:53:32.158 [W0] INFO:	Draining 6 outstanding tasks
+19:53:35.444 [W0] INFO:	sim_time 1_569_827_076_764us: ControllerEvent @ 1_569_827_076_764us
+19:53:35.450 [W0] INFO:	sim_time 1_569_827_076_764us: PhysicsEvent @ 1_569_827_076_764us
+19:53:35.454 [W0] INFO:	sim_time 1_569_827_076_764us: TrafficEvent @ 1_569_827_076_764us
+19:53:35.454 [W0] INFO:	sim_time 1_569_827_076_764us: PhysicsEvent @ 1_569_827_076_764us
+19:53:35.455 [W0] INFO:	sim_time 1_569_827_076_764us: StepEvent @ 1_569_827_076_764us
+19:53:35.456 [W0] INFO:	sim_time 1_569_827_176_764us: GroupedRenderEvent(now=1_569_827_176_764us)
+19:53:35.567 [W0] INFO:	sim_time 1_569_827_176_764us: PolicyEvent @ 1_569_827_176_764us
+19:53:35.568 [W0] INFO:	Draining 6 outstanding tasks
+19:53:37.459 [W0] INFO:	sim_time 1_569_827_176_764us: ControllerEvent @ 1_569_827_176_764us
+19:53:37.465 [W0] INFO:	sim_time 1_569_827_176_764us: PhysicsEvent @ 1_569_827_176_764us
+19:53:37.468 [W0] INFO:	sim_time 1_569_827_176_764us: TrafficEvent @ 1_569_827_176_764us
+19:53:37.468 [W0] INFO:	sim_time 1_569_827_176_764us: PhysicsEvent @ 1_569_827_176_764us
+19:53:37.469 [W0] INFO:	sim_time 1_569_827_176_764us: StepEvent @ 1_569_827_176_764us
+19:53:37.470 [W0] INFO:	sim_time 1_569_827_276_764us: GroupedRenderEvent(now=1_569_827_276_764us)
+19:53:37.583 [W0] INFO:	sim_time 1_569_827_276_764us: PolicyEvent @ 1_569_827_276_764us
+19:53:37.584 [W0] INFO:	Draining 6 outstanding tasks
+19:53:38.599 [W0] INFO:	sim_time 1_569_827_276_764us: ControllerEvent @ 1_569_827_276_764us
+19:53:38.605 [W0] INFO:	sim_time 1_569_827_276_764us: PhysicsEvent @ 1_569_827_276_764us
+19:53:38.608 [W0] INFO:	sim_time 1_569_827_276_764us: TrafficEvent @ 1_569_827_276_764us
+19:53:38.609 [W0] INFO:	sim_time 1_569_827_276_764us: PhysicsEvent @ 1_569_827_276_764us
+19:53:38.609 [W0] INFO:	sim_time 1_569_827_276_764us: StepEvent @ 1_569_827_276_764us
+19:53:38.610 [W0] INFO:	sim_time 1_569_827_376_764us: GroupedRenderEvent(now=1_569_827_376_764us)
+19:53:38.723 [W0] INFO:	sim_time 1_569_827_376_764us: PolicyEvent @ 1_569_827_376_764us
+19:53:38.723 [W0] INFO:	Draining 6 outstanding tasks
+19:53:39.735 [W0] INFO:	sim_time 1_569_827_376_764us: ControllerEvent @ 1_569_827_376_764us
+19:53:39.741 [W0] INFO:	sim_time 1_569_827_376_764us: PhysicsEvent @ 1_569_827_376_764us
+19:53:39.745 [W0] INFO:	sim_time 1_569_827_376_764us: TrafficEvent @ 1_569_827_376_764us
+19:53:39.745 [W0] INFO:	sim_time 1_569_827_376_764us: PhysicsEvent @ 1_569_827_376_764us
+19:53:39.745 [W0] INFO:	sim_time 1_569_827_376_764us: StepEvent @ 1_569_827_376_764us
+19:53:39.746 [W0] INFO:	sim_time 1_569_827_476_764us: GroupedRenderEvent(now=1_569_827_476_764us)
+19:53:39.862 [W0] INFO:	sim_time 1_569_827_476_764us: PolicyEvent @ 1_569_827_476_764us
+19:53:39.862 [W0] INFO:	Draining 6 outstanding tasks
+19:53:40.865 [W0] INFO:	sim_time 1_569_827_476_764us: ControllerEvent @ 1_569_827_476_764us
+19:53:40.871 [W0] INFO:	sim_time 1_569_827_476_764us: PhysicsEvent @ 1_569_827_476_764us
+19:53:40.875 [W0] INFO:	sim_time 1_569_827_476_764us: TrafficEvent @ 1_569_827_476_764us
+19:53:40.878 [W0] INFO:	sim_time 1_569_827_476_764us: PhysicsEvent @ 1_569_827_476_764us
+19:53:40.878 [W0] INFO:	sim_time 1_569_827_476_764us: StepEvent @ 1_569_827_476_764us
+19:53:40.879 [W0] INFO:	sim_time 1_569_827_576_764us: GroupedRenderEvent(now=1_569_827_576_764us)
+19:53:40.994 [W0] INFO:	sim_time 1_569_827_576_764us: PolicyEvent @ 1_569_827_576_764us
+19:53:40.994 [W0] INFO:	Draining 6 outstanding tasks
+19:53:42.454 [W0] INFO:	sim_time 1_569_827_576_764us: ControllerEvent @ 1_569_827_576_764us
+19:53:42.460 [W0] INFO:	sim_time 1_569_827_576_764us: PhysicsEvent @ 1_569_827_576_764us
+19:53:42.464 [W0] INFO:	sim_time 1_569_827_576_764us: TrafficEvent @ 1_569_827_576_764us
+19:53:42.464 [W0] INFO:	sim_time 1_569_827_576_764us: PhysicsEvent @ 1_569_827_576_764us
+19:53:42.464 [W0] INFO:	sim_time 1_569_827_576_764us: StepEvent @ 1_569_827_576_764us
+19:53:42.465 [W0] INFO:	sim_time 1_569_827_676_764us: GroupedRenderEvent(now=1_569_827_676_764us)
+19:53:42.578 [W0] INFO:	sim_time 1_569_827_676_764us: PolicyEvent @ 1_569_827_676_764us
+19:53:42.579 [W0] INFO:	Draining 6 outstanding tasks
+19:53:43.577 [W0] INFO:	sim_time 1_569_827_676_764us: ControllerEvent @ 1_569_827_676_764us
+19:53:43.583 [W0] INFO:	sim_time 1_569_827_676_764us: PhysicsEvent @ 1_569_827_676_764us
+19:53:43.586 [W0] INFO:	sim_time 1_569_827_676_764us: TrafficEvent @ 1_569_827_676_764us
+19:53:43.587 [W0] INFO:	sim_time 1_569_827_676_764us: PhysicsEvent @ 1_569_827_676_764us
+19:53:43.587 [W0] INFO:	sim_time 1_569_827_676_764us: StepEvent @ 1_569_827_676_764us
+19:53:43.588 [W0] INFO:	sim_time 1_569_827_776_764us: GroupedRenderEvent(now=1_569_827_776_764us)
+19:53:43.703 [W0] INFO:	sim_time 1_569_827_776_764us: PolicyEvent @ 1_569_827_776_764us
+19:53:43.704 [W0] INFO:	Draining 6 outstanding tasks
+19:53:44.795 [W0] INFO:	sim_time 1_569_827_776_764us: ControllerEvent @ 1_569_827_776_764us
+19:53:44.800 [W0] INFO:	sim_time 1_569_827_776_764us: PhysicsEvent @ 1_569_827_776_764us
+19:53:44.804 [W0] INFO:	sim_time 1_569_827_776_764us: TrafficEvent @ 1_569_827_776_764us
+19:53:44.804 [W0] INFO:	sim_time 1_569_827_776_764us: PhysicsEvent @ 1_569_827_776_764us
+19:53:44.804 [W0] INFO:	sim_time 1_569_827_776_764us: StepEvent @ 1_569_827_776_764us
+19:53:44.805 [W0] INFO:	sim_time 1_569_827_876_764us: GroupedRenderEvent(now=1_569_827_876_764us)
+19:53:44.919 [W0] INFO:	sim_time 1_569_827_876_764us: PolicyEvent @ 1_569_827_876_764us
+19:53:44.920 [W0] INFO:	Draining 6 outstanding tasks
+19:53:45.938 [W0] INFO:	sim_time 1_569_827_876_764us: ControllerEvent @ 1_569_827_876_764us
+19:53:45.943 [W0] INFO:	sim_time 1_569_827_876_764us: PhysicsEvent @ 1_569_827_876_764us
+19:53:45.947 [W0] INFO:	sim_time 1_569_827_876_764us: TrafficEvent @ 1_569_827_876_764us
+19:53:45.947 [W0] INFO:	sim_time 1_569_827_876_764us: PhysicsEvent @ 1_569_827_876_764us
+19:53:45.947 [W0] INFO:	sim_time 1_569_827_876_764us: StepEvent @ 1_569_827_876_764us
+19:53:45.948 [W0] INFO:	sim_time 1_569_827_976_764us: GroupedRenderEvent(now=1_569_827_976_764us)
+19:53:46.065 [W0] INFO:	sim_time 1_569_827_976_764us: PolicyEvent @ 1_569_827_976_764us
+19:53:46.066 [W0] INFO:	Draining 6 outstanding tasks
+19:53:47.069 [W0] INFO:	sim_time 1_569_827_976_764us: ControllerEvent @ 1_569_827_976_764us
+19:53:47.075 [W0] INFO:	sim_time 1_569_827_976_764us: PhysicsEvent @ 1_569_827_976_764us
+19:53:47.078 [W0] INFO:	sim_time 1_569_827_976_764us: TrafficEvent @ 1_569_827_976_764us
+19:53:47.078 [W0] INFO:	sim_time 1_569_827_976_764us: PhysicsEvent @ 1_569_827_976_764us
+19:53:47.079 [W0] INFO:	sim_time 1_569_827_976_764us: StepEvent @ 1_569_827_976_764us
+19:53:47.079 [W0] INFO:	sim_time 1_569_828_076_764us: GroupedRenderEvent(now=1_569_828_076_764us)
+19:53:47.194 [W0] INFO:	sim_time 1_569_828_076_764us: PolicyEvent @ 1_569_828_076_764us
+19:53:47.194 [W0] INFO:	Draining 6 outstanding tasks
+19:53:48.232 [W0] INFO:	sim_time 1_569_828_076_764us: ControllerEvent @ 1_569_828_076_764us
+19:53:48.238 [W0] INFO:	sim_time 1_569_828_076_764us: PhysicsEvent @ 1_569_828_076_764us
+19:53:48.241 [W0] INFO:	sim_time 1_569_828_076_764us: TrafficEvent @ 1_569_828_076_764us
+19:53:48.242 [W0] INFO:	sim_time 1_569_828_076_764us: PhysicsEvent @ 1_569_828_076_764us
+19:53:48.242 [W0] INFO:	sim_time 1_569_828_076_764us: StepEvent @ 1_569_828_076_764us
+19:53:48.243 [W0] INFO:	sim_time 1_569_828_176_764us: GroupedRenderEvent(now=1_569_828_176_764us)
+19:53:48.357 [W0] INFO:	sim_time 1_569_828_176_764us: PolicyEvent @ 1_569_828_176_764us
+19:53:48.358 [W0] INFO:	Draining 6 outstanding tasks
+19:53:49.346 [W0] INFO:	sim_time 1_569_828_176_764us: ControllerEvent @ 1_569_828_176_764us
+19:53:49.352 [W0] INFO:	sim_time 1_569_828_176_764us: PhysicsEvent @ 1_569_828_176_764us
+19:53:49.356 [W0] INFO:	sim_time 1_569_828_176_764us: TrafficEvent @ 1_569_828_176_764us
+19:53:49.357 [W0] INFO:	sim_time 1_569_828_176_764us: PhysicsEvent @ 1_569_828_176_764us
+19:53:49.357 [W0] INFO:	sim_time 1_569_828_176_764us: StepEvent @ 1_569_828_176_764us
+19:53:49.358 [W0] INFO:	sim_time 1_569_828_276_764us: GroupedRenderEvent(now=1_569_828_276_764us)
+19:53:49.471 [W0] INFO:	sim_time 1_569_828_276_764us: PolicyEvent @ 1_569_828_276_764us
+19:53:49.471 [W0] INFO:	Draining 6 outstanding tasks
+19:53:50.484 [W0] INFO:	sim_time 1_569_828_276_764us: ControllerEvent @ 1_569_828_276_764us
+19:53:50.491 [W0] INFO:	sim_time 1_569_828_276_764us: PhysicsEvent @ 1_569_828_276_764us
+19:53:50.494 [W0] INFO:	sim_time 1_569_828_276_764us: TrafficEvent @ 1_569_828_276_764us
+19:53:50.495 [W0] INFO:	sim_time 1_569_828_276_764us: PhysicsEvent @ 1_569_828_276_764us
+19:53:50.495 [W0] INFO:	sim_time 1_569_828_276_764us: StepEvent @ 1_569_828_276_764us
+19:53:50.496 [W0] INFO:	sim_time 1_569_828_376_764us: GroupedRenderEvent(now=1_569_828_376_764us)
+19:53:50.619 [W0] INFO:	sim_time 1_569_828_376_764us: PolicyEvent @ 1_569_828_376_764us
+19:53:50.619 [W0] INFO:	Draining 6 outstanding tasks
+19:53:51.613 [W0] INFO:	sim_time 1_569_828_376_764us: ControllerEvent @ 1_569_828_376_764us
+19:53:51.620 [W0] INFO:	sim_time 1_569_828_376_764us: PhysicsEvent @ 1_569_828_376_764us
+19:53:51.623 [W0] INFO:	sim_time 1_569_828_376_764us: TrafficEvent @ 1_569_828_376_764us
+19:53:51.624 [W0] INFO:	sim_time 1_569_828_376_764us: PhysicsEvent @ 1_569_828_376_764us
+19:53:51.624 [W0] INFO:	sim_time 1_569_828_376_764us: StepEvent @ 1_569_828_376_764us
+19:53:51.625 [W0] INFO:	sim_time 1_569_828_476_764us: GroupedRenderEvent(now=1_569_828_476_764us)
+19:53:51.740 [W0] INFO:	sim_time 1_569_828_476_764us: PolicyEvent @ 1_569_828_476_764us
+19:53:51.741 [W0] INFO:	Draining 6 outstanding tasks
+19:53:52.800 [W0] INFO:	sim_time 1_569_828_476_764us: ControllerEvent @ 1_569_828_476_764us
+19:53:52.806 [W0] INFO:	sim_time 1_569_828_476_764us: PhysicsEvent @ 1_569_828_476_764us
+19:53:52.810 [W0] INFO:	sim_time 1_569_828_476_764us: TrafficEvent @ 1_569_828_476_764us
+19:53:52.810 [W0] INFO:	sim_time 1_569_828_476_764us: PhysicsEvent @ 1_569_828_476_764us
+19:53:52.811 [W0] INFO:	sim_time 1_569_828_476_764us: StepEvent @ 1_569_828_476_764us
+19:53:52.811 [W0] INFO:	sim_time 1_569_828_576_764us: GroupedRenderEvent(now=1_569_828_576_764us)
+19:53:52.925 [W0] INFO:	sim_time 1_569_828_576_764us: PolicyEvent @ 1_569_828_576_764us
+19:53:52.926 [W0] INFO:	Draining 6 outstanding tasks
+19:53:54.077 [W0] INFO:	sim_time 1_569_828_576_764us: ControllerEvent @ 1_569_828_576_764us
+19:53:54.083 [W0] INFO:	sim_time 1_569_828_576_764us: PhysicsEvent @ 1_569_828_576_764us
+19:53:54.087 [W0] INFO:	sim_time 1_569_828_576_764us: TrafficEvent @ 1_569_828_576_764us
+19:53:54.087 [W0] INFO:	sim_time 1_569_828_576_764us: PhysicsEvent @ 1_569_828_576_764us
+19:53:54.087 [W0] INFO:	sim_time 1_569_828_576_764us: StepEvent @ 1_569_828_576_764us
+19:53:54.088 [W0] INFO:	sim_time 1_569_828_676_764us: GroupedRenderEvent(now=1_569_828_676_764us)
+19:53:54.204 [W0] INFO:	sim_time 1_569_828_676_764us: PolicyEvent @ 1_569_828_676_764us
+19:53:54.204 [W0] INFO:	Draining 6 outstanding tasks
+19:53:55.194 [W0] INFO:	sim_time 1_569_828_676_764us: ControllerEvent @ 1_569_828_676_764us
+19:53:55.200 [W0] INFO:	sim_time 1_569_828_676_764us: PhysicsEvent @ 1_569_828_676_764us
+19:53:55.204 [W0] INFO:	sim_time 1_569_828_676_764us: TrafficEvent @ 1_569_828_676_764us
+19:53:55.204 [W0] INFO:	sim_time 1_569_828_676_764us: PhysicsEvent @ 1_569_828_676_764us
+19:53:55.204 [W0] INFO:	sim_time 1_569_828_676_764us: StepEvent @ 1_569_828_676_764us
+19:53:55.205 [W0] INFO:	sim_time 1_569_828_776_764us: GroupedRenderEvent(now=1_569_828_776_764us)
+19:53:55.320 [W0] INFO:	sim_time 1_569_828_776_764us: PolicyEvent @ 1_569_828_776_764us
+19:53:55.321 [W0] INFO:	Draining 6 outstanding tasks
+19:53:56.516 [W0] INFO:	sim_time 1_569_828_776_764us: ControllerEvent @ 1_569_828_776_764us
+19:53:56.522 [W0] INFO:	sim_time 1_569_828_776_764us: PhysicsEvent @ 1_569_828_776_764us
+19:53:56.525 [W0] INFO:	sim_time 1_569_828_776_764us: TrafficEvent @ 1_569_828_776_764us
+19:53:56.525 [W0] INFO:	sim_time 1_569_828_776_764us: PhysicsEvent @ 1_569_828_776_764us
+19:53:56.526 [W0] INFO:	sim_time 1_569_828_776_764us: StepEvent @ 1_569_828_776_764us
+19:53:56.526 [W0] INFO:	sim_time 1_569_828_876_764us: GroupedRenderEvent(now=1_569_828_876_764us)
+19:53:56.642 [W0] INFO:	sim_time 1_569_828_876_764us: PolicyEvent @ 1_569_828_876_764us
+19:53:56.642 [W0] INFO:	Draining 6 outstanding tasks
+19:53:57.642 [W0] INFO:	sim_time 1_569_828_876_764us: ControllerEvent @ 1_569_828_876_764us
+19:53:57.648 [W0] INFO:	sim_time 1_569_828_876_764us: PhysicsEvent @ 1_569_828_876_764us
+19:53:57.651 [W0] INFO:	sim_time 1_569_828_876_764us: TrafficEvent @ 1_569_828_876_764us
+19:53:57.652 [W0] INFO:	sim_time 1_569_828_876_764us: PhysicsEvent @ 1_569_828_876_764us
+19:53:57.652 [W0] INFO:	sim_time 1_569_828_876_764us: StepEvent @ 1_569_828_876_764us
+19:53:57.652 [W0] INFO:	sim_time 1_569_828_976_764us: GroupedRenderEvent(now=1_569_828_976_764us)
+19:53:57.767 [W0] INFO:	sim_time 1_569_828_976_764us: PolicyEvent @ 1_569_828_976_764us
+19:53:57.767 [W0] INFO:	Draining 6 outstanding tasks
+19:53:58.780 [W0] INFO:	sim_time 1_569_828_976_764us: ControllerEvent @ 1_569_828_976_764us
+19:53:58.786 [W0] INFO:	sim_time 1_569_828_976_764us: PhysicsEvent @ 1_569_828_976_764us
+19:53:58.789 [W0] INFO:	sim_time 1_569_828_976_764us: TrafficEvent @ 1_569_828_976_764us
+19:53:58.790 [W0] INFO:	sim_time 1_569_828_976_764us: PhysicsEvent @ 1_569_828_976_764us
+19:53:58.790 [W0] INFO:	sim_time 1_569_828_976_764us: StepEvent @ 1_569_828_976_764us
+19:53:58.791 [W0] INFO:	sim_time 1_569_829_076_764us: GroupedRenderEvent(now=1_569_829_076_764us)
+19:53:58.904 [W0] INFO:	sim_time 1_569_829_076_764us: PolicyEvent @ 1_569_829_076_764us
+19:53:58.905 [W0] INFO:	Draining 6 outstanding tasks
+19:54:00.073 [W0] INFO:	sim_time 1_569_829_076_764us: ControllerEvent @ 1_569_829_076_764us
+19:54:00.079 [W0] INFO:	sim_time 1_569_829_076_764us: PhysicsEvent @ 1_569_829_076_764us
+19:54:00.083 [W0] INFO:	sim_time 1_569_829_076_764us: TrafficEvent @ 1_569_829_076_764us
+19:54:00.083 [W0] INFO:	sim_time 1_569_829_076_764us: PhysicsEvent @ 1_569_829_076_764us
+19:54:00.083 [W0] INFO:	sim_time 1_569_829_076_764us: StepEvent @ 1_569_829_076_764us
+19:54:00.084 [W0] INFO:	sim_time 1_569_829_176_764us: GroupedRenderEvent(now=1_569_829_176_764us)
+19:54:00.199 [W0] INFO:	sim_time 1_569_829_176_764us: PolicyEvent @ 1_569_829_176_764us
+19:54:00.199 [W0] INFO:	Draining 6 outstanding tasks
+19:54:02.128 [W0] INFO:	sim_time 1_569_829_176_764us: ControllerEvent @ 1_569_829_176_764us
+19:54:02.138 [W0] INFO:	sim_time 1_569_829_176_764us: PhysicsEvent @ 1_569_829_176_764us
+19:54:02.141 [W0] INFO:	sim_time 1_569_829_176_764us: TrafficEvent @ 1_569_829_176_764us
+19:54:02.142 [W0] INFO:	sim_time 1_569_829_176_764us: PhysicsEvent @ 1_569_829_176_764us
+19:54:02.142 [W0] INFO:	sim_time 1_569_829_176_764us: StepEvent @ 1_569_829_176_764us
+19:54:02.143 [W0] INFO:	sim_time 1_569_829_276_764us: GroupedRenderEvent(now=1_569_829_276_764us)
+19:54:02.258 [W0] INFO:	sim_time 1_569_829_276_764us: PolicyEvent @ 1_569_829_276_764us
+19:54:02.259 [W0] INFO:	Draining 6 outstanding tasks
+19:54:03.280 [W0] INFO:	sim_time 1_569_829_276_764us: ControllerEvent @ 1_569_829_276_764us
+19:54:03.286 [W0] INFO:	sim_time 1_569_829_276_764us: PhysicsEvent @ 1_569_829_276_764us
+19:54:03.289 [W0] INFO:	sim_time 1_569_829_276_764us: TrafficEvent @ 1_569_829_276_764us
+19:54:03.290 [W0] INFO:	sim_time 1_569_829_276_764us: PhysicsEvent @ 1_569_829_276_764us
+19:54:03.290 [W0] INFO:	sim_time 1_569_829_276_764us: StepEvent @ 1_569_829_276_764us
+19:54:03.291 [W0] INFO:	sim_time 1_569_829_376_764us: GroupedRenderEvent(now=1_569_829_376_764us)
+19:54:03.404 [W0] INFO:	sim_time 1_569_829_376_764us: PolicyEvent @ 1_569_829_376_764us
+19:54:03.404 [W0] INFO:	Draining 6 outstanding tasks
+19:54:04.576 [W0] INFO:	sim_time 1_569_829_376_764us: ControllerEvent @ 1_569_829_376_764us
+19:54:04.582 [W0] INFO:	sim_time 1_569_829_376_764us: PhysicsEvent @ 1_569_829_376_764us
+19:54:04.585 [W0] INFO:	sim_time 1_569_829_376_764us: TrafficEvent @ 1_569_829_376_764us
+19:54:04.586 [W0] INFO:	sim_time 1_569_829_376_764us: PhysicsEvent @ 1_569_829_376_764us
+19:54:04.586 [W0] INFO:	sim_time 1_569_829_376_764us: StepEvent @ 1_569_829_376_764us
+19:54:04.587 [W0] INFO:	sim_time 1_569_829_476_764us: GroupedRenderEvent(now=1_569_829_476_764us)
+19:54:04.701 [W0] INFO:	sim_time 1_569_829_476_764us: PolicyEvent @ 1_569_829_476_764us
+19:54:04.701 [W0] INFO:	Draining 6 outstanding tasks
+19:54:05.884 [W0] INFO:	sim_time 1_569_829_476_764us: ControllerEvent @ 1_569_829_476_764us
+19:54:05.890 [W0] INFO:	sim_time 1_569_829_476_764us: PhysicsEvent @ 1_569_829_476_764us
+19:54:05.893 [W0] INFO:	sim_time 1_569_829_476_764us: TrafficEvent @ 1_569_829_476_764us
+19:54:05.893 [W0] INFO:	sim_time 1_569_829_476_764us: PhysicsEvent @ 1_569_829_476_764us
+19:54:05.893 [W0] INFO:	sim_time 1_569_829_476_764us: StepEvent @ 1_569_829_476_764us
+19:54:05.894 [W0] INFO:	sim_time 1_569_829_576_764us: GroupedRenderEvent(now=1_569_829_576_764us)
+19:54:06.010 [W0] INFO:	sim_time 1_569_829_576_764us: PolicyEvent @ 1_569_829_576_764us
+19:54:06.010 [W0] INFO:	Draining 6 outstanding tasks
+19:54:07.170 [W0] INFO:	sim_time 1_569_829_576_764us: ControllerEvent @ 1_569_829_576_764us
+19:54:07.176 [W0] INFO:	sim_time 1_569_829_576_764us: PhysicsEvent @ 1_569_829_576_764us
+19:54:07.179 [W0] INFO:	sim_time 1_569_829_576_764us: TrafficEvent @ 1_569_829_576_764us
+19:54:07.180 [W0] INFO:	sim_time 1_569_829_576_764us: PhysicsEvent @ 1_569_829_576_764us
+19:54:07.180 [W0] INFO:	sim_time 1_569_829_576_764us: StepEvent @ 1_569_829_576_764us
+19:54:07.181 [W0] INFO:	sim_time 1_569_829_676_764us: GroupedRenderEvent(now=1_569_829_676_764us)
+19:54:07.295 [W0] INFO:	sim_time 1_569_829_676_764us: PolicyEvent @ 1_569_829_676_764us
+19:54:07.296 [W0] INFO:	Draining 6 outstanding tasks
+19:54:08.312 [W0] INFO:	sim_time 1_569_829_676_764us: ControllerEvent @ 1_569_829_676_764us
+19:54:08.318 [W0] INFO:	sim_time 1_569_829_676_764us: PhysicsEvent @ 1_569_829_676_764us
+19:54:08.321 [W0] INFO:	sim_time 1_569_829_676_764us: TrafficEvent @ 1_569_829_676_764us
+19:54:08.322 [W0] INFO:	sim_time 1_569_829_676_764us: PhysicsEvent @ 1_569_829_676_764us
+19:54:08.322 [W0] INFO:	sim_time 1_569_829_676_764us: StepEvent @ 1_569_829_676_764us
+19:54:08.322 [W0] INFO:	sim_time 1_569_829_776_764us: GroupedRenderEvent(now=1_569_829_776_764us)
+19:54:08.431 [W0] INFO:	sim_time 1_569_829_776_764us: PolicyEvent @ 1_569_829_776_764us
+19:54:08.431 [W0] INFO:	Draining 6 outstanding tasks
+19:54:09.538 [W0] INFO:	sim_time 1_569_829_776_764us: SimulationEndEvent @ 1_569_829_776_764us
+19:54:09.538 [W0] INFO:	Simulation ended via SimulationEndEvent
+19:54:09.538 [W0] INFO:	Event-based simulation loop timer stopped
+19:55:13.764 [W0] INFO:	Session COMPLETED: uuid=20b1e81c-4be0-11f1-b13b-cf3a78ce2561 scene=clipgt-7b186d92-d6f5-4e27-a324-d705d1fad7e1 simulated 19.70 sim seconds in 249.14 wall clock seconds for 0.08x real time (total rollout 306.32s incl. setup/warmup)
+19:55:13.792 [W0] INFO:	Received shutdown signal
+19:55:13.792 [W0] INFO:	Received shutdown signal
+19:55:13.792 [W0] INFO:	Received shutdown signal
+19:55:13.793 [W0] INFO:	Received shutdown signal
+19:55:13.905 [W0] INFO:	Exporting GPU metrics for 1 GPU(s)
+19:55:13.912 [W0] INFO:	Metrics written to /mnt/log_dir/telemetry/metrics_worker_0.prom
+19:55:13.912 [W0] INFO:	Worker 0 exiting
+19:55:14.192 [W0] INFO:	Merged 1 Prometheus files into /mnt/log_dir/telemetry/metrics.prom
+19:55:14.193 [W0] INFO:	Loading metrics from: /mnt/log_dir/telemetry/metrics.prom
+19:55:15.756 [W0] INFO:	Metrics plot saved to: /mnt/log_dir/metrics_plot.png

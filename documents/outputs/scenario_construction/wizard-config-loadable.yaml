@@ -1,0 +1,359 @@
+controller:
+  dt_mpc: 0.1
+  gains:
+    acceleration_weight: 0.1
+    heading_weight: 1.0
+    idx_start_penalty: 10
+    lat_position_weight: 1.0
+    long_position_weight: 2.0
+    rel_acceleration_weight: 1.0
+    rel_front_steering_angle_weight: 5.0
+  mpc_implementation: linear
+  n_horizon: 20
+defaults:
+  - config_schema
+  - _self_
+defines:
+  base_image: alpasim-base:0.70.0
+  driver_model: ???
+  drivers: /ephemeral/workspace/alpasim/data/drivers
+  filesystem: /ephemeral/workspace/alpasim/data
+  helper: scripts
+  hf_cache: /home/ubuntu/.cache/huggingface
+  image_registry: ''
+  nre_cache_size: '5'
+  physics_cache_size: '16'
+  sensordata: /ephemeral/workspace/alpasim/data/nre-artifacts
+  sensorsim_entrypoint: /app/internal/scripts/pycena/runtime/pycena_run
+  trafficsim_map_cache: /ephemeral/workspace/alpasim/data/trafficsim/unified_data_cache
+  vscode: sources/remote-vscode-server
+driver:
+  host: 0.0.0.0
+  inference:
+    context_length: 4
+    max_batch_size: 1
+    subsample_factor: 1
+    use_cameras:
+      - camera_cross_left_120fov
+      - camera_front_wide_120fov
+      - camera_cross_right_120fov
+      - camera_front_tele_30fov
+  log_level: INFO
+  model:
+    checkpoint_path: nvidia/Alpamayo-1.5-10B
+    device: cuda
+    model_type: alpamayo1_5
+    use_classifier_free_guidance_nav: false
+  output_dir: /mnt/output/driver
+  plot_debug_images: false
+  port: ???
+  route:
+    use_waypoint_commands: false
+  trajectory_optimizer:
+    enabled: false
+eval:
+  aggregation_modifiers:
+    max_dist_to_gt_trajectory: 4.0
+  enabled: true
+  num_processes: 16
+  scorers:
+    image:
+      camera_logical_id: camera_front_wide_120fov
+    min_ade:
+      incl_z: false
+      target: GT
+      time_deltas:
+        - 0.5
+        - 1.0
+        - 2.5
+        - 5.0
+    plan_deviation:
+      avg_decay_rate: 0.1
+      incl_z: false
+      min_timesteps: 5
+  vec_map:
+    incl_road_edges: true
+    incl_traffic_signs: true
+    incl_wait_lines: true
+    max_num_lanes: 20
+    num_pts_per_lane: 20
+  vehicle:
+    vehicle_corner_roundness: 0.5
+    vehicle_shrink_factor: 0.02
+  video:
+    camera_id_to_render: camera_front_wide_120fov
+    combined_video_speed_factor: 0.33
+    generate_combined_video: true
+    map_video:
+      ego_loc: BOTTOM_CENTER
+      map_elements_to_plot:
+        - ROAD_LANE_CENTER
+        - ROAD_LANE_LEFT_EDGE
+        - ROAD_LANE_RIGHT_EDGE
+        - ROAD_EDGE
+        - STOP_LINE
+        - GT_LINESTRING
+        - EGO_GT_GHOST_POLYGON
+        - DRIVER_RESPONSES
+        - ROUTE
+        - AGENTS
+      map_radius_m: 20
+      rotate_map_to_ego: true
+    metrics_table_entries:
+      - offroad_or_collision_at_fault
+      - collision_any
+      - collision_at_fault
+      - collision_front
+      - collision_lateral
+      - collision_rear
+      - offroad
+      - dist_to_gt_trajectory
+      - dist_to_gt_location
+      - progress
+      - progress_rel
+      - safety_monitor_triggered
+    overlay_plans_on_camera: true
+    reasoning_text_refresh_interval_s: 1.0
+    render_every_nth_frame: 1
+    render_video: true
+    video_layouts:
+      - DEFAULT
+      - REASONING_OVERLAY
+runtime:
+  artifact_cache_size: 10
+  enable_autoresume: false
+  endpoints:
+    controller:
+      n_concurrent_rollouts: 4
+      skip: false
+    do_shutdown: true
+    driver:
+      n_concurrent_rollouts: 4
+    physics:
+      n_concurrent_rollouts: 4
+      skip: false
+    sensorsim:
+      n_concurrent_rollouts: 4
+    sensorsim_cache_size: '5'
+    trafficsim:
+      n_concurrent_rollouts: 4
+      skip: true
+  nr_workers: 1
+  simulation_config:
+    assert_zero_decision_delay: true
+    cameras:
+      - first_frame_offset_us: -30000
+        frame_interval_us: 100000
+        height: 1080
+        logical_id: camera_front_wide_120fov
+        shutter_duration_us: 30000
+        width: 1900
+      - first_frame_offset_us: -30000
+        frame_interval_us: 100000
+        height: 1080
+        logical_id: camera_front_tele_30fov
+        shutter_duration_us: 30000
+        width: 1900
+      - first_frame_offset_us: -30000
+        frame_interval_us: 100000
+        height: 1080
+        logical_id: camera_cross_left_120fov
+        shutter_duration_us: 30000
+        width: 1900
+      - first_frame_offset_us: -30000
+        frame_interval_us: 100000
+        height: 1080
+        logical_id: camera_cross_right_120fov
+        shutter_duration_us: 30000
+        width: 1900
+    control_timestep_us: 100000
+    ego_mask_rig_config_id: hyperion_8_1
+    force_gt_duration_us: 1700000
+    min_traffic_duration_us: 3000000
+    n_rollouts: 1
+    n_sim_steps: 200
+    physics_update_mode: EGO_ONLY
+    planner_delay_us: 0
+    pose_reporting_interval_us: 0
+    route_generator_type: MAP
+    send_recording_ground_truth: false
+    time_start_offset_us: 300000
+    vehicle: null
+scenes:
+  limit_to_first_n: 0
+  local_usdz_dir: null
+  nre_version_string: null
+  scene_cache: /ephemeral/workspace/alpasim/data/nre-artifacts
+  scene_ids:
+    - clipgt-02eadd92-02f1-46d8-86fe-a9e338fed0b6
+  scenes_csv:
+    - /ephemeral/workspace/alpasim/data/scenes/sim_scenes.csv
+  sceneset_path: scenesets/48ef968906b9f603e44089c7d235a66c
+  suites_csv:
+    - /ephemeral/workspace/alpasim/data/scenes/sim_suites.csv
+  test_suite_id: null
+services:
+  controller:
+    command:
+      - uv run python -m alpasim_controller.server
+      - --port={port}
+      - --log_dir=/mnt/output
+      - --log-level=INFO
+      - --config=/mnt/config/controller-config.yaml
+    environments: []
+    external_image: false
+    gpus: null
+    image: alpasim-base:0.70.0
+    remap_root: false
+    replicas_per_container: 1
+    volumes:
+      - /workspace/alphamayo/documents/outputs/scenario_construction/controller:/mnt/output
+      - /workspace/alphamayo/documents/outputs/scenario_construction:/mnt/config
+      - /ephemeral/workspace/alpasim/src:/repo/src
+      - /ephemeral/workspace/alpasim/plugins:/repo/plugins
+    workdir: null
+  driver:
+    command:
+      - uv run -m alpasim_driver.main
+      - --config-path=/mnt/output
+      - --config-name=driver-config.yaml
+      - host=0.0.0.0
+      - port={port}
+    environments: []
+    external_image: false
+    gpus:
+      - 0
+    image: alpasim-base:0.70.0
+    remap_root: false
+    replicas_per_container: 1
+    volumes:
+      - /ephemeral/workspace/alpasim/data/drivers:/mnt/drivers
+      - /workspace/alphamayo/documents/outputs/scenario_construction:/mnt/output
+      - /ephemeral/workspace/alpasim/src:/repo/src
+      - /ephemeral/workspace/alpasim/plugins:/repo/plugins
+      - /home/ubuntu/.cache/huggingface:/root/.cache/huggingface
+    workdir: null
+  physics:
+    command:
+      - uv run physics_server
+      - --host=0.0.0.0
+      - --port={port}
+      - --artifact-glob=/mnt/nre-data/{sceneset}/**/*.usdz
+      - --use-ground-mesh=true
+      - --cache-size=16
+      - --log-level=INFO
+    environments:
+      - WARP_CACHE_PATH='/mnt/warp'
+    external_image: false
+    gpus:
+      - 0
+    image: alpasim-base:0.70.0
+    remap_root: false
+    replicas_per_container: 1
+    volumes:
+      - /ephemeral/workspace/alpasim/data/nre-artifacts:/mnt/nre-data
+      - /ephemeral/workspace/alpasim/src:/repo/src
+      - /ephemeral/workspace/alpasim/plugins:/repo/plugins
+    workdir: null
+  runtime:
+    command:
+      - uv run python -m alpasim_runtime.simulate
+      - --usdz-glob=/mnt/nre-data/{sceneset}/**/*.usdz
+      - --user-config=/mnt/log_dir/{runtime_config_name}
+      - --network-config=/mnt/log_dir/generated-network-config.yaml
+      - --log-dir=/mnt/log_dir
+      - --log-level=INFO
+      - --array-job-dir=/mnt/array_job_dir
+      - --eval-config=/mnt/log_dir/eval-config.yaml
+    depends_on:
+      - driver
+      - sensorsim
+      - physics
+      - trafficsim
+      - controller
+    environments: []
+    external_image: false
+    gpus: null
+    image: alpasim-base:0.70.0
+    remap_root: false
+    replicas_per_container: 1
+    volumes:
+      - /ephemeral/workspace/alpasim/data/nre-artifacts:/mnt/nre-data
+      - /workspace/alphamayo/documents/outputs/scenario_construction:/mnt/log_dir
+      - /workspace/alphamayo/documents/outputs/scenario_construction:/mnt/array_job_dir
+      - /ephemeral/workspace/alpasim/src:/repo/src
+      - /ephemeral/workspace/alpasim/plugins:/repo/plugins
+    workdir: null
+  sensorsim:
+    command:
+      - /app/internal/scripts/pycena/runtime/pycena_run
+      - serve-grpc
+      - --port={port}
+      - --host=0.0.0.0
+      - --artifact-glob=/mnt/nre-data/{sceneset}/**/*.usdz
+      - --egocar-hood-dir=/mnt/ego-hoods
+      - --no-enable-nrend
+      - --download-cache-dir /tmp/nre-cache-dir
+      - --cache-size=5
+      - --max-workers=4
+      - --enable-editing-actors
+    environments:
+      - OMP_NUM_THREADS=1
+    external_image: true
+    gpus:
+      - 0
+    image: nvcr.io/nvidia/nre/nre-ga:26.02
+    remap_root: false
+    replicas_per_container: 1
+    volumes:
+      - /ephemeral/workspace/alpasim/data/nre-artifacts:/mnt/nre-data
+      - /ephemeral/workspace/alpasim/data/nre-artifacts/ego-hoods:/mnt/ego-hoods
+    workdir: null
+  trafficsim:
+    command:
+      - echo 'not yet included'
+    environments: []
+    external_image: false
+    gpus:
+      - 0
+    image: alpasim-base:0.70.0
+    remap_root: false
+    replicas_per_container: 1
+    volumes: []
+    workdir: null
+trafficsim: {}
+wizard:
+  array_job_dir: null
+  baseport: 6000
+  debug_flags:
+    use_localhost: false
+  description: unspecified
+  driver_code_hash: null
+  driver_code_repo: null
+  dry_run: false
+  external_services: null
+  helper: ???
+  latest_symlink: false
+  log_dir: /workspace/alphamayo/documents/outputs/scenario_construction
+  log_level: INFO
+  nr_retries: 3
+  run_method: DOCKER_COMPOSE
+  run_mode: ONESHOT
+  run_name: null
+  run_sim_services:
+    - driver
+    - sensorsim
+    - physics
+    - trafficsim
+    - controller
+    - runtime
+  runtime_server_port: null
+  slurm_cpu_bind_none: false
+  slurm_job_id: 0
+  sqshcaches:
+    - /ephemeral/workspace/alpasim/data/sqsh
+    - /ephemeral/workspace/alpasim/data/sqsh/dev
+  submitter: unspecified
+  timeout: 600
+  validate_mount_points: true
+  vscode: ???

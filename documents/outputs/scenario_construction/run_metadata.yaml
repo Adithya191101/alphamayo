@@ -1,0 +1,10 @@
+description: unspecified
+run_args: unknownArgs
+run_dir: /workspace/alpasim
+run_name: LR-3fb513f0-5a1c-4992-a8b5-e8630bcb1263
+run_time: '2026-05-09 18:10:48'
+run_user: ubuntu
+run_uuid: 3fb513f0-5a1c-4992-a8b5-e8630bcb1263
+slurm_job_id: 0
+submitter: unspecified
+test_suite_id: null
